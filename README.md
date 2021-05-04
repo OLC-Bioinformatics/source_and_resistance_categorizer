@@ -6,4 +6,4 @@ this code categorizes and assigns:\
 Isolation source data from NCBI has been curated for submissions up until 2021-04-20 for the following genera/species:\
 	TEST
 
-This curated source data is in the sources.csv file.
+This curated source data is in the provided "sources.csv" file.
