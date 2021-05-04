@@ -1,2 +1,5 @@
 # source_and_resistance_categorizer
-Categorizes and assigns (1) isolation source and (2) antibiotic classes, sanitizer and metal resistance, isolates are resistant to using metadata files from NCBI Pathogen Finder datasets
+Using NCBI PathogenFinder Metadata tables, this code categorizes and assigns:
+(1) isolation source and (2) antibiotic class, sanitizer and metal resistance
+
+Isolation source data from NCBI has been curated for submissions up until 2021-04-20 for the following genera/species:
