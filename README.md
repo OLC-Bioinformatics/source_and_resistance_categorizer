@@ -7,4 +7,3 @@ Isolation source data from NCBI has been curated for submissions up until 2021-0
 	TEST
 
 This curated source data is in the sources.csv file.
-TEST2
