@@ -7,3 +7,5 @@ Isolation source data from NCBI has been curated for submissions up until 2021-0
 	Listeria spp.
 
 This curated source data is in the provided "sources.csv" file.
+
+The antimicrobial and metal resistance gene-data was obtained from the NCBI AMRFinderPlus database (available through the ftp at: https://www.ncbi.nlm.nih.gov/pathogens/).
