@@ -15,6 +15,7 @@ Isolation source data from NCBI has been curated for submissions up until the li
 	Clostridioides difficile: 2021-05-05
 	Clostridium botulinum	: 2021-04-06
 	Clostridium perfringens	: 2021-04-24
+	Enterobacter spp.	: 2021-05-05
 	Listeria spp.		: 2021-04-20
 	Salmonella spp.		: 2021-04-20
 
