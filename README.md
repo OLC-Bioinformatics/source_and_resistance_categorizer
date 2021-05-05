@@ -14,6 +14,7 @@ Isolation source data from NCBI has been curated for submissions up until the li
 	Citrobacter freundii	: 2021-04-20
 	Clostridioides difficile: 2021-05-05
 	Clostridium botulinum	: 2021-04-06
+	Clostridium perfringens	: 2021-04-24
 	Listeria spp.		: 2021-04-20
 	Salmonella spp.		: 2021-04-20
 
