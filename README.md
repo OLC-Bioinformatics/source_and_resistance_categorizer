@@ -4,6 +4,7 @@ this code categorizes and assigns:\
 (1) isolation source and (2) antibiotic class, sanitizer and metal resistance
 
 Isolation source data from NCBI has been curated for submissions up until 2021-04-20 for the following genera/species:\
+
 	Acinetobacter spp.	: 2021-04-20
 	Aeromonas spp.		: 2021-04-21
 	Listeria spp.		: 2021-04-20
