@@ -6,7 +6,7 @@ this code categorizes and assigns:
 
 (2) antibiotic class, sanitizer and metal resistance
 
-Isolation source data from NCBI has been curated* for submissions up until the listed dates for the following genera/species:
+Isolation source for environmental/other (epi_type) data from NCBI has been curated* for submissions up until the listed dates for the following genera/species:
 
 	Acinetobacter spp.	: 2021-04-20
 	Aeromonas spp.		: 2021-04-21
@@ -23,6 +23,9 @@ Isolation source data from NCBI has been curated* for submissions up until the l
 	Klebsiella oxytoca	: 2021-05-05
 	Listeria spp.		: 2021-04-20
 	Salmonella spp.		: 2021-04-20
+	Vibrio cholerae		: 2021-04-22
+	Vibrio parahaemolyticus	: 2021-05-05
+	Vibrio vulnificus	: 2021-04-22
 
 *The focus of this project was food and food products, so additional curation may be required/needed for other isolation sources (eg. environment, farm, animal, and wastewater sources).
 
