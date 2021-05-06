@@ -4,7 +4,7 @@ this code categorizes and assigns:
 
 (1) isolation source
 
-(2) antibiotic class, sanitizer and metal resistance
+(2) antibiotic class, sanitizer (stress response genes) and metal resistance
 
 Isolation source for environmental/other (epi_type) data from NCBI has been curated* for submissions up until the listed dates for the following genera/species:
 
