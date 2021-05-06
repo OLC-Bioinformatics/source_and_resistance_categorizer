@@ -1,5 +1,5 @@
 # source_and_resistance_categorizer
-Using NCBI PathogenFinder Metadata tables (available at: https://www.ncbi.nlm.nih.gov/pathogens/)
+Using NCBI PathogenFinder Metadata tables (available at: https://www.ncbi.nlm.nih.gov/pathogens/),
 this code categorizes and assigns:
 
 (1) isolation source
