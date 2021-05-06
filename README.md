@@ -19,6 +19,8 @@ Isolation source data from NCBI has been curated* for submissions up until the l
 	Enterococcus faecalis	: 2021-04-20
 	Enterococcus faecium	: 2021-04-20
 	E. coli/Shigella	: 2021-04-20
+	Klebsiella		: 2021-05-06
+	Klebsiella oxytoca	: 2021-05-05
 	Listeria spp.		: 2021-04-20
 	Salmonella spp.		: 2021-04-20
 
