@@ -9,7 +9,7 @@ Cooper et al., (INSERT ONCE PUBLISHED)
 Using NCBI PathogenFinder Metadata tables (available at: https://www.ncbi.nlm.nih.gov/pathogens/),
 this code categorizes and assigns:
 
-(1) isolation source
+(1) isolation source*
 
 (2) antibiotic class, biocide and metal resistance
 
