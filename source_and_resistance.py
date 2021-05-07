@@ -12,12 +12,25 @@ import numpy as np
 from regex import search
 
 #descriptions and argument assignment
-parser = argparse.ArgumentParser(description='NCBI Source and Antibiotic Class Parser. '
-                                             'Input and output should be in csv format. '
-                                             'If using metadata files from NCBI PathogenFinder FTP, do not forget to remove the "#" in the first line. '
-                                             'The "resistance_genes.csv" and "sources.csv" files must be in the same directory as this python script. '
-                                             'Source database last updated: 2021-04-20')
+#parser = argparse.ArgumentParser(description='NCBI Source and Antibiotic Class Parser. '
+#                                             'Input and output should be in csv format. '
+#                                             'If using metadata files from NCBI PathogenFinder FTP, do not forget to remove the "#" in the first line. '
+#                                             'The "resistance_genes.csv" and "sources.csv" files must be in the same directory as this python script. '
+#                                             'Source database last updated: 2021-04-20')
+parser = argparse.ArgumentParser(description='details',
+         usage='use "%(prog)s --help" for more information',
+         formatter_class=argparse.RawTextHelpFormatter)
 #parser.add_argument('-db', dest='database_file', type=str, required=True, help="""source database file.csv""")
+parser.add_argument('--info', default=None,
+                    help='''
+                    NCBI Source and Resistance Assignment
+                    Please cite "Cooper et al., INSERT CITATION"
+                    
+                    Input and output should be in csv format
+                    If using metadata files from NCBI PathogenFinder FTP, do not forget to remove the "#" in the first line
+                    The "resistance_genes.csv" and "sources.csv" files must be in the same directory as this python script
+                    Source database last updated: 2021-04-20 (see README for more details)
+                    ''')
 parser.add_argument('-i', dest='infile', type=str, required=True, help="""Input Filename.csv""")
 parser.add_argument('-o', dest='outfile', type=str, default="out_source_parser", help="""Output Filename.csv""")
 argcomplete.autocomplete(parser)
@@ -26,6 +39,7 @@ args = parser.parse_args()
 #read in the sources database file
 data = pandas.read_csv('sources.csv')
 
+#this is my first ever python code. I'm sure there is a more efficient way to do this, but it serves its purpose...
 #use the column headers in the source database file for data input here
 Animal = data.animal.tolist()
 Animalpattern = "|".join(str(v) for v in Animal)
