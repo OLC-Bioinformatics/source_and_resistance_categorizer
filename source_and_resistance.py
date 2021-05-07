@@ -217,8 +217,6 @@ InputCSV_NCBI['Source'] = InputCSV_NCBI[['Animal','Animalenv', 'Animalfece',
                                                'Fishseaf', 'Sewage', 'Slaughterhouse', 'Seeds', 'Plant',
                                                 'Wastewater', 'SpiceHerbs',
                                                'Water', 'Reptile', 'Tea']].apply(lambda x: ','.join(x[x.notnull()]), axis=1)
-
-
 #now do the same for AMR data
 ag = pandas.read_csv('resistance_genes.csv')
 
@@ -229,8 +227,17 @@ print(agypattern)
 blagenes = list(ag['blagenes'])
 blapattern = "|".join(str(v) for v in blagenes)
 
+bleogenes = list(ag['bleomycin'])
+bleopattern = "|".join(str(v) for v in bleogenes)
+
 fosgenes = list(ag['fosgenes'])
 fospattern = "|".join(str(v) for v in fosgenes)
+
+fusidgenes = list(ag['fusidicacid'])
+fusidpattern = "|".join(str(v) for v in fusidgenes)
+
+glycgenes = list(ag['glycgenes'])
+glycpattern = "|".join(str(v) for v in glycgenes)
 
 MLSgenes = list(ag['MLS'])
 MLSpattern = "|".join(str(v) for v in MLSgenes)
@@ -244,11 +251,23 @@ LINpattern = "|".join(str(v) for v in LINgenes)
 LSgenes = list(ag['LincosamideStreptogramin'])
 LSpattern = "|".join(str(v) for v in LSgenes)
 
-strggenes = list(ag['streptogramin'])
-strgpattern = "|".join(str(v) for v in strggenes)
+mupigenes = list(ag['mupirocin'])
+mupipattern = "|".join(str(v) for v in mupigenes)
+
+nitrogenes = list(ag['nitroimidazole'])
+nitropattern = "|".join(str(v) for v in nitrogenes)
 
 phegenes = list(ag['phegenes'])
 phepattern = "|".join(str(v) for v in phegenes)
+
+pheoxagenes = list(ag['phenicol_oxazolidinone'])
+pheoxapattern = "|".join(str(v) for v in pheoxagenes)
+
+plurgenes = list(ag['pluromutilin'])
+plurpattern = "|".join(str(v) for v in plurgenes)
+
+phequingenes = list(ag['phenicol_quinolone'])
+phequinpattern = "|".join(str(v) for v in phequingenes)
 
 polgenes = list(ag['polgenes'])
 polpattern = "|".join(str(v) for v in polgenes)
@@ -256,17 +275,32 @@ polpattern = "|".join(str(v) for v in polgenes)
 qngenes = list(ag['qngenes'])
 qnpattern = "|".join(str(v) for v in qngenes)
 
+rifgenes = list(ag['rifamycin'])
+rifpattern = "|".join(str(v) for v in rifgenes)
+
+strggenes = list(ag['streptogramin'])
+strgpattern = "|".join(str(v) for v in strggenes)
+
+strthrggenes = list(ag['streptothricin'])
+strthrgpattern = "|".join(str(v) for v in strthrggenes)
+
 sulgenes = list(ag['sulgenes'])
 sulpattern = "|".join(str(v) for v in sulgenes)
+
+tetmygenes = list(ag['tetracenomycin'])
+tetmypattern = "|".join(str(v) for v in tetmygenes)
 
 tetgenes = list(ag['tetgenes'])
 tetpattern = "|".join(str(v) for v in tetgenes)
 
+thiogenes = list(ag['thiostrepton'])
+thiopattern = "|".join(str(v) for v in thiogenes)
+
 dfrgenes = list(ag['dfrgenes'])
 dfrpattern = "|".join(str(v) for v in dfrgenes)
 
-glycgenes = list(ag['glycgenes'])
-glycpattern = "|".join(str(v) for v in glycgenes)
+tubrgenes = list(ag['tuberactinomycin'])
+tubrpattern = "|".join(str(v) for v in tubrgenes)
 
 AMRflux = list(ag['AMR-Efflux'])
 AMRfluxpattern = "|".join(str(v) for v in AMRflux)
@@ -274,8 +308,8 @@ AMRfluxpattern = "|".join(str(v) for v in AMRflux)
 BIOCIDEflux = list(ag['Biocide-Efflux'])
 BCDfluxpattern = "|".join(str(v) for v in BIOCIDEflux)
 
-QACgenes = list(ag['QAC'])
-QACpattern = "|".join(str(v) for v in QACgenes)
+biocidegenes = list(ag['biocide'])
+biocidepattern = "|".join(str(v) for v in biocidegenes)
 
 MTLgenes = list(ag['Metal-Resistance'])
 MTLpattern = "|".join(str(v) for v in MTLgenes)
@@ -287,8 +321,17 @@ InputCSV_NCBI['aminoglycoside'] = InputCSV_NCBI['aminoglycoside'].map({True: 'am
 InputCSV_NCBI['betalactam'] = InputCSV_NCBI['AMR_genotypes'].str.contains(blapattern)
 InputCSV_NCBI['betalactam'] = InputCSV_NCBI['betalactam'].map({True: 'betalactam', False: ''})
 
+InputCSV_NCBI['bleomycin'] = InputCSV_NCBI['AMR_genotypes'].str.contains(bleopattern)
+InputCSV_NCBI['bleomycin'] = InputCSV_NCBI['bleomycin'].map({True: 'bleomycin', False: ''})
+
 InputCSV_NCBI['fosfomycin'] = InputCSV_NCBI['AMR_genotypes'].str.contains(fospattern)
 InputCSV_NCBI['fosfomycin'] = InputCSV_NCBI['fosfomycin'].map({True: 'fosfomycin', False: ''})
+
+InputCSV_NCBI['fusidic acid'] = InputCSV_NCBI['AMR_genotypes'].str.contains(fusidpattern)
+InputCSV_NCBI['fusidic acid'] = InputCSV_NCBI['fusidic acid'].map({True: 'fusidic acid', False: ''})
+
+InputCSV_NCBI['glycopeptide'] = InputCSV_NCBI['AMR_genotypes'].str.contains(glycpattern)
+InputCSV_NCBI['glycopeptide'] = InputCSV_NCBI['glycopeptide'].map({True: 'glycopeptide', False: ''})
 
 InputCSV_NCBI['MLS'] = InputCSV_NCBI['AMR_genotypes'].str.contains(MLSpattern)
 InputCSV_NCBI['MLS'] = InputCSV_NCBI['MLS'].map({True: 'MLS', False: ''})
@@ -299,14 +342,26 @@ InputCSV_NCBI['macrolide'] = InputCSV_NCBI['macrolide'].map({True: 'macrolide', 
 InputCSV_NCBI['lincosamide'] = InputCSV_NCBI['AMR_genotypes'].str.contains(LINpattern)
 InputCSV_NCBI['lincosamide'] = InputCSV_NCBI['lincosamide'].map({True: 'lincosamide', False: ''})
 
-InputCSV_NCBI['LS'] = InputCSV_NCBI['AMR_genotypes'].str.contains(LSpattern)
-InputCSV_NCBI['LS'] = InputCSV_NCBI['LS'].map({True: 'lincosamide/streptogramin', False: ''})
+InputCSV_NCBI['lincosamide_streptogramin'] = InputCSV_NCBI['AMR_genotypes'].str.contains(LSpattern)
+InputCSV_NCBI['lincosamide_streptogramin'] = InputCSV_NCBI['lincosamide_streptogramin'].map({True: 'lincosamide_streptogramin', False: ''})
 
-InputCSV_NCBI['streptogramin'] = InputCSV_NCBI['AMR_genotypes'].str.contains(strgpattern)
-InputCSV_NCBI['streptogramin'] = InputCSV_NCBI['streptogramin'].map({True: 'streptogramin', False: ''})
+InputCSV_NCBI['mupirocin'] = InputCSV_NCBI['AMR_genotypes'].str.contains(mupipattern)
+InputCSV_NCBI['mupirocin'] = InputCSV_NCBI['mupirocin'].map({True: 'mupirocin', False: ''})
+
+InputCSV_NCBI['nitroimidazole'] = InputCSV_NCBI['AMR_genotypes'].str.contains(nitropattern)
+InputCSV_NCBI['nitroimidazole'] = InputCSV_NCBI['nitroimidazole'].map({True: 'nitroimidazole', False: ''})
 
 InputCSV_NCBI['phenicol'] = InputCSV_NCBI['AMR_genotypes'].str.contains(phepattern)
 InputCSV_NCBI['phenicol'] = InputCSV_NCBI['phenicol'].map({True: 'phenicol', False: ''})
+
+InputCSV_NCBI['phenicol_oxazolidinone'] = InputCSV_NCBI['AMR_genotypes'].str.contains(pheoxapattern)
+InputCSV_NCBI['phenicol_oxazolidinone'] = InputCSV_NCBI['phenicol_oxazolidinone'].map({True: 'phenicol_oxazolidinone', False: ''})
+
+InputCSV_NCBI['phenicol_quinolone'] = InputCSV_NCBI['AMR_genotypes'].str.contains(phequinpattern)
+InputCSV_NCBI['phenicol_quinolone'] = InputCSV_NCBI['phenicol_quinolone'].map({True: 'phenicol_quinolone', False: ''})
+
+InputCSV_NCBI['pluromutilin'] = InputCSV_NCBI['AMR_genotypes'].str.contains(plurpattern)
+InputCSV_NCBI['pluromutilin'] = InputCSV_NCBI['pluromutilin'].map({True: 'pluromutilin', False: ''})
 
 InputCSV_NCBI['polymyxin'] = InputCSV_NCBI['AMR_genotypes'].str.contains(polpattern)
 InputCSV_NCBI['polymyxin'] = InputCSV_NCBI['polymyxin'].map({True: 'polymyxin', False: ''})
@@ -314,17 +369,32 @@ InputCSV_NCBI['polymyxin'] = InputCSV_NCBI['polymyxin'].map({True: 'polymyxin', 
 InputCSV_NCBI['quinolone'] = InputCSV_NCBI['AMR_genotypes'].str.contains(qnpattern)
 InputCSV_NCBI['quinolone'] = InputCSV_NCBI['quinolone'].map({True: 'quinolone', False: ''})
 
+InputCSV_NCBI['rifamycin'] = InputCSV_NCBI['AMR_genotypes'].str.contains(rifpattern)
+InputCSV_NCBI['rifamycin'] = InputCSV_NCBI['rifamycin'].map({True: 'rifamycin', False: ''})
+
+InputCSV_NCBI['streptogramin'] = InputCSV_NCBI['AMR_genotypes'].str.contains(strgpattern)
+InputCSV_NCBI['streptogramin'] = InputCSV_NCBI['streptogramin'].map({True: 'streptogramin', False: ''})
+
+InputCSV_NCBI['streptothricin'] = InputCSV_NCBI['AMR_genotypes'].str.contains(strthrgpattern)
+InputCSV_NCBI['streptothricin'] = InputCSV_NCBI['streptothricin'].map({True: 'streptothricin', False: ''})
+
 InputCSV_NCBI['sulphonamide'] = InputCSV_NCBI['AMR_genotypes'].str.contains(sulpattern)
 InputCSV_NCBI['sulphonamide'] = InputCSV_NCBI['sulphonamide'].map({True: 'sulphonamide', False: ''})
+
+InputCSV_NCBI['tetracenomycin'] = InputCSV_NCBI['AMR_genotypes'].str.contains(tetmypattern)
+InputCSV_NCBI['tetracenomycin'] = InputCSV_NCBI['tetracenomycin'].map({True: 'tetracenomycin', False: ''})
 
 InputCSV_NCBI['tetracycline'] = InputCSV_NCBI['AMR_genotypes'].str.contains(tetpattern)
 InputCSV_NCBI['tetracycline'] = InputCSV_NCBI['tetracycline'].map({True: 'tetracycline', False: ''})
 
+InputCSV_NCBI['thiostrepton'] = InputCSV_NCBI['AMR_genotypes'].str.contains(thiopattern)
+InputCSV_NCBI['thiostrepton'] = InputCSV_NCBI['thiostrepton'].map({True: 'thiostrepton', False: ''})
+
 InputCSV_NCBI['trimethoprim'] = InputCSV_NCBI['AMR_genotypes'].str.contains(dfrpattern)
 InputCSV_NCBI['trimethoprim'] = InputCSV_NCBI['trimethoprim'].map({True: 'trimethoprim', False: ''})
 
-InputCSV_NCBI['glycopeptide'] = InputCSV_NCBI['AMR_genotypes'].str.contains(glycpattern)
-InputCSV_NCBI['glycopeptide'] = InputCSV_NCBI['glycopeptide'].map({True: 'glycopeptide', False: ''})
+InputCSV_NCBI['tuberactinomycin'] = InputCSV_NCBI['AMR_genotypes'].str.contains(tubrpattern)
+InputCSV_NCBI['tuberactinomycin'] = InputCSV_NCBI['tuberactinomycin'].map({True: 'tuberactinomycin', False: ''})
 
 InputCSV_NCBI['AMR-efflux'] = InputCSV_NCBI['AMR_genotypes'].str.contains(AMRfluxpattern)
 InputCSV_NCBI['AMR-efflux'] = InputCSV_NCBI['AMR-efflux'].map({True: 'AMR-efflux', False: ''})
@@ -332,8 +402,8 @@ InputCSV_NCBI['AMR-efflux'] = InputCSV_NCBI['AMR-efflux'].map({True: 'AMR-efflux
 InputCSV_NCBI['Biocide-efflux'] = InputCSV_NCBI['stress_genotypes'].str.contains(BCDfluxpattern)
 InputCSV_NCBI['Biocide-efflux'] = InputCSV_NCBI['Biocide-efflux'].map({True: 'Biocide-efflux', False: ''})
 
-InputCSV_NCBI['QAC'] = InputCSV_NCBI['stress_genotypes'].str.contains(QACpattern)
-InputCSV_NCBI['QAC'] = InputCSV_NCBI['QAC'].map({True: 'QAC', False: ''})
+InputCSV_NCBI['biocide'] = InputCSV_NCBI['stress_genotypes'].str.contains(biocidepattern)
+InputCSV_NCBI['biocide'] = InputCSV_NCBI['biocide'].map({True: 'biocide', False: ''})
 
 InputCSV_NCBI['Metal'] = InputCSV_NCBI['stress_genotypes'].str.contains(MTLpattern)
 InputCSV_NCBI['Metal'] = InputCSV_NCBI['Metal'].map({True: 'Metal', False: ''})
@@ -341,25 +411,57 @@ InputCSV_NCBI['Metal'] = InputCSV_NCBI['Metal'].map({True: 'Metal', False: ''})
 #replace empty cells with NaN so can concatenate without worrying about extra commas
 InputCSV_NCBI['aminoglycoside'].replace('', np.nan, inplace=True)
 InputCSV_NCBI['betalactam'].replace('', np.nan, inplace=True)
+InputCSV_NCBI['bleomycin'].replace('', np.nan, inplace=True)
 InputCSV_NCBI['fosfomycin'].replace('', np.nan, inplace=True)
+InputCSV_NCBI['fusidic acid'].replace('', np.nan, inplace=True)
+InputCSV_NCBI['glycopeptide'].replace('', np.nan, inplace=True)
 InputCSV_NCBI['MLS'].replace('', np.nan, inplace=True)
 InputCSV_NCBI['macrolide'].replace('', np.nan, inplace=True)
 InputCSV_NCBI['lincosamide'].replace('', np.nan, inplace=True)
-InputCSV_NCBI['LS'].replace('', np.nan, inplace=True)
+InputCSV_NCBI['lincosamide_streptogramin'].replace('', np.nan, inplace=True)
+InputCSV_NCBI['mupirocin'].replace('', np.nan, inplace=True)
+InputCSV_NCBI['nitroimidazole'].replace('', np.nan, inplace=True)
 InputCSV_NCBI['phenicol'].replace('', np.nan, inplace=True)
+InputCSV_NCBI['phenicol_oxazolidinone'].replace('', np.nan, inplace=True)
+InputCSV_NCBI['phenicol_quinolone'].replace('', np.nan, inplace=True)
+InputCSV_NCBI['pluromutilin'].replace('', np.nan, inplace=True)
 InputCSV_NCBI['polymyxin'].replace('', np.nan, inplace=True)
 InputCSV_NCBI['quinolone'].replace('', np.nan, inplace=True)
+InputCSV_NCBI['rifamycin'].replace('', np.nan, inplace=True)
 InputCSV_NCBI['streptogramin'].replace('', np.nan, inplace=True)
+InputCSV_NCBI['streptothricin'].replace('', np.nan, inplace=True)
 InputCSV_NCBI['sulphonamide'].replace('', np.nan, inplace=True)
+InputCSV_NCBI['tetracenomycin'].replace('', np.nan, inplace=True)
 InputCSV_NCBI['tetracycline'].replace('', np.nan, inplace=True)
+InputCSV_NCBI['thiostrepton'].replace('', np.nan, inplace=True)
 InputCSV_NCBI['trimethoprim'].replace('', np.nan, inplace=True)
-InputCSV_NCBI['glycopeptide'].replace('', np.nan, inplace=True)
+InputCSV_NCBI['tuberactinomycin'].replace('', np.nan, inplace=True)
+
 
 #create a new column that concatenates all of the parsed antibiotic class information into one
-InputCSV_NCBI['Antibiotic_Class'] = InputCSV_NCBI[['aminoglycoside', 'betalactam', 'fosfomycin', 'MLS', 'macrolide', 'lincosamide', 'LS',
-                         'phenicol', 'polymyxin', 'quinolone', 'streptogramin', 'sulphonamide', 'tetracycline',
-                         'trimethoprim', 'glycopeptide']].apply(lambda x: ','.join(x[x.notnull()]), axis=1)
+InputCSV_NCBI['Antibiotic_Class'] = InputCSV_NCBI[['aminoglycoside', 'betalactam','bleomycin', 'fosfomycin',
+                                                   'fusidic acid','glycopeptide','MLS', 'macrolide', 'lincosamide',
+                                                   'lincosamide_streptogramin','mupirocin','nitroimidazole','phenicol',
+                                                   'phenicol_oxazolidinone','phenicol_quinolone','pluromutilin',
+                                                   'polymyxin', 'quinolone','rifamycin','streptogramin',
+                                                   'streptothricin','sulphonamide', 'tetracenomycin','tetracycline',
+                         'thiostrepton','trimethoprim','tuberactinomycin']].apply(lambda x: ','.join(x[x.notnull()]), axis=1)
 
+#remove all of the extra columns I made
+InputCSV_NCBI = InputCSV_NCBI.drop(['Animal','Animalenv', 'Animalfece',
+                                               'Cider', 'Dairy', 'Egg', 'Farm', 'Farmsewg', 'Farmwatr', 'Flour',
+                                               'Food', 'Fruitveg', 'Insect','Meat', 'Nuts',
+                                               'Fishseaf', 'Sewage', 'Slaughterhouse', 'Seeds', 'Plant',
+                                                'Wastewater', 'SpiceHerbs',
+                                               'Water', 'Reptile', 'Tea'], axis=1)
 
-#output a new csv file with source and AMR-class data
+InputCSV_NCBI = InputCSV_NCBI.drop(['aminoglycoside', 'betalactam','bleomycin', 'fosfomycin',
+                                                   'fusidic acid','glycopeptide','MLS', 'macrolide', 'lincosamide',
+                                                   'lincosamide_streptogramin','mupirocin','nitroimidazole','phenicol',
+                                                   'phenicol_oxazolidinone','phenicol_quinolone','pluromutilin',
+                                                   'polymyxin', 'quinolone','rifamycin','streptogramin',
+                                                   'streptothricin','sulphonamide', 'tetracenomycin','tetracycline',
+                         'thiostrepton','trimethoprim','tuberactinomycin'], axis=1)
+
+#output a new csv file with source, AMR-class, biocide, and metal data
 InputCSV_NCBI.to_csv(args.outfile)
