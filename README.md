@@ -38,9 +38,10 @@ Isolation source for environmental/other (epi_type) data from NCBI has been cura
 
 **The focus of this project was food and food products, so additional curation may be required/needed for other isolation sources (eg. environment, farm, animal, and wastewater sources).*
 
-\
-\
-##Usage:
+
+
+
+## Usage:
 
 Download and unpack python code, sources.csv, and resistance_genes.csv files into folder.
 
