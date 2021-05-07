@@ -29,6 +29,13 @@ Isolation source for environmental/other (epi_type) data from NCBI has been cura
 
 *The focus of this project was food and food products, so additional curation may be required/needed for other isolation sources (eg. environment, farm, animal, and wastewater sources).
 
+Usage:
+
+Download and unpack python code, sources.csv, and resistance_genes.csv files into folder.
+
+	python source_and_resistance.py -i input.csv -o desired_output_name.csv
+	
+
 This curated source data is in the provided "sources.csv" file.
 
 The antimicrobial and metal resistance gene-data was obtained from the NCBI AMRFinderPlus database (available through the ftp at: https://www.ncbi.nlm.nih.gov/pathogens/).
