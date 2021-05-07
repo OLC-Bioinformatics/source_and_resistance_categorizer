@@ -51,4 +51,4 @@ Download and unpack python code, sources.csv, and resistance_genes.csv files int
 \
 The curated source data is in the provided "sources.csv" file.
 
-The antimicrobial and metal resistance gene-data was obtained from the NCBI AMRFinderPlus version 3.10 database (available through the ftp at: https://www.ncbi.nlm.nih.gov/pathogens/).
+The antimicrobial, biocide, and metal resistance gene-data was obtained from the NCBI AMRFinderPlus version 3.10 database (available through the NCBI ftp at: https://www.ncbi.nlm.nih.gov/pathogens/).
