@@ -53,7 +53,7 @@ rmtB4,blaACT\-32,,fosX_gen,,vanXI,,mph\(A\),,,,,catA14,,,,mcr\-4\.4,qnrB40,,,,,,
 rmtD1,blaACT\-33,,fosA7\.4,,vanX\-M,,mph\(B\),,,,,catA10,,,,mcr\-4\.5,qnrB41,,,,,,tetA\(60\),,dfrA46,,amvA,,,nirB
 rmtD2,blaACT\-34,,fosA7\.3,,vanX\-O,,mph\(C\),,,,,,,,,mcr\-4\.6,qnrB42,,,,,,tetA\(D\),,dfrA37,,,,,nirD
 rmtE1,blaACT\-35,,fosA7\.7,,vanX\-Pt,,mph\(E\),,,,,,,,,mcr\-5\.1,qnrB43,,,,,,tetA\(P\),,dfrA39,,,,,nreB
-rmtE2,blaACT\-36,,,,vanX\-Sc,,mph\(F\),,,,,,,,,mcr\-5\.2,qnrB44,,,,,,tetAB_B,,dfrA48,,,,,pcoA
+rmtE2,blaACT\-36,,cyaA\_,,vanX\-Sc,,mph\(F\),,,,,,,,,mcr\-5\.2,qnrB44,,,,,,tetAB_B,,dfrA48,,,,,pcoA
 rmtF1,blaACT\-37,,,,vanXY,,mph\(G\),,,,,,,,,mcr\-5\.3,qnrB45,,,,,,tetB\(46\),,dfrA43,,,,,pcoB
 rmtF2,blaACT\-38,,,,vanXY\-C,,mphJ,,,,,,,,,mcr\-6\.1,qnrB46,,,,,,tetB\(58\),,dfrA38,,,,,pcoC
 rpsL_K43R,blaACT\-39,,,,vanXY\-E,,msr\(A\),,,,,,,,,mcr\-7\.1,qnrB47,,,,,,tetB\(60\),,dfrA44,,,,,pcoD
@@ -149,12 +149,12 @@ aadE\-Cc,blaADC\-134,,,,,,,,,,,,,,,,qnrB93,,,,,,,,,,,,,
 aadK,blaADC\-135,,,,,,,,,,,,,,,,qnrA11,,,,,,,,,,,,,
 aadS,blaADC\-136,,,,,,,,,,,,,,,,qnrA12,,,,,,,,,,,,,
 ant\(2\'\'\)\-Ia,blaADC\-137,,,,,,,,,,,,,,,,qnrA10,,,,,,,,,,,,,
-ant\(3\'\'\)\-Ia,blaADC\-138,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-ant\(3\'\'\)\-IIa,blaADC\-139,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-ant\(3\'\'\)\-IIb,blaADC\-14,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-ant\(3\'\'\)\-IIc,blaADC\-140,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-ant\(4\'\)\-Ic,blaADC\-141,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-ant\(4\'\)\-IIa,blaADC\-143,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+ant\(3\'\'\)\-Ia,blaADC\-138,,,,,,,,,,,,,,,,gyrA\_,,,,,,,,,,,,,
+ant\(3\'\'\)\-IIa,blaADC\-139,,,,,,,,,,,,,,,,parC\_,,,,,,,,,,,,,
+ant\(3\'\'\)\-IIb,blaADC\-14,,,,,,,,,,,,,,,,gyrA\_D87N\=POINT,,,,,,,,,,,,,
+ant\(3\'\'\)\-IIc,blaADC\-140,,,,,,,,,,,,,,,,gyrA\_S83L\=POINT,,,,,,,,,,,,,
+ant\(4\'\)\-Ic,blaADC\-141,,,,,,,,,,,,,,,,gyrA\_D87Y\=POINT,,,,,,,,,,,,,
+ant\(4\'\)\-IIa,blaADC\-143,,,,,,,,,,,,,,,,parE\_,,,,,,,,,,,,,
 ant\(4\'\)\-IIb,blaADC\-144,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 ant\(6\)\-Ia,blaADC\-145,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 ant\(6\)\-Ib,blaADC\-146,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
