@@ -44,6 +44,7 @@ Isolation source for environmental/other (epi_type) data from NCBI has been cura
 ## Usage:
 
 Download and unpack source_and_resistance.py, sources.csv, and resistance_genes.csv files into desired folder.
+
 \
 From command line:
 
