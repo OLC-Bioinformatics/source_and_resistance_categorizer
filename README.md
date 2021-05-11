@@ -53,6 +53,27 @@ From command line:
 
 \
 \
+Help message
+	
+	usage: use "source_and_resistance.py --help" for more information
+	
+	details
+	
+	optional arguments:
+	  -h, --help   show this help message and exit
+	  --info INFO  
+                                   NCBI Source and Resistance Assignment
+                                   Please cite "Cooper et al., INSERT CITATION"
+                                   
+                                   Input and output should be in csv format
+                                   If using metadata files from NCBI PathogenFinder FTP, do not forget to remove the "#" in 				       the first line
+                                   The "resistance_genes.csv" and "sources.csv" files must be in the same directory as this 				       python script
+                                   Source database last updated: 2021-04-20 (see README for more details)
+                                   
+	  -i INFILE    Input Filename.csv
+	  -o OUTFILE   Output Filename.csv
+
+\
 The curated source data is in the provided "sources.csv" file.
 
 The antimicrobial, biocide, and metal resistance gene-data was obtained from the NCBI AMRFinderPlus version 3.10 database (available through the NCBI ftp at: https://www.ncbi.nlm.nih.gov/pathogens/).
