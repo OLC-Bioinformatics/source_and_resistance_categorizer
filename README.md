@@ -36,7 +36,7 @@ Isolation source for environmental/other (epi_type) data from NCBI has been cura
 	Vibrio parahaemolyticus	: 2021-05-05
 	Vibrio vulnificus	: 2021-04-22
 
-**The focus of this project was food and food products, so additional curation may be required/needed for other isolation sources (eg. environment, farm, animal, and wastewater sources).*
+**The focus of this project was food and food products, so additional curation will be needed for other isolation sources (eg. environment, farm, animal, slaughterhouse/processing, and wastewater sources).*
 
 
 
