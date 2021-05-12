@@ -39,7 +39,7 @@ Isolation source for environmental/other (epi_type) data from NCBI has been cura
 **The focus of this project was food and food products, so additional curation will be needed for other isolation sources (eg. environment, farm, animal, slaughterhouse/processing, and wastewater sources).*
 
 
-
+This code searches through the NCBI metadata isolation_source and AMR_genotypes columns, so if using your own csv file make sure the column headings in your file are isolation_source and AMR_genotypes for columns containing the source and AMR genes (respectively). Alternatively, you can just edit the python script.
 
 ## Usage:
 
