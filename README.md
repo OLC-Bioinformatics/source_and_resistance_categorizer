@@ -66,8 +66,8 @@ Help message
                                    Please cite "Cooper et al., INSERT CITATION"
                                    
                                    Input and output should be in csv format
-                                   If using metadata files from NCBI PathogenFinder FTP, do not forget to remove the "#" in 				       the first line
-                                   The "resistance_genes.csv" and "sources.csv" files must be in the same directory as this 				       python script
+                                   If using metadata files from NCBI PathogenFinder FTP, do not forget to remove the "#" in the first line
+                                   The "resistance_genes.csv" and "sources.csv" files must be in the same directory as this python script
                                    Source database last updated: 2021-04-20 (see README for more details)
                                    
 	  -i INFILE    Input Filename.csv
