@@ -85,6 +85,8 @@ The antimicrobial, biocide, and metal resistance gene-data was obtained from the
 **Animal -** any whole animal, biological tissue, or part of an animal including a wound sample from an animal. If a cut of meat was not specified, was placed in animal category. If a food animal and ‘carcass’ was listed, was considered meat. Mastitis milk, abceses,  and other diseased/infected parts from animals were left in animal category. Birds were also defined as animals.
 
 **Animal environment -** environment(s) animals live in, excluding farm environments (farm, chicken house, cow paddock, chicken house fecal, etc) which were given their own category.
+
 **Animal feces -** animal fecal samples, excluding farm fecal samples (eg. Chicken house fecal) which were categorized as 'farm'
+
 **Food -** mixed food products or products that can’t be easily categorized: Chilli, if type was not specified and it could refer to prepared chilli or the pepper; Spreads and cream cheese mixtures; All salads (including tuna, egg, potato, and coleslaw) that may contain mixed ingredients; hummus; guacamole; salsa; ready to eat mixed products; sandwiches; fruitcake; sushi; pasta; sauces; etc.
 
