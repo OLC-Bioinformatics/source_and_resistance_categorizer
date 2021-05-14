@@ -90,3 +90,30 @@ The antimicrobial, biocide, and metal resistance gene-data was obtained from the
 
 **Food -** mixed food products or products that can’t be easily categorized: Chilli, if type was not specified and it could refer to prepared chilli or the pepper; Spreads and cream cheese mixtures; All salads (including tuna, egg, potato, and coleslaw) that may contain mixed ingredients; hummus; guacamole; salsa; ready to eat mixed products; sandwiches; fruitcake; sushi; pasta; sauces; etc.
 
+**Slaughterhouse/processing -** processing facilities, animal slaughterhouse environments, cutting boards, equipment. **this category requires additional curation/additions**
+
+**Plant -** any plant or part of a plant (not consumable, or not usually consumed) including leaves, roots. Plant environment was assumed to refer to "processing" plant environment, so was placed in the slaughterhouse/processing category. 
+
+**Environment -** anything listed as environment without further clarification, and/or human restaurant and household environments. Also any outdoor environments, eg. yard, ground. **this category requires additional curation/additions**
+
+**Feces -** anything listed as feces, stool, diarrhia, that does not also list a specific isolation area (eg. farm feces are categorized as farm, bovine feces are categorized as feces). **this category requires additional curation/additions**
+
+**Feed -** Any feed or food listed as an animal or pet food, including domestic animal food, treats, silage, and livestock feed.
+
+**Fruit/vegetable -** any fruit or vegetables, including frozen and ready to eat, and mixed fruit sources. French fries listed as food.
+
+**Insect -** Any insect source, including fly traps from farms.
+
+**Meat -** meat products including raw and ready to eat products, sausages, hot dogs, snails, etc but excluding reptile meats and mixed products (like meat sauce, pates, and spreads)
+
+**Nuts -** nuts and nut products including nut butters. Does not include mixed products such as “sesame candy with pistachio”, which were labelled as foods.
+
+**Fish/seafood -** Fish and seafood products, excluding mixed salads or products which were categorized as foods.
+
+**Water -** water sources including rivers, lake beds, ice water; but excluding aquarium, farm, and sewage sources.
+
+**Farm -** All farm sources including crop fields, hatcheries, water from farm, farm manure, litter, and bedding.
+
+**Spice/herbs -** Dried herbs (eg. dried parsley), red pepper flakes, cumin, powders, etc
+
+**Aquatic animals-** sea creatures not always considered fish/seafood such as dolphins, whales, and seals.
