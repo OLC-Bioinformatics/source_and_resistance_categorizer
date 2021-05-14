@@ -44,7 +44,7 @@ Isolation source for environmental/other (epi_type) data from NCBI has been cura
 
 Download and unpack source_and_resistance.py, sources.csv, and resistance_genes.csv files into desired folder.
 
-This code searches through the NCBI metadata isolation_source and AMR_genotypes columns, so if using your own csv file make sure the column headings in your file are isolation_source and AMR_genotypes for columns containing the source and AMR genes (respectively). Alternatively, you can just edit the python script.
+This code searches through the NCBI metadata isolation_source, AMR_genotypes, and stress_genotypes columns, so if using your own csv file make sure the column headings in your file are isolation_source, AMR_genotypes, and stress_genotypes for columns containing the source, AMR genes, and biocide/metal resistance genes (respectively). Alternatively, you can just edit the python script.
 
 \
 From command line:
