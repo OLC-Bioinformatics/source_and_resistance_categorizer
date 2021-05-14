@@ -84,9 +84,9 @@ The antimicrobial, biocide, and metal resistance gene-data was obtained from the
 
 **Animal -** any whole animal, biological tissue, or part of an animal including a wound sample from an animal. If a cut of meat was not specified, was placed in animal category. If a food animal and ‘carcass’ was listed, was considered meat. Mastitis milk, abceses,  and other diseased/infected parts from animals were left in animal category. Birds were also defined as animals.
 
-**Animal environment -** environment(s) animals live in, excluding farm environments (farm, chicken house, cow paddock, chicken house fecal, etc) which were given their own category.
+**Animal environment -** environment(s) animals live in, excluding farm environments (farm, chicken house, cow paddock, chicken house fecal, etc) which were given their own category. **this category requires additional curation/additions**
 
-**Animal feces -** animal fecal samples, excluding farm fecal samples (eg. Chicken house fecal) which were categorized as 'farm'
+**Animal feces -** animal fecal samples, excluding farm fecal samples (eg. Chicken house fecal) which were categorized as 'farm'. **this category requires additional curation/additions**
 
 **Food -** mixed food products or products that can’t be easily categorized: Chilli, if type was not specified and it could refer to prepared chilli or the pepper; Spreads and cream cheese mixtures; All salads (including tuna, egg, potato, and coleslaw) that may contain mixed ingredients; hummus; guacamole; salsa; ready to eat mixed products; sandwiches; fruitcake; sushi; pasta; sauces; etc.
 
@@ -110,10 +110,10 @@ The antimicrobial, biocide, and metal resistance gene-data was obtained from the
 
 **Fish/seafood -** Fish and seafood products, excluding mixed salads or products which were categorized as foods.
 
-**Water -** water sources including rivers, lake beds, ice water; but excluding aquarium, farm, and sewage sources.
+**Water -** water sources including rivers, lake beds, ice water; but excluding aquarium, farm, and sewage sources. **this category requires additional curation/additions**
 
-**Farm -** All farm sources including crop fields, hatcheries, water from farm, farm manure, litter, and bedding.
+**Farm -** All farm sources including crop fields, hatcheries, water from farm, farm manure, litter, and bedding. **this category requires additional curation/additions**
 
-**Spice/herbs -** Dried herbs (eg. dried parsley), red pepper flakes, cumin, powders, etc
+**Spices/herbs -** Dried herbs (eg. dried parsley), red pepper flakes, cumin, powders, etc
 
 **Aquatic -** aquatic/sea creatures not always considered fish/seafood such as dolphins, coral, whales, and seals.
