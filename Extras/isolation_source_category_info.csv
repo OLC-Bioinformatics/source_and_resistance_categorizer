@@ -11619,38 +11619,38 @@ feces stripe neck loggerhead musk turtle,reptile_feces
 feces common snapping turtle,reptile_feces
 slider turtle feces,reptile_feces
 feces (Pituophi melanoleucus),reptile_feces
-sea_creature,sea_creature
-marine crustacean,sea_creature
-Whale,sea_creature
-seal aquarium,sea_creature
-Sea lions,sea_creature
-Sea lion,sea_creature
-Marine mammal,sea_creature
-chelonian,sea_creature
-California sea lion,sea_creature
-Halichoerus grypus,sea_creature
-Sea lion (swab),sea_creature
-Sea lion (rectal - swab),sea_creature
-sea lion (rectal swab),sea_creature
-sea lion (Otaria flavescens),sea_creature
-Dolphin Blowholesample (Delphinidae),sea_creature
-"Otter specimen, placenta",sea_creature
-Dolphin Lung (Delphinidae),sea_creature
-Esponja,sea_creature
-frozen conch,sea_creature
-mucus of coral,sea_creature
-sea creature,sea_creature
-Sea Otter intestinal (Enhydra),sea_creature
-Sea Otter blood (Enhydra),sea_creature
-sea lion swab,sea_creature
-blowhole dolphin,sea_creature
-dolphin lung,sea_creature
-"Seal, Aquatic Animal",sea_creature
-sealion anus,sea_creature
-Seal,sea_creature
-Rotten kelp,sea_creature
-Sea Otter (Enhydra),sea_creature
-Sea cuccumber,sea_creature
+sea_creature,aquatic
+marine crustacean,aquatic
+Whale,aquatic
+seal aquarium,aquatic
+Sea lions,aquatic
+Sea lion,aquatic
+Marine mammal,aquatic
+chelonian,aquatic
+California sea lion,aquatic
+Halichoerus grypus,aquatic
+Sea lion (swab),aquatic
+Sea lion (rectal - swab),aquatic
+sea lion (rectal swab),aquatic
+sea lion (Otaria flavescens),aquatic
+Dolphin Blowholesample (Delphinidae),aquatic
+"Otter specimen, placenta",aquatic
+Dolphin Lung (Delphinidae),aquatic
+Esponja,aquatic
+frozen conch,aquatic
+mucus of coral,aquatic
+sea creature,aquatic
+Sea Otter intestinal (Enhydra),aquatic
+Sea Otter blood (Enhydra),aquatic
+sea lion swab,aquatic
+blowhole dolphin,aquatic
+dolphin lung,aquatic
+"Seal, Aquatic Animal",aquatic
+sealion anus,aquatic
+Seal,aquatic
+Rotten kelp,aquatic
+Sea Otter (Enhydra),aquatic
+Sea cuccumber,aquatic
 seeds,seeds
 Dry seeds,seeds
 Seed mucilage,seeds
@@ -13091,7 +13091,7 @@ raw milk sample from udder of healthy cow,dairy
 raw milk sample from udder of cow under veterinary care,dairy
 isolated from nasal swabs of healthy pigs,animal
 parched beans,fruit/vegetables
-brain of a stranded short-finned pilot whale,sea_creature
+brain of a stranded short-finned pilot whale,aquatic
 hexachlorocyclohexane-contaminated soil,soil
 pasteurized commercial milk,dairy
 Bulk milk,dairy
