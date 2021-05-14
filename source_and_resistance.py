@@ -50,6 +50,9 @@ Animalenvpattern = "|".join(str(v) for v in Animalenv)
 Animalfece = data.animal_feces.tolist()
 Animalfecepattern = "|".join(str(v) for v in Animalfece)
 
+Aquatic = data.aquatic.tolist()
+Aquaticpattern = "|".join(str(v) for v in Aquatic)
+
 Cider = data.cider.tolist()
 Ciderpattern = "|".join(str(v) for v in Cider)
 
@@ -128,6 +131,9 @@ InputCSV_NCBI['Animalenv'] = InputCSV_NCBI['Animalenv'].map({True: 'Animal envir
 InputCSV_NCBI['Animalfece'] = InputCSV_NCBI['isolation_source'].str.match(Animalfecepattern)
 InputCSV_NCBI['Animalfece'] = InputCSV_NCBI['Animalfece'].map({True: 'Animal feces', False: ''})
 
+InputCSV_NCBI['Aquatic'] = InputCSV_NCBI['isolation_source'].str.match(Aquaticpattern)
+InputCSV_NCBI['Aquatic'] = InputCSV_NCBI['Aquatic'].map({True: 'Aquatic', False: ''})
+
 InputCSV_NCBI['Cider'] = InputCSV_NCBI['isolation_source'].str.match(Ciderpattern)
 InputCSV_NCBI['Cider'] = InputCSV_NCBI['Cider'].map({True: 'Cider', False: ''})
 
@@ -201,6 +207,7 @@ InputCSV_NCBI['Tea'] = InputCSV_NCBI['Tea'].map({True: 'Tea', False: ''})
 InputCSV_NCBI['Animal'].replace('', np.nan, inplace=True)
 InputCSV_NCBI['Animalenv'].replace('', np.nan, inplace=True)
 InputCSV_NCBI['Animalfece'].replace('', np.nan, inplace=True)
+InputCSV_NCBI['Aquatic'].replace('', np.nan, inplace=True)
 InputCSV_NCBI['Cider'].replace('', np.nan, inplace=True)
 InputCSV_NCBI['Dairy'].replace('', np.nan, inplace=True)
 InputCSV_NCBI['Egg'].replace('', np.nan, inplace=True)
@@ -225,7 +232,7 @@ InputCSV_NCBI['Reptile'].replace('', np.nan, inplace=True)
 InputCSV_NCBI['Tea'].replace('', np.nan, inplace=True)
 
 #create a new column that concatenates all of the parsed source information into one
-InputCSV_NCBI['Source'] = InputCSV_NCBI[['Animal','Animalenv', 'Animalfece',
+InputCSV_NCBI['Source'] = InputCSV_NCBI[['Animal','Animalenv', 'Animalfece', 'Aquatic',
                                                'Cider', 'Dairy', 'Egg', 'Farm', 'Farmsewg', 'Farmwatr', 'Flour',
                                                'Food', 'Fruitveg', 'Insect','Meat', 'Nuts',
                                                'Fishseaf', 'Sewage', 'Slaughterhouse', 'Seeds', 'Plant',
@@ -462,7 +469,7 @@ InputCSV_NCBI['Antibiotic_Class'] = InputCSV_NCBI[['aminoglycoside', 'betalactam
                          'thiostrepton','trimethoprim','tuberactinomycin']].apply(lambda x: ','.join(x[x.notnull()]), axis=1)
 
 #remove all of the extra columns I made
-InputCSV_NCBI = InputCSV_NCBI.drop(['Animal','Animalenv', 'Animalfece',
+InputCSV_NCBI = InputCSV_NCBI.drop(['Animal','Animalenv', 'Animalfece', 'Aquatic',
                                                'Cider', 'Dairy', 'Egg', 'Farm', 'Farmsewg', 'Farmwatr', 'Flour',
                                                'Food', 'Fruitveg', 'Insect','Meat', 'Nuts',
                                                'Fishseaf', 'Sewage', 'Slaughterhouse', 'Seeds', 'Plant',
