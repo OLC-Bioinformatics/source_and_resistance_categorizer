@@ -116,4 +116,4 @@ The antimicrobial, biocide, and metal resistance gene-data was obtained from the
 
 **Spice/herbs -** Dried herbs (eg. dried parsley), red pepper flakes, cumin, powders, etc
 
-**Aquatic animals-** sea creatures not always considered fish/seafood such as dolphins, whales, and seals.
+**Aquatic -** aquatic/sea creatures not always considered fish/seafood such as dolphins, coral, whales, and seals.
