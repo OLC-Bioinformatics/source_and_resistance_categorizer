@@ -32,6 +32,7 @@ Isolation source for environmental/other (epi_type) data from NCBI has been cura
 	Klebsiella oxytoca	: 2021-05-05
 	Listeria spp.		: 2021-04-20
 	Salmonella spp.		: 2021-04-20
+	Staphylococcus aureus	: 2021-05-12
 	Vibrio cholerae		: 2021-04-22
 	Vibrio parahaemolyticus	: 2021-05-05
 	Vibrio vulnificus	: 2021-04-22
