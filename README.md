@@ -84,19 +84,19 @@ The antimicrobial, biocide, and metal resistance gene-data was obtained from the
 
 **Animal -** any whole animal, biological tissue, or part of an animal including a wound sample from an animal. If a cut of meat was not specified, was placed in animal category. If a food animal and ‘carcass’ was listed, was considered meat. Mastitis milk, abceses,  and other diseased/infected parts from animals were left in animal category. Birds were also defined as animals.
 
-**Animal environment -** environment(s) animals live in, excluding farm environments (farm, chicken house, cow paddock, chicken house fecal, etc) which were given their own category. **this category requires additional curation/additions**
+**Animal environment -** environment(s) animals live in, excluding farm environments (farm, chicken house, cow paddock, chicken house fecal, etc) which were given their own category. ***this category requires additional curation/additions***
 
-**Animal feces -** animal fecal samples, excluding farm fecal samples (eg. Chicken house fecal) which were categorized as 'farm'. **this category requires additional curation/additions**
+**Animal feces -** animal fecal samples, excluding farm fecal samples (eg. Chicken house fecal) which were categorized as 'farm'. ***this category requires additional curation/additions***
 
 **Food -** mixed food products or products that can’t be easily categorized: Chilli, if type was not specified and it could refer to prepared chilli or the pepper; Spreads and cream cheese mixtures; All salads (including tuna, egg, potato, and coleslaw) that may contain mixed ingredients; hummus; guacamole; salsa; ready to eat mixed products; sandwiches; fruitcake; sushi; pasta; sauces; etc.
 
-**Slaughterhouse/processing -** processing facilities, animal slaughterhouse environments, cutting boards, equipment. **this category requires additional curation/additions**
+**Slaughterhouse/processing -** processing facilities, animal slaughterhouse environments, cutting boards, equipment. ***this category requires additional curation/additions***
 
 **Plant -** any plant or part of a plant (not consumable, or not usually consumed) including leaves, roots. Plant environment was assumed to refer to "processing" plant environment, so was placed in the slaughterhouse/processing category. 
 
-**Environment -** anything listed as environment without further clarification, and/or human restaurant and household environments. Also any outdoor environments, eg. yard, ground. **this category requires additional curation/additions**
+**Environment -** anything listed as environment without further clarification, and/or human restaurant and household environments. Also any outdoor environments, eg. yard, ground. ***this category requires additional curation/additions***
 
-**Feces -** anything listed as feces, stool, diarrhia, that does not also list a specific isolation area (eg. farm feces are categorized as farm, bovine feces are categorized as feces). **this category requires additional curation/additions**
+**Feces -** anything listed as feces, stool, diarrhia, that does not also list a specific isolation area (eg. farm feces are categorized as farm, bovine feces are categorized as feces). ***this category requires additional curation/additions***
 
 **Feed -** Any feed or food listed as an animal or pet food, including domestic animal food, treats, silage, and livestock feed.
 
@@ -108,11 +108,11 @@ The antimicrobial, biocide, and metal resistance gene-data was obtained from the
 
 **Nuts -** nuts and nut products including nut butters. Does not include mixed products such as “sesame candy with pistachio”, which were labelled as foods.
 
-**Fish/seafood -** Fish and seafood products, excluding mixed salads or products which were categorized as foods.
+**Fish/seafood -** Fish and seafood products, excluding mixed salads and products which were categorized as foods.
 
-**Water -** water sources including rivers, lake beds, ice water; but excluding aquarium, farm, and sewage sources. **this category requires additional curation/additions**
+**Water -** water sources including rivers, lake beds, ice water; but excluding aquarium, farm, and sewage sources. ***this category requires additional curation/additions***
 
-**Farm -** All farm sources including crop fields, hatcheries, water from farm, farm manure, litter, and bedding. **this category requires additional curation/additions**
+**Farm -** All farm sources including crop fields, hatcheries, water from farm, farm manure, litter, and bedding. ***this category requires additional curation/additions***
 
 **Spices/herbs -** Dried herbs (eg. dried parsley), red pepper flakes, cumin, powders, etc
 
