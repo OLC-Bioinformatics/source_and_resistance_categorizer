@@ -78,3 +78,7 @@ Help message
 The curated source data is in the provided "sources.csv" file.
 
 The antimicrobial, biocide, and metal resistance gene-data was obtained from the NCBI AMRFinderPlus version 3.10 database (available through the NCBI ftp at: https://www.ncbi.nlm.nih.gov/pathogens/).
+
+
+# Source Definitions
+	Animal - any whole animal, biological tissue, or part of an animal including a wound sample from an animal. If a cut of meat was not specified, was placed in animal category. If a food animal and ‘carcass’ was listed, was considered meat. Mastitis milk, abceses,  and other diseased/infected parts from animals were left in animal category. Birds were also defined as animals.
