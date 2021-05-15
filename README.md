@@ -1,7 +1,7 @@
 # source_and_resistance_categorizer
 If used for publication, please cite:
 
-Cooper et al., (INSERT ONCE PUBLISHED)
+Cooper *et al*., (INSERT ONCE PUBLISHED)
 
 
 \
