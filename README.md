@@ -81,7 +81,7 @@ The antimicrobial, biocide, and metal resistance gene-data was obtained from the
 
 
 
-\
+
 \
 ### Source Definitions
 
