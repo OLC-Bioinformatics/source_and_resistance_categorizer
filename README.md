@@ -83,6 +83,7 @@ The antimicrobial, biocide, and metal resistance gene-data was obtained from the
 <br/>
 
 ### Source Definitions
+<br/>
 
 **Animal -** any whole animal, biological tissue, or part of an animal including a wound sample from an animal. If a cut of meat was not specified, was placed in animal category. If a food animal and ‘carcass’ was listed, was considered meat. Mastitis milk, abceses,  and other diseased/infected parts from animals were left in animal category. Birds were also defined as animals.
 
