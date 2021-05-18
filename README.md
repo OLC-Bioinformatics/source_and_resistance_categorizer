@@ -77,7 +77,10 @@ Help message
 \
 The curated source data is in the provided "sources.csv" file.
 
-The antimicrobial, biocide, and metal resistance gene-data was obtained from the NCBI AMRFinderPlus version 3.10 database (available through the NCBI ftp at: https://www.ncbi.nlm.nih.gov/pathogens/).
+The antimicrobial, biocide, and metal resistance gene-data was obtained from the NCBI AMRFinderPlus version 3.10 database and ReferenceGeneCatalog (available through the NCBI FTP at: https://www.ncbi.nlm.nih.gov/bioproject/PRJNA313047).
+
+AMRFinderPlus reference:
+Feldgarden, Michael, Vyacheslav Brover, Daniel H. Haft, Arjun B. Prasad, Douglas J. Slotta, Igor Tolstoy, Gregory H. Tyson et al. "Validating the AMRFinder tool and resistance gene database by using antimicrobial resistance genotype-phenotype correlations in a collection of isolates." Antimicrobial agents and chemotherapy 63, no. 11 (2019): e00483-19.
 
 <br/>
 <br/>
