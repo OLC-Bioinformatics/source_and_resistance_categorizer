@@ -99,7 +99,7 @@ The antimicrobial, biocide, and metal resistance gene-data was obtained from the
 
 **Environment -** anything listed as environment without further clarification, and/or human restaurant and household environments. Also any outdoor environments, eg. yard, ground. ***this category requires additional curation/additions***
 
-**Feces -** anything listed as feces, stool, diarrhia, that does not also list a specific isolation area (eg. farm feces are categorized as farm, bovine feces are categorized as feces). ***this category requires additional curation/additions***
+**Feces -** anything listed as feces, stool, diarrhia, that does not also list a specific isolation area (e.g. farm feces are categorized as farm, bovine feces are categorized as feces). ***this category requires additional curation/additions***
 
 **Feed -** Any feed or food listed as an animal or pet food, including domestic animal food, treats, silage, and livestock feed.
 
@@ -111,12 +111,12 @@ The antimicrobial, biocide, and metal resistance gene-data was obtained from the
 
 **Nuts -** nuts and nut products including nut butters. Does not include mixed products such as “sesame candy with pistachio”, which were labelled as foods.
 
-**Fish/seafood -** Fish and seafood products, excluding mixed salads and products which were categorized as foods.
+**Fish/seafood -** Fish and seafood products, excluding mixed salads and mixed products which were categorized as foods.
 
 **Water -** water sources including rivers, lake beds, ice water; but excluding aquarium, farm, and sewage sources. ***this category requires additional curation/additions***
 
-**Farm -** All farm sources including crop fields, hatcheries, water from farm, farm manure, litter, and bedding. ***this category requires additional curation/additions***
+**Farm -** All farm sources including crop fields, hatcheries, water from farm, irrigation water, farm manure, litter, and bedding. ***this category requires additional curation/additions***
 
-**Spices/herbs -** Dried herbs (eg. dried parsley), red pepper flakes, cumin, powders, etc
+**Spices/herbs -** Dried herbs (e.g. dried parsley), red pepper flakes, cumin, powders, etc.
 
 **Aquatic -** aquatic/sea creatures not always considered fish/seafood such as dolphins, coral, whales, and seals.
