@@ -71,8 +71,8 @@ Help message
                                    The "resistance_genes.csv" and "sources.csv" files must be in the same directory as this python script
                                    Source database last updated: 2021-04-20 (see README for more details)
                                    
-	  -i INFILE    Input Filename.csv
-	  -o OUTFILE   Output Filename.csv
+	  -i INFILE    Input_Filename.csv
+	  -o OUTFILE   Output_Filename.csv
 
 \
 The curated source data is in the provided "sources.csv" file.
