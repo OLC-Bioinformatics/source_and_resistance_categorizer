@@ -17,6 +17,7 @@ this code categorizes and assigns:
 \
 Isolation source for environmental/other (epi_type) data from NCBI has been curated* for submissions up until the listed dates for the following genera/species:
 
+	Genus species		 Last Curation Date
 	Acinetobacter spp.	: 2021-04-20
 	Aeromonas spp.		: 2021-04-21
 	Campylobacter spp.	: 2021-04-20
