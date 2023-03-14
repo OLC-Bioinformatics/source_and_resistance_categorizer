@@ -37,24 +37,18 @@ argcomplete.autocomplete(parser)
 args = parser.parse_args()
 
 #read in the sources database file
-data = pandas.read_csv('sources.csv')
+data = pandas.read_csv('sources_IFSAC.csv')
 
-#this is my first ever python code. I'm sure there is a more efficient way to do this, but it serves its purpose...
+#this is my first ever python code. I'm sure there is a more efficient way to do this... but it currently serves its purpose...
 #use the column headers in the source database file for data input here
 Animal = data.animal.tolist()
 Animalpattern = "|".join(str(v) for v in Animal)
 
-Animalenv = data.animal_environment.tolist()
+Animalfeed = data.animalfeed.tolist()
+Animalfeedpattern = "|".join(str(v) for v in Animalfeed)
+
+Animalenv = data.animalenvironment.tolist()
 Animalenvpattern = "|".join(str(v) for v in Animalenv)
-
-Animalfece = data.animal_feces.tolist()
-Animalfecepattern = "|".join(str(v) for v in Animalfece)
-
-Aquatic = data.aquatic.tolist()
-Aquaticpattern = "|".join(str(v) for v in Aquatic)
-
-Cider = data.cider.tolist()
-Ciderpattern = "|".join(str(v) for v in Cider)
 
 Dairy = data.dairy.tolist()
 Dairypattern = "|".join(str(v) for v in Dairy)
@@ -62,65 +56,188 @@ Dairypattern = "|".join(str(v) for v in Dairy)
 Egg = data.egg.tolist()
 Eggpattern = "|".join(str(v) for v in Egg)
 
-Farm = data.farm.tolist()
-Farmpattern = "|".join(str(v) for v in Farm)
+Fishegg = data.fishegg.tolist()
+Fisheggpattern = "|".join(str(v) for v in Fishegg)
 
-Farmsewg = data.farm_sewage.tolist()
-Farmsewgpattern = "|".join(str(v) for v in Farmsewg)
-
-Farmwatr = data.farm_water.tolist()
-Farmwatrpattern = "|".join(str(v) for v in Farmwatr)
-
-Flour = data.flour.tolist()
-Flourpattern = "|".join(str(v) for v in Flour)
-
-Food = data.food.tolist()
+Food = data.multiingredient.tolist()
 Foodpattern = "|".join(str(v) for v in Food)
+
+Foodprocessing = data.environmentalfactory.tolist()
+Foodprocpattern ="|".join(str(v) for v in Foodprocessing)
 
 Fruitveg = data.fruit_vegetables.tolist()
 Fruitvegpattern = "|".join(str(v) for v in Fruitveg)
 
-insect = data.insect.tolist()
-Insectpattern = "|".join(str(v) for v in insect)
-
-Meat = data.meat.tolist()
+Meat = data.meatpoultry.tolist()
 Meatpattern = "|".join(str(v) for v in Meat)
 
-Nuts = data.nuts.tolist()
-Nutspattern = "|".join(str(v) for v in Nuts)
+Nutsseeds = data.nutsseeds.tolist()
+Nutsseedspattern = "|".join(str(v) for v in Nutsseeds)
 
 Fishseaf = data.fish_seafood.tolist()
 Fishseafpattern = "|".join(str(v) for v in Fishseaf)
 
-seeds = data.seeds.tolist()
-Seedspattern = "|".join(str(v) for v in seeds)
-
-Spice = data.spice_herbs.tolist()
+Spice = data.herbs.tolist()
 Spicepattern = "|".join(str(v) for v in Spice)
-
-Sewage = data.sewage.tolist()
-Sewagepattern = "|".join(str(v) for v in Sewage)
-
-Slaughterhouse = data.slaughterhouse_processing.tolist()
-Slaughterhousepattern = "|".join(str(v) for v in Slaughterhouse)
-
-Plant = data.plant.tolist()
-Plantpattern = "|".join(str(v) for v in Plant)
-
-Wastewater = data.wastewater.tolist()
-Wastewaterpattern = "|".join(str(v) for v in Wastewater)
-
-Water = data.water.tolist()
-Waterpattern = "|".join(str(v) for v in Water)
-
-Reptile = data.reptile.tolist()
-Reptilepattern = "|".join(str(v) for v in Reptile)
-
-Tea = data.tea.tolist()
-Teapattern = "|".join(str(v) for v in Tea)
 
 #file that will be read and have sources parsed from
 InputCSV_NCBI = pandas.read_csv(args.infile)
+
+InputCSV_NCBI['Animal'] = InputCSV_NCBI['IFSAC_category'].str.match(Animalpattern)
+InputCSV_NCBI['Animal'] = InputCSV_NCBI['Animal'].map({True: 'Animal', False: ''})
+
+InputCSV_NCBI['Animalenv'] = InputCSV_NCBI['IFSAC_category'].str.match(Animalenvpattern)
+InputCSV_NCBI['Animalenv'] = InputCSV_NCBI['Animalenv'].map({True: 'Animal environment', False: ''})
+
+InputCSV_NCBI['Animalfeed'] = InputCSV_NCBI['IFSAC_category'].str.match(Animalfeedpattern)
+InputCSV_NCBI['Animalfeed'] = InputCSV_NCBI['Animalfeed'].map({True: 'Animal feed', False: ''})
+
+InputCSV_NCBI['Dairy'] = InputCSV_NCBI['IFSAC_category'].str.match(Dairypattern)
+InputCSV_NCBI['Dairy'] = InputCSV_NCBI['Dairy'].map({True: 'Dairy', False: ''})
+
+InputCSV_NCBI['Egg'] = InputCSV_NCBI['IFSAC_category'].str.match(Eggpattern)
+InputCSV_NCBI['Egg'] = InputCSV_NCBI['Egg'].map({True: 'Egg', False: ''})
+
+InputCSV_NCBI['Fishegg'] = InputCSV_NCBI['IFSAC_category'].str.match(Fisheggpattern)
+InputCSV_NCBI['Fishegg'] = InputCSV_NCBI['Fishegg'].map({True: 'Fish eggs', False: ''})
+
+InputCSV_NCBI['Food'] = InputCSV_NCBI['IFSAC_category'].str.match(Foodpattern)
+InputCSV_NCBI['Food'] = InputCSV_NCBI['Food'].map({True: 'Multi-product', False: ''})
+
+InputCSV_NCBI['Foodprocessing'] = InputCSV_NCBI['IFSAC_category'].str.match(Foodprocpattern)
+InputCSV_NCBI['Foodprocessing'] = InputCSV_NCBI['Foodprocessing'].map({True: 'Food processing environment', False: ''})
+
+InputCSV_NCBI['Fruitveg'] = InputCSV_NCBI['IFSAC_category'].str.match(Fruitvegpattern)
+InputCSV_NCBI['Fruitveg'] = InputCSV_NCBI['Fruitveg'].map({True: 'Fruit/Vegetables', False: ''})
+
+InputCSV_NCBI['Meat'] = InputCSV_NCBI['IFSAC_category'].str.match(Meatpattern)
+InputCSV_NCBI['Meat'] = InputCSV_NCBI['Meat'].map({True: 'Meat/Poultry', False: ''})
+
+InputCSV_NCBI['Nutsseeds'] = InputCSV_NCBI['IFSAC_category'].str.match(Nutsseedspattern)
+InputCSV_NCBI['Nutsseeds'] = InputCSV_NCBI['Nutsseeds'].map({True: 'Nuts/Seeds', False: ''})
+
+InputCSV_NCBI['Fishseaf'] = InputCSV_NCBI['IFSAC_category'].str.match(Fishseafpattern)
+InputCSV_NCBI['Fishseaf'] = InputCSV_NCBI['Fishseaf'].map({True: 'Fish/Seafood', False: ''})
+
+InputCSV_NCBI['SpiceHerbs'] = InputCSV_NCBI['IFSAC_category'].str.match(Spicepattern)
+InputCSV_NCBI['SpiceHerbs'] = InputCSV_NCBI['SpiceHerbs'].map({True: 'Herbs/Spirce', False: ''})
+
+
+#replacing empty cells with NaN so can concatenate without worrying about extra commas
+InputCSV_NCBI['Animal'].replace('', np.nan, inplace=True)
+InputCSV_NCBI['Animalenv'].replace('', np.nan, inplace=True)
+InputCSV_NCBI['Animalfeed'].replace('', np.nan, inplace=True)
+InputCSV_NCBI['Dairy'].replace('', np.nan, inplace=True)
+InputCSV_NCBI['Egg'].replace('', np.nan, inplace=True)
+InputCSV_NCBI['Fishegg'].replace('', np.nan, inplace=True)
+InputCSV_NCBI['Food'].replace('', np.nan, inplace=True)
+InputCSV_NCBI['Foodprocessing'].replace('', np.nan, inplace=True)
+InputCSV_NCBI['Fruitveg'].replace('', np.nan, inplace=True)
+InputCSV_NCBI['Meat'].replace('', np.nan, inplace=True)
+InputCSV_NCBI['Nutsseeds'].replace('', np.nan, inplace=True)
+InputCSV_NCBI['Fishseaf'].replace('', np.nan, inplace=True)
+InputCSV_NCBI['SpiceHerbs'].replace('', np.nan, inplace=True)
+
+
+
+#create a new column that concatenates all of the parsed source IFSAC information into one
+InputCSV_NCBI['Source_IFSAC'] = InputCSV_NCBI[['Animal','Animalenv', 'Animalfeed',
+                                               'Dairy', 'Egg', 'Fishegg',
+                                               'Food', 'Fruitveg', 'Foodprocessing','Meat', 'Nutsseeds',
+                                               'Fishseaf', 'SpiceHerbs']].apply(lambda x: ','.join(x[x.notnull()]), axis=1)
+
+#remove all of the extra columns I made
+InputCSV_NCBI = InputCSV_NCBI.drop(['Animal','Animalenv', 'Animalfeed',
+                                               'Dairy', 'Egg', 'Fishegg',
+                                               'Food', 'Fruitveg', 'Foodprocessing','Meat', 'Nutsseeds',
+                                               'Fishseaf', 'SpiceHerbs'], axis=1)
+
+#now do the same thing with the source data manually curated by Ashley
+#read in the sources database file
+source2 = pandas.read_csv('sources.csv')
+
+#this is my first ever python code. I'm sure there is a more efficient way to do this, but it serves its purpose...
+#use the column headers in the source database file for data input here
+Animal = source2.animal.tolist()
+Animalpattern = "|".join(str(v) for v in Animal)
+
+Animalenv = source2.animal_environment.tolist()
+Animalenvpattern = "|".join(str(v) for v in Animalenv)
+
+Animalfece = source2.animal_feces.tolist()
+Animalfecepattern = "|".join(str(v) for v in Animalfece)
+
+Aquatic = source2.aquatic.tolist()
+Aquaticpattern = "|".join(str(v) for v in Aquatic)
+
+Cider = source2.cider.tolist()
+Ciderpattern = "|".join(str(v) for v in Cider)
+
+Dairy = source2.dairy.tolist()
+Dairypattern = "|".join(str(v) for v in Dairy)
+
+Egg = source2.egg.tolist()
+Eggpattern = "|".join(str(v) for v in Egg)
+
+Farm = source2.farm.tolist()
+Farmpattern = "|".join(str(v) for v in Farm)
+
+Farmsewg = source2.farm_sewage.tolist()
+Farmsewgpattern = "|".join(str(v) for v in Farmsewg)
+
+Farmwatr = source2.farm_water.tolist()
+Farmwatrpattern = "|".join(str(v) for v in Farmwatr)
+
+Flour = source2.flour.tolist()
+Flourpattern = "|".join(str(v) for v in Flour)
+
+Food = source2.food.tolist()
+Foodpattern = "|".join(str(v) for v in Food)
+
+Fruitveg = source2.fruit_vegetables.tolist()
+Fruitvegpattern = "|".join(str(v) for v in Fruitveg)
+
+insect = source2.insect.tolist()
+Insectpattern = "|".join(str(v) for v in insect)
+
+Meat = source2.meat.tolist()
+Meatpattern = "|".join(str(v) for v in Meat)
+
+Nuts = source2.nuts.tolist()
+Nutspattern = "|".join(str(v) for v in Nuts)
+
+Fishseaf = source2.fish_seafood.tolist()
+Fishseafpattern = "|".join(str(v) for v in Fishseaf)
+
+seeds = source2.seeds.tolist()
+Seedspattern = "|".join(str(v) for v in seeds)
+
+Spice = source2.spice_herbs.tolist()
+Spicepattern = "|".join(str(v) for v in Spice)
+
+Sewage = source2.sewage.tolist()
+Sewagepattern = "|".join(str(v) for v in Sewage)
+
+Slaughterhouse = source2.slaughterhouse_processing.tolist()
+Slaughterhousepattern = "|".join(str(v) for v in Slaughterhouse)
+
+Plant = source2.plant.tolist()
+Plantpattern = "|".join(str(v) for v in Plant)
+
+Wastewater = source2.wastewater.tolist()
+Wastewaterpattern = "|".join(str(v) for v in Wastewater)
+
+Water = source2.water.tolist()
+Waterpattern = "|".join(str(v) for v in Water)
+
+Reptile = source2.reptile.tolist()
+Reptilepattern = "|".join(str(v) for v in Reptile)
+
+Tea = source2.tea.tolist()
+Teapattern = "|".join(str(v) for v in Tea)
+
+#file that will be read and have sources parsed from
+#InputCSV_NCBI = pandas.read_csv(args.infile)
 
 InputCSV_NCBI['Animal'] = InputCSV_NCBI['isolation_source'].str.match(Animalpattern)
 InputCSV_NCBI['Animal'] = InputCSV_NCBI['Animal'].map({True: 'Animal', False: ''})
@@ -232,12 +349,21 @@ InputCSV_NCBI['Reptile'].replace('', np.nan, inplace=True)
 InputCSV_NCBI['Tea'].replace('', np.nan, inplace=True)
 
 #create a new column that concatenates all of the parsed source information into one
-InputCSV_NCBI['Source'] = InputCSV_NCBI[['Animal','Animalenv', 'Animalfece', 'Aquatic',
+InputCSV_NCBI['Source2'] = InputCSV_NCBI[['Animal','Animalenv', 'Animalfece', 'Aquatic',
                                                'Cider', 'Dairy', 'Egg', 'Farm', 'Farmsewg', 'Farmwatr', 'Flour',
                                                'Food', 'Fruitveg', 'Insect','Meat', 'Nuts',
                                                'Fishseaf', 'Sewage', 'Slaughterhouse', 'Seeds', 'Plant',
                                                 'Wastewater', 'SpiceHerbs',
                                                'Water', 'Reptile', 'Tea']].apply(lambda x: ','.join(x[x.notnull()]), axis=1)
+
+#remove all of the extra columns I made
+InputCSV_NCBI = InputCSV_NCBI.drop(['Animal','Animalenv', 'Animalfece', 'Aquatic',
+                                               'Cider', 'Dairy', 'Egg', 'Farm', 'Farmsewg', 'Farmwatr', 'Flour',
+                                               'Food', 'Fruitveg', 'Insect','Meat', 'Nuts',
+                                               'Fishseaf', 'Sewage', 'Slaughterhouse', 'Seeds', 'Plant',
+                                                'Wastewater', 'SpiceHerbs',
+                                               'Water', 'Reptile', 'Tea'], axis=1)
+
 #now do the same for AMR data
 ag = pandas.read_csv('resistance_genes.csv')
 
@@ -469,13 +595,6 @@ InputCSV_NCBI['Antibiotic_Class'] = InputCSV_NCBI[['aminoglycoside', 'betalactam
                          'thiostrepton','trimethoprim','tuberactinomycin']].apply(lambda x: ','.join(x[x.notnull()]), axis=1)
 
 #remove all of the extra columns I made
-InputCSV_NCBI = InputCSV_NCBI.drop(['Animal','Animalenv', 'Animalfece', 'Aquatic',
-                                               'Cider', 'Dairy', 'Egg', 'Farm', 'Farmsewg', 'Farmwatr', 'Flour',
-                                               'Food', 'Fruitveg', 'Insect','Meat', 'Nuts',
-                                               'Fishseaf', 'Sewage', 'Slaughterhouse', 'Seeds', 'Plant',
-                                                'Wastewater', 'SpiceHerbs',
-                                               'Water', 'Reptile', 'Tea'], axis=1)
-
 InputCSV_NCBI = InputCSV_NCBI.drop(['aminoglycoside', 'betalactam','bleomycin', 'fosfomycin',
                                                    'fusidic acid','glycopeptide','MLS', 'macrolide', 'lincosamide',
                                                    'lincosamide_streptogramin','mupirocin','nitroimidazole','phenicol',
@@ -483,6 +602,18 @@ InputCSV_NCBI = InputCSV_NCBI.drop(['aminoglycoside', 'betalactam','bleomycin', 
                                                    'polymyxin', 'quinolone','rifamycin','streptogramin',
                                                    'streptothricin','sulphonamide', 'tetracenomycin','tetracycline',
                          'thiostrepton','trimethoprim','tuberactinomycin'], axis=1)
+
+#compare the IFSAC and Source2 columns. If both have text, only keep the IFSAC column.
+#replace empty cells with NaN so can concatenate without worrying about extra commas
+InputCSV_NCBI['Source_IFSAC'].replace('', np.nan, inplace=True)
+InputCSV_NCBI['Source2'].replace('', np.nan, inplace=True)
+
+#now, if there is an IFSAC category then paste that in the source column... otherwise, paste from source2 (curated by Ashley)
+InputCSV_NCBI['Source'] = np.where(
+    InputCSV_NCBI['Source_IFSAC'].isna(),
+    InputCSV_NCBI['Source2'],
+    InputCSV_NCBI['Source_IFSAC'],
+)
 
 #output a new csv file with source, AMR-class, biocide, and metal data
 InputCSV_NCBI.to_csv(args.outfile)
