@@ -42,7 +42,7 @@ Where IFSAC categories were not provided, isolation source for environmental/oth
 
 **The focus of this project was food and food products, so additional curation will be needed for other isolation sources (e.g. environment, farm, animal, slaughterhouse/processing, and wastewater sources).*
 
-*Where categorization exist(s) for both IFSAC and the manually curated isolation source data, the IFSAC category is output (as the priority) by the script in the final 'Source' column*
+**Where categorization exist(s) for both IFSAC and the manually curated isolation source data, the IFSAC category is output (as the priority) by the script in the final 'Source' column**
 
 ## Usage:
 
