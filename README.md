@@ -15,7 +15,9 @@ this code categorizes and assigns:
 
 \
 \
-Isolation source for environmental/other (epi_type) data from NCBI has been curated* for submissions up until the listed dates for the following genera/species:
+The NIH/NCBI now provide IFSAC (Interagency Food Safety Analytics Collaboration - CDC) food categorization in the metadata files. (CDC website: https://www.cdc.gov/foodsafety/ifsac/projects/food-categorization-scheme.html). This categorization scheme was further simplified for use with this code/publication (see the sources_IFSAC.csv file).
+
+Where IFSAC categories were not provided, isolation source for environmental/other (epi_type) data from NCBI has been curated* for submissions up until the listed dates for the following genera/species:
 
 	Genus species		 Last Curation Date
 	Acinetobacter spp.	: 2021-04-20
@@ -40,6 +42,7 @@ Isolation source for environmental/other (epi_type) data from NCBI has been cura
 
 **The focus of this project was food and food products, so additional curation will be needed for other isolation sources (e.g. environment, farm, animal, slaughterhouse/processing, and wastewater sources).*
 
+*Where categorization exist(s) for both IFSAC and the manually curated isolation source data, the IFSAC category is output (as the priority) by the script in the final 'Source' column*
 
 ## Usage:
 
