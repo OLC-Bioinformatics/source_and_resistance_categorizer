@@ -18,19 +18,17 @@ from regex import search
 #import org.apache.spark.sql.functions.col
 
 #descriptions and argument assignment
-parser = argparse.ArgumentParser(description='NCBI Source and Antibiotic Class Parser. '
-                                            'Input and output should be in csv format. '
-                                            'If using metadata files from NCBI PathogenFinder FTP, do not forget to remove the "#" in the first line. '
-                                            'The "resistance_genes.csv" and "sources.csv" files must be in the same directory as this python script. '
-                                            'Source database last updated: 2021-04-20')
+parser = argparse.ArgumentParser(description='Counts abundance of resistance classes and genes for each isolation source '
+                                            'after parsing (using the source_and_resistance.py script). '
+                                            'Source database last updated: 2023-03-14')
 parser = argparse.ArgumentParser(description='details',
         usage='use "%(prog)s --help" for more information',
         formatter_class=argparse.RawTextHelpFormatter)
 #parser.add_argument('-db', dest='database_file', type=str, required=True, help="""source database file.csv""")
-parser.add_argument('-g', dest='genus', type=str, required=True, help="""Name of genus to count""")
+parser.add_argument('-g', dest='genus', type=str, required=True, help="""Name of genus/organism to count""")
 parser.add_argument('--info', default=None,
                    help='''
-                   Count-IFs for NCBI PathogenFinder Datasheets
+                   Counts for NCBI PathogenFinder Datasheets
                    Please cite "Cooper et al., INSERT CITATION"
 
                    Input and output should be in csv format
@@ -58,8 +56,8 @@ inputdata = pandas.read_csv(args.infile)
 #print("Total E. coli = ",ecoli_Count, "Meat/Poultry", ecoli_meat)
 
 #now add AMR
-ecoli_meat_bla = inputdata.query('scientific_name.str.contains("Escherichia coli") & Source=="Meat/Poultry" & '\
-'Antibiotic_Class.str.contains("betalactam")')['scientific_name'].count()
+#ecoli_meat_bla = inputdata.query('scientific_name.str.contains("Escherichia coli") & Source=="Meat/Poultry" & '\
+#'Antibiotic_Class.str.contains("betalactam")')['scientific_name'].count()
 #print("with bla ", ecoli_meat_bla)
 
 #can I do a for loop with multiple genera?
@@ -79,7 +77,7 @@ clsslist = ['aminoglycoside','betalactam','bleomycin','fosfomycin','fusidic acid
 tabfile = '{g}_resistance_class_counts.csv'.format(g=args.genus)
 
 with open(tabfile, 'w') as file:
-    csv_file = csv.writer(file, delimiter=',') #could I avoid having to edit the lincosamide if I change this?
+    csv_file = csv.writer(file, delimiter=',') #could I avoid having to edit the lincosamide if I change this?... no
     with open(tabfile, 'a+') as file:
         file.write("Genus,Total_genus,Source,Class,total_from_source,number_res\n")
     for genus in generalist:
@@ -146,16 +144,17 @@ arglist = ["aac(3)","aac(6')-Ib-cr","aadA","aph(3'')-Ib","aph(3')","aph(6)-Id","
 with open(argfile, 'w') as file:
     csv_file = csv.writer(file, delimiter=',')
     with open(argfile, 'a+') as file:
-        file.write("Genus,Source,Gene,number,total\n")
+        file.write("Genus,total_genus,Source,Gene,number,total\n")
     for genus in generalist:
         print("Counting ARG presence for: ", genus)
+        counttotal = inputdata.query('scientific_name.str.contains("{g}")'.format(g=genus))['scientific_name'].count()
         for source in sourcelist:
             countsource = inputdata.query('scientific_name.str.contains("{g}") & Source=="{s}"'.format(g=genus,s=source))['scientific_name'].count()
             for gene in arglist:
                 countarg = inputdata.query('scientific_name.str.contains("{g}") & Source=="{s}" '
                                            '& AMR_genotypes.str.contains("{arg}")'.format(g=genus,s=source,arg=gene))['scientific_name'].count()
                 with open(argfile, 'a+') as file:
-                    file.write("{g},{s},{arg},{counts},{countarg}\n".format(g=genus,s=source,arg=gene,counts=countsource,countarg=countarg))
+                    file.write("{g},{cg},{s},{arg},{counts},{countarg}\n".format(g=genus,cg=counttotal,s=source,arg=gene,counts=countsource,countarg=countarg))
 
 #add in the clinical data
 clinicalsource = inputdata.query('scientific_name.str.contains("{g}") & epi_type=="clinical" & host=="Homo sapiens"'.format(g=genus))['scientific_name'].count()
@@ -163,7 +162,7 @@ for gene in arglist:
     countcarg = inputdata.query('scientific_name.str.contains("{g}") & epi_type=="clinical" & host=="Homo sapiens" '
                                '& AMR_genotypes.str.contains("{arg}")'.format(g=genus,arg=gene))['scientific_name'].count()
     with open(argfile, 'a+') as file:
-        file.write("{g},Clinical,{arg},{counts},{countarg}\n".format(g=genus,arg=gene,counts=clinicalsource,countarg=countcarg))
+        file.write("{g},{cg},Clinical,{arg},{counts},{countarg}\n".format(g=genus,cg=counttotal,arg=gene,counts=clinicalsource,countarg=countcarg))
 
 
 #now create count files for biocide and metal genes
@@ -176,20 +175,21 @@ with open(biocidefile, 'w') as file:
         file.write("Genus,Source,Gene,number,total\n")
     for genus in generalist:
         print("Counting biocide resistance gene presence for: ", genus)
+        counttotal = inputdata.query('scientific_name.str.contains("{g}")'.format(g=genus))['scientific_name'].count()
         for source in sourcelist:
             countsource = inputdata.query('scientific_name.str.contains("{g}") & Source=="{s}"'.format(g=genus,s=source))['scientific_name'].count()
             for gene in biocidelist:
                 countbioc = inputdata.query('scientific_name.str.contains("{g}") & Source=="{s}" '
                                            '& stress_genotypes.str.contains("{arg}")'.format(g=genus,s=source,arg=gene))['scientific_name'].count()
                 with open(biocidefile, 'a+') as file:
-                    file.write("{g},{s},{arg},{counts},{countarg}\n".format(g=genus,s=source,arg=gene,counts=countsource,countarg=countbioc))
+                    file.write("{g},{cg},{s},{arg},{counts},{countarg}\n".format(g=genus,cg=counttotal,s=source,arg=gene,counts=countsource,countarg=countbioc))
         for gene in biocidelist:
             countclbioc = inputdata.query('scientific_name.str.contains("{g}") & epi_type=="clinical" & host=="Homo sapiens" '
                                           '& stress_genotypes.str.contains("{arg}")'.format(g=genus,arg=gene))['scientific_name'].count()
             with open(biocidefile, 'a+') as file:
-                file.write("{g},Clinical,{arg},{counts},{countarg}\n".format(g=genus, arg=gene, counts=clinicalsource,
+                file.write("{g},{cg},Clinical,{arg},{counts},{countarg}\n".format(g=genus,cg=counttotal, arg=gene, counts=clinicalsource,
                                                                              countarg=countclbioc))
-#remove the extra comma from the qacE, category
+#remove the extra comma from the qacE, category and change bcrB to bcrABC
 with open(biocidefile, 'r') as file:
     filedata = file.read()
 filedata = filedata.replace('qacE,','qacE')
@@ -205,19 +205,20 @@ metallist = ['ars','cad','chr','cnr','cop','cue','dps','fie','gol','kla','mco','
 with open(metalfile, 'w') as file:
     csv_file = csv.writer(file, delimiter=',')
     with open(metalfile, 'a+') as file:
-        file.write("Genus,Source,Gene,number,total\n")
+        file.write("Genus,total_genus,Source,Gene,number,total\n")
     for genus in generalist:
         print("Counting metal resistance gene presence for: ", genus)
+        counttotal = inputdata.query('scientific_name.str.contains("{g}")'.format(g=genus))['scientific_name'].count()
         for source in sourcelist:
             countsource = inputdata.query('scientific_name.str.contains("{g}") & Source=="{s}"'.format(g=genus,s=source))['scientific_name'].count()
             for gene in metallist:
                 countbioc = inputdata.query('scientific_name.str.contains("{g}") & Source=="{s}" '
                                            '& stress_genotypes.str.contains("{arg}")'.format(g=genus,s=source,arg=gene))['scientific_name'].count()
                 with open(metalfile, 'a+') as file:
-                    file.write("{g},{s},{arg},{counts},{countarg}\n".format(g=genus,s=source,arg=gene,counts=countsource,countarg=countbioc))
+                    file.write("{g},{cg},{s},{arg},{counts},{countarg}\n".format(g=genus,cg=counttotal,s=source,arg=gene,counts=countsource,countarg=countbioc))
         for gene in metallist:
             countclbioc = inputdata.query('scientific_name.str.contains("{g}") & epi_type=="clinical" & host=="Homo sapiens" '
                                           '& stress_genotypes.str.contains("{arg}")'.format(g=genus,arg=gene))['scientific_name'].count()
             with open(metalfile, 'a+') as file:
-                file.write("{g},Clinical,{arg},{counts},{countarg}\n".format(g=genus, arg=gene, counts=clinicalsource,
+                file.write("{g},{cg},Clinical,{arg},{counts},{countarg}\n".format(g=genus, cg=counttotal,arg=gene, counts=clinicalsource,
                                                                              countarg=countclbioc))
