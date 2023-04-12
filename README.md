@@ -44,7 +44,7 @@ Where IFSAC categories were not provided, isolation source for environmental/oth
 	Listeria innocua	: 2023-03-10
 	Pseudomonas aeruginosa	: 2023-03-12
 	Pseudomonas putida	: 2023-02-23
-	Salmonella spp.		: 2021-04-20
+	Salmonella spp.		: 2023-03-13
 	Staphylococcus aureus	: 2023-03-13
 	Vibrio cholerae		: 2023-03-08
 	Vibrio harveyi		: 2023-03-08
