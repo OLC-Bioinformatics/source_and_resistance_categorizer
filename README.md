@@ -53,13 +53,13 @@ Where IFSAC categories were not provided, isolation source for environmental/oth
 
 **The focus of this project was food and food products, so additional curation will be needed for other isolation sources (e.g. environment, farm, animal, food processing environments (slaughterhouse/processing), and wastewater sources).*
 
-**Where categorization exist(s) for both IFSAC and the manually curated isolation source data, the IFSAC category is output (as the priority) by the script in the final 'Source' column**
+**Where categorization exist(s) for both IFSAC and the manually curated isolation source data, the IFSAC category is output as the priority by the script in the final 'Source' column**
 
 ## Usage:
 
-Download and unpack source_and_resistance.py, sources.csv, and resistance_genes.csv files into desired folder.
+Download and unpack source_and_resistance.py, sources_IFSAC.csv, sources.csv, and resistance_genes.csv files into desired folder.
 
-This code searches through the NCBI metadata isolation_source, AMR_genotypes, and stress_genotypes columns, so if using your own csv file make sure the column headings in your file are isolation_source, AMR_genotypes, and stress_genotypes for columns containing the source, AMR genes, and biocide/metal resistance genes (respectively). Alternatively, you can just edit the python script.
+This code searches through the NCBI metadata IFSAC_category, isolation_source, AMR_genotypes, and stress_genotypes columns, so if you are using your own custom csv file make sure the column headings in your file are isolation_source, AMR_genotypes, and stress_genotypes for columns containing the source, AMR genes, and biocide/metal resistance genes (respectively). Alternatively, you can just edit the python script.
 
 \
 From command line:
@@ -90,7 +90,7 @@ Help message
 	  -o OUTFILE   Output_Filename.csv
 
 \
-The curated source data is in the provided "sources.csv" file.
+The curated source data is in the provided "sources_IFSAC.csv" and "sources.csv" files.
 
 The antimicrobial, biocide, and metal resistance gene-data was obtained from the NCBI AMRFinderPlus version 3.10 database and ReferenceGeneCatalog (available through the NCBI FTP at: https://www.ncbi.nlm.nih.gov/bioproject/PRJNA313047).
 
@@ -109,25 +109,27 @@ Feldgarden, Michael, Vyacheslav Brover, Daniel H. Haft, Arjun B. Prasad, Douglas
 
 **Animal feces -** animal fecal samples, excluding farm fecal samples (eg. Chicken house fecal) which were categorized as 'farm'. ***this category requires additional curation/additions***
 
-**Food -** mixed food products or products that can’t be easily categorized: Chilli, if type was not specified and it could refer to prepared chilli or the pepper; Spreads and cream cheese mixtures; All salads (including tuna, egg, potato, and coleslaw) that may contain mixed ingredients; hummus; guacamole; salsa; ready to eat mixed products; sandwiches; fruitcake; sushi; pasta; sauces; etc.
+**Animal Feed -** Any feed or food listed as an animal or pet food, including domestic animal food, treats, silage, and livestock feed.
 
-**Slaughterhouse/processing -** processing facilities, animal slaughterhouse environments, cutting boards, equipment. ***this category requires additional curation/additions***
+**Multi-product -** mixed food products or products that can’t be easily categorized: Chilli, if type was not specified and it could refer to prepared chilli or the pepper; Spreads and cream cheese mixtures; All salads (including tuna, egg, potato, and coleslaw) that may contain mixed ingredients; hummus; guacamole; salsa; ready to eat mixed products; sandwiches; fruitcake; sushi; pasta; sauces; etc.
+
+**Food processing environment -** processing facilities, animal slaughterhouse environments, cutting boards, equipment. ***this category requires additional curation/additions***
 
 **Plant -** any plant or part of a plant (not consumable, or not usually consumed) including leaves, roots. Plant environment was assumed to refer to "processing" plant environment, so was placed in the slaughterhouse/processing category. 
 
 **Environment -** anything listed as environment without further clarification, and/or human restaurant and household environments. Also any outdoor environments, eg. yard, ground. ***this category requires additional curation/additions***
 
+**Egg -** eggs and egg products, except for caviar which is categorized as Fish/Seafood.
+
 **Feces -** anything listed as feces, stool, diarrhia, that does not also list a specific isolation area (e.g. farm feces are categorized as farm, bovine feces are categorized as feces). ***this category requires additional curation/additions***
 
-**Feed -** Any feed or food listed as an animal or pet food, including domestic animal food, treats, silage, and livestock feed.
-
-**Fruit/vegetable -** any fruit or vegetables, including frozen and ready to eat, and mixed fruit sources. French fries listed as food.
+**Fruit/Vegetables -** any fruit or vegetables, including frozen and ready to eat, and mixed fruit sources. French fries listed as food.
 
 **Insect -** Any insect source, including fly traps from farms.
 
-**Meat -** meat products including raw and ready to eat products, sausages, hot dogs, snails, etc but excluding reptile meats and mixed products (like meat sauce, pates, and spreads)
+**Meat/Poultry -** meat and poultry products including raw and ready to eat products, sausages, hot dogs, snails, etc but excluding reptile meats and mixed products (like meat sauce, pates, and spreads)
 
-**Nuts -** nuts and nut products including nut butters. Does not include mixed products such as “sesame candy with pistachio”, which were labelled as foods.
+**Nuts/Seeds -** nuts or seeds and nut products including nut butters. Does not include mixed products such as “sesame candy with pistachio”, which were labelled as multi-product.
 
 **Fish/seafood -** Fish and seafood products, excluding mixed salads and mixed products which were categorized as foods.
 
@@ -135,6 +137,6 @@ Feldgarden, Michael, Vyacheslav Brover, Daniel H. Haft, Arjun B. Prasad, Douglas
 
 **Farm -** All farm sources including crop fields, hatcheries, water from farm, irrigation water, farm manure, litter, and bedding. ***this category requires additional curation/additions***
 
-**Spices/herbs -** Dried herbs (e.g. dried parsley), red pepper flakes, cumin, powders, etc.
+**Herbs/Spices -** Dried herbs (e.g. dried parsley), red pepper flakes, cumin, powders, etc.
 
 **Aquatic -** aquatic/sea creatures not always considered fish/seafood such as dolphins, coral, whales, and seals.
