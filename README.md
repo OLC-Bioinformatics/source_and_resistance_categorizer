@@ -20,27 +20,38 @@ The NIH/NCBI now provide IFSAC (Interagency Food Safety Analytics Collaboration 
 Where IFSAC categories were not provided, isolation source for environmental/other (epi_type) data from NCBI has been curated* for submissions up until the listed dates for the following genera/species:
 
 	Genus species		 Last Curation Date
-	Acinetobacter spp.	: 2021-04-20
-	Aeromonas spp.		: 2021-04-21
-	Campylobacter spp.	: 2021-04-20
-	Citrobacter freundii	: 2021-04-20
-	Clostridioides difficile: 2021-05-05
-	Clostridium botulinum	: 2021-04-06
-	Clostridium perfringens	: 2021-04-24
-	Enterobacter spp.	: 2021-05-05
-	Enterococcus faecalis	: 2021-04-20
-	Enterococcus faecium	: 2021-04-20
-	E. coli/Shigella	: 2021-04-20
-	Klebsiella		: 2021-05-06
-	Klebsiella oxytoca	: 2021-05-05
-	Listeria spp.		: 2021-04-20
+	Acinetobacter spp.	: 2023-03-07
+	Aeromonas spp.		: 2023-03-09
+	Aeromonas salmonicida	: 2023-03-09
+	Aeromonas sobria	: 2023-01-22
+	Aeromonas veronii	: 2023-02-18
+	Bacillus cereus		: 2023-03-13
+	Campylobacter spp.	: 2023-03-11
+	Citrobacter freundii	: 2023-03-13
+	Clostridioides difficile: 2023-03-11
+	Clostridium botulinum	: 2023-03-02
+	Clostridium perfringens	: 2023-02-28
+	Edwardsiella ictaluri	: 2023-02-24
+	Edwardsiella piscicida	: 2023-02-02
+	Edwardsiella tarda	: 2023-02-24
+	Enterobacter spp.	: 2023-03-11
+	Enterococcus faecalis	: 2023-03-13
+	Enterococcus faecium	: 2023-03-13
+	E. coli/Shigella	: 2023-03-11
+	Klebsiella spp.		: 2023-03-13
+	Klebsiella oxytoca	: 2023-03-11
+	Listeria spp.		: 2023-03-13
+	Listeria innocua	: 2023-03-10
+	Pseudomonas aeruginosa	: 2023-03-12
+	Pseudomonas putida	: 2023-02-23
 	Salmonella spp.		: 2021-04-20
-	Staphylococcus aureus	: 2021-05-12
-	Vibrio cholerae		: 2021-04-22
-	Vibrio parahaemolyticus	: 2021-05-05
-	Vibrio vulnificus	: 2021-04-22
+	Staphylococcus aureus	: 2023-03-13
+	Vibrio cholerae		: 2023-03-08
+	Vibrio harveyi		: 2023-03-08
+	Vibrio parahaemolyticus	: 2023-03-09
+	Vibrio vulnificus	: 2023-03-04
 
-**The focus of this project was food and food products, so additional curation will be needed for other isolation sources (e.g. environment, farm, animal, slaughterhouse/processing, and wastewater sources).*
+**The focus of this project was food and food products, so additional curation will be needed for other isolation sources (e.g. environment, farm, animal, food processing environments (slaughterhouse/processing), and wastewater sources).*
 
 **Where categorization exist(s) for both IFSAC and the manually curated isolation source data, the IFSAC category is output (as the priority) by the script in the final 'Source' column**
 
