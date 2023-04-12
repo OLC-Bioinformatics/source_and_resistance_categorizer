@@ -15,7 +15,7 @@ this code categorizes and assigns:
 
 \
 \
-The NIH/NCBI now provide IFSAC (Interagency Food Safety Analytics Collaboration - CDC) food categorization in the metadata files. (CDC website: https://www.cdc.gov/foodsafety/ifsac/projects/food-categorization-scheme.html). This categorization scheme was further simplified for use with this code/publication (see the sources_IFSAC.csv file).
+The NIH/NCBI now provide IFSAC (Interagency Food Safety Analytics Collaboration - CDC) food categorization in the metadata files for select genera. (CDC website: https://www.cdc.gov/foodsafety/ifsac/projects/food-categorization-scheme.html). This categorization scheme was further simplified for use with this code/publication (see the sources_IFSAC.csv file).
 
 Where IFSAC categories were not provided, isolation source for environmental/other (epi_type) data from NCBI has been curated* for submissions up until the listed dates for the following genera/species:
 
