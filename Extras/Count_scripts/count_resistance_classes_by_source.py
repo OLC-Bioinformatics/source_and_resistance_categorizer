@@ -45,7 +45,7 @@ inputdata = pandas.read_csv(args.infile)
 generalist = ['{}'.format(args.genus)]
 #print(generalist)
 
-sourcelist = ['Animal','Animal environment','Animal feces','Animal feed','Farm','Egg','Farm sewage','Fish/Seafood','Multi-product',
+sourcelist = ['Animal','Animal environment','Animal feces','Animal feed','Raw pet food','Pet food','Farm','Egg','Farm sewage','Fish/Seafood','Multi-product',
               'Meat/Poultry','Reptile','Cider','Dairy','Food processing environment','Farm water','Flour','Fruit/Vegetables','Spice/Herbs','Insect','Nuts/Seeds',
               'Plant','Sewage','Wastewater','Water','Tea']
 
@@ -160,7 +160,7 @@ with open(argfile, 'w') as file:
 #now create count files for biocide and metal genes
 biocidefile = '{g}_biocide_gene_counts.csv'.format(g=args.genus)
 biocidelist = ['qac','qacEdelta','qacC','qacE,','qacA','qacB','qacF','qacG','qacH','qacJ','qacK','qacL','qacM','sugE',
-               'bcrB','crcB','srp','smd','sde', 'lmrS','smr','ssmE','tbtR','ttgR','ttgT','mtrF', 'emrE'] #using bcrB for bcrABC
+               'bcrB','crcB','srp','smd','sde', 'lmrS','smr','ssmE','tbtR','ttg','ttgR','ttgT','mtrF', 'emrE'] #using bcrB for bcrABC
 with open(biocidefile, 'w') as file:
     csv_file = csv.writer(file, delimiter=',')
     with open(biocidefile, 'a+') as file:
@@ -191,7 +191,7 @@ with open(biocidefile, 'w') as file:
     file.write(filedata)
 
 metalfile = '{g}_metal_gene_counts.csv'.format(g=args.genus)
-metallist = ['ars','cad','chr','cnr','cop','cue','dps','fie','gol','kla','mco','mer','ncc','ncr','nir','nre','pco','sil',
+metallist = ['acr','ars','cad','chr','cnr','cop','cue','dps','fie','gol','kla','mco','mer','mrd','mre','ncc','ncr','nir','nre','pco','sil',
              'tcr','ter']
 
 with open(metalfile, 'w') as file:
