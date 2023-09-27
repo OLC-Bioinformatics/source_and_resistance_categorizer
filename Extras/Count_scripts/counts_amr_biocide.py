@@ -45,7 +45,7 @@ inputdata = pandas.read_csv(args.infile)
 generalist = ['{}'.format(args.genus)]
 #print(generalist)
 
-sourcelist = ['Animal','Animal environment','Animal feces','Animal feed','Farm','Egg','Farm sewage','Fish/Seafood','Multi-product',
+sourcelist = ['Animal','Animal environment','Animal feces','Animal feed','Raw pet food','Pet food','Farm','Egg','Farm sewage','Fish/Seafood','Multi-product',
               'Meat/Poultry','Reptile','Cider','Dairy','Food processing environment','Farm water','Flour','Fruit/Vegetables','Spice/Herbs','Insect','Nuts/Seeds',
               'Plant','Sewage','Wastewater','Water','Tea']
 
@@ -59,7 +59,7 @@ tabfile = '{g}_resistance_plus_biocide_counts.csv'.format(g=args.genus)
 with open(tabfile, 'w') as file:
     csv_file = csv.writer(file, delimiter=',') #could I avoid having to edit the lincosamide if I change this?... no
     with open(tabfile, 'a+') as file:
-        file.write("Genus,Total_genus,Source,ResClass1,ResClass2,total_from_source,Number_Class1,number_both_classes\n")
+        file.write("Genus,Total_genus,Source,Class,compare,total_from_source,number_res\n")
     for genus in generalist:
         print("Counting resistance classes for: ", genus)
         counttotal = inputdata.query('scientific_name.str.contains("{g}", na=False)'.format(g=genus))['scientific_name'].count()
@@ -68,32 +68,27 @@ with open(tabfile, 'w') as file:
             countsource = inputdata.query('scientific_name.str.contains("{g}", na=False) & Source=="{s}"'.format(g=genus,s=source))['scientific_name'].count()
             #print(genus,",",source,",", countr)
             for abxclss in clsslist:
-                amronly = inputdata.query('scientific_name.str.contains("{g}", na=False) & Source=="{s}" & Antibiotic_Class.str.contains("{c}", na=False)'.format(g=genus,s=source,c=abxclss))['scientific_name'].count()
                 countc = inputdata.query('scientific_name.str.contains("{g}", na=False) & Source=="{s}" & Antibiotic_Class.str.contains("{c}", na=False) & biocide.str.contains("biocide", na=False)'.format(g=genus,s=source,c=abxclss))['scientific_name'].count()
                 with open(tabfile, 'a+') as file:
-                    file.write("{g},{t},{s},{c},Biocide,{countt},{ao},{countc}\n".format(g=genus,t=counttotal,s=source,c=abxclss,countt=countsource,ao=amronly,countc=countc))
+                    file.write("{g},{t},{s},{c},Biocide,{countt},{countc}\n".format(g=genus,t=counttotal,s=source,c=abxclss,countt=countsource,countc=countc))
             #add in biocide data
             #countb = inputdata.query('scientific_name.str.contains("{g}", na=False) & Source=="{s}" & biocide.str.contains("biocide", na=False)'.format(g=genus,
             #                                                                                                    s=source))['scientific_name'].count()
             #with open(tabfile, 'a+') as file:
             #    file.write("{g},{t},{s},Biocide,{countt},{countb}\n".format(g=genus,t=counttotal,s=source,countt=countsource,countb=countb))
             #add in metal data
-            metalonly = inputdata.query('scientific_name.str.contains("{g}", na=False) & Source=="{s}" & Metal.str.contains("Metal", na=False)'.format(g=genus,
-                                                                                                                s=source))['scientific_name'].count()
             countm = inputdata.query('scientific_name.str.contains("{g}", na=False) & Source=="{s}" & Metal.str.contains("Metal", na=False) & biocide.str.contains("biocide", na=False)'.format(g=genus,
                                                                                                                 s=source))['scientific_name'].count()
             with open(tabfile, 'a+') as file:
-                file.write("{g},{t},{s},Metal,Biocide,{countt},{mo},{countm}\n".format(g=genus,t=counttotal,s=source,countt=countsource,mo=metalonly,countm=countm))
+                file.write("{g},{t},{s},Metal,Biocide,{countt},{countm}\n".format(g=genus,t=counttotal,s=source,countt=countsource,countm=countm))
 
 #need to add data for the clinical source
 clinicaltotal = inputdata.query('scientific_name.str.contains("{g}", na=False) & epi_type=="clinical" & host=="Homo sapiens"'.format(g=genus))['scientific_name'].count()
 for abxclss in clsslist:
-    camronly = inputdata.query('scientific_name.str.contains("{g}", na=False) & epi_type=="clinical" & '
-                                      'host=="Homo sapiens" & Antibiotic_Class.str.contains("{c}", na=False)'.format(g=genus,c=abxclss))['scientific_name'].count()
     clinicalbyclass = inputdata.query('scientific_name.str.contains("{g}", na=False) & epi_type=="clinical" & '
                                       'host=="Homo sapiens" & Antibiotic_Class.str.contains("{c}", na=False) & biocide.str.contains("biocide", na=False)'.format(g=genus,c=abxclss))['scientific_name'].count()
     with open(tabfile, 'a+') as file:
-        file.write("{g},{t},Clinical,{c},Biocide,{countt},{ao},{countc}\n".format(g=genus, t=counttotal, c=abxclss, countt=clinicaltotal,ao=camronly,countc=clinicalbyclass))
+        file.write("{g},{t},Clinical,{c},Biocide,{countt},{countc}\n".format(g=genus, t=counttotal, c=abxclss, countt=clinicaltotal,countc=clinicalbyclass))
 # add in biocide data
 #countcb = inputdata.query('scientific_name.str.contains("{g}", na=False) & epi_type=="clinical" & host=="Homo sapiens"'
 #                         '& biocide.str.contains("biocide", na=False)'.format(g=genus))['scientific_name'].count()
@@ -102,12 +97,10 @@ for abxclss in clsslist:
 #                                                                 countb=countcb))
 
 # add in metal data
-cmetalonly = inputdata.query('scientific_name.str.contains("{g}", na=False) & epi_type=="clinical" & host=="Homo sapiens"'
-                         '& Metal.str.contains("Metal", na=False)'.format(g=genus))['scientific_name'].count()
 countcm = inputdata.query('scientific_name.str.contains("{g}", na=False) & epi_type=="clinical" & host=="Homo sapiens"'
                          '& Metal.str.contains("Metal", na=False) & biocide.str.contains("biocide", na=False)'.format(g=genus))['scientific_name'].count()
 with open(tabfile, 'a+') as file:
-    file.write("{g},{t},Clinical,Metal,Biocide,{countt},{mo},{countm}\n".format(g=genus, t=counttotal, countt=clinicaltotal,mo=cmetalonly,
+    file.write("{g},{t},Clinical,Metal,Biocide,{countt},{countm}\n".format(g=genus, t=counttotal, countt=clinicaltotal,
                                                                  countm=countcm))
 
 
