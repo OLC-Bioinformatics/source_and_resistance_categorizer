@@ -229,6 +229,7 @@ InputCSV_NCBI['Source_IFSAC'] = InputCSV_NCBI['Source_IFSAC'].str.replace('Multi
 InputCSV_NCBI['Source_IFSAC'] = InputCSV_NCBI['Source_IFSAC'].str.replace('Multi-product,Plant','Plant')
 InputCSV_NCBI['Source_IFSAC'] = InputCSV_NCBI['Source_IFSAC'].str.replace('Animal envirnoment,Food processing environment','Food processing environment')
 InputCSV_NCBI['Source_IFSAC'] = InputCSV_NCBI['Source_IFSAC'].str.replace('Animal feed,Multi-product','Animal feed')
+InputCSV_NCBI['Source_IFSAC'] = InputCSV_NCBI['Source_IFSAC'].str.replace('Animal,Pet food','Pet food')
 InputCSV_NCBI['Source_IFSAC'] = InputCSV_NCBI['Source_IFSAC'].str.replace('Animal feed,Food processing environment','Food processing environment')
 InputCSV_NCBI['Source_IFSAC'] = InputCSV_NCBI['Source_IFSAC'].str.replace('Multi-product,Spice/Herbs','Spice/Herbs')
 InputCSV_NCBI['Source_IFSAC'] = InputCSV_NCBI['Source_IFSAC'].str.replace('Animal,Spice/Herbs','Spice/Herbs')
@@ -271,6 +272,12 @@ Animalfecepattern = "|".join(str(v) for v in Animalfece)
 
 Animalfeed = source2.Feed.tolist()
 Animalfeedpattern = "|".join(str(v) for v in Animalfeed)
+
+rawpetfood = source2.raw_pet_food.tolist()
+rawpetfoodpattern = "|".join(str(v) for v in rawpetfood)
+
+petfood = source2.pet_food.tolist()
+petfoodpattern = "|".join(str(v) for v in petfood)
 
 Aquatic = source2.aquatic.tolist()
 Aquaticpattern = "|".join(str(v) for v in Aquatic)
@@ -356,6 +363,12 @@ InputCSV_NCBI['Animalfece'] = InputCSV_NCBI['Animalfece'].map({True: 'Animal fec
 InputCSV_NCBI['Animalfeed'] = InputCSV_NCBI['isolation_source'].str.match(Animalfeedpattern)
 InputCSV_NCBI['Animalfeed'] = InputCSV_NCBI['Animalfeed'].map({True: 'Animal feed', False: ''})
 
+InputCSV_NCBI['raw_pet_food'] = InputCSV_NCBI['isolation_source'].str.match(rawpetfoodpattern)
+InputCSV_NCBI['raw_pet_food'] = InputCSV_NCBI['raw_pet_food'].map({True: 'Raw pet food', False: ''})
+
+InputCSV_NCBI['pet_food'] = InputCSV_NCBI['isolation_source'].str.match(petfoodpattern)
+InputCSV_NCBI['pet_food'] = InputCSV_NCBI['pet_food'].map({True: 'Pet food', False: ''})
+
 InputCSV_NCBI['Aquatic'] = InputCSV_NCBI['isolation_source'].str.match(Aquaticpattern)
 InputCSV_NCBI['Aquatic'] = InputCSV_NCBI['Aquatic'].map({True: 'Aquatic', False: ''})
 
@@ -433,6 +446,8 @@ InputCSV_NCBI['Animal'].replace('', np.nan, inplace=True)
 InputCSV_NCBI['Animalenv'].replace('', np.nan, inplace=True)
 InputCSV_NCBI['Animalfece'].replace('', np.nan, inplace=True)
 InputCSV_NCBI['Animalfeed'].replace('', np.nan, inplace=True)
+InputCSV_NCBI['raw_pet_food'].replace('', np.nan, inplace=True)
+InputCSV_NCBI['pet_food'].replace('', np.nan, inplace=True)
 InputCSV_NCBI['Aquatic'].replace('', np.nan, inplace=True)
 InputCSV_NCBI['Cider'].replace('', np.nan, inplace=True)
 InputCSV_NCBI['Dairy'].replace('', np.nan, inplace=True)
@@ -458,7 +473,7 @@ InputCSV_NCBI['Reptile'].replace('', np.nan, inplace=True)
 InputCSV_NCBI['Tea'].replace('', np.nan, inplace=True)
 
 #create a new column that concatenates all of the parsed source information into one
-InputCSV_NCBI['Source2'] = InputCSV_NCBI[['Animal','Animalenv', 'Animalfece','Animalfeed', 'Aquatic',
+InputCSV_NCBI['Source2'] = InputCSV_NCBI[['Animal','Animalenv', 'Animalfece','Animalfeed', 'raw_pet_food','pet_food','Aquatic',
                                                'Cider', 'Dairy', 'Egg', 'Farm', 'Farmsewg', 'Farmwatr', 'Flour',
                                                'Food', 'Fruitveg', 'Insect','Meat', 'Nutsseeds',
                                                'Fishseaf', 'Sewage', 'Slaughterhouse', 'Plant',
@@ -466,7 +481,7 @@ InputCSV_NCBI['Source2'] = InputCSV_NCBI[['Animal','Animalenv', 'Animalfece','An
                                                'Water', 'Reptile', 'Tea']].apply(lambda x: ','.join(x[x.notnull()]), axis=1)
 
 #remove all of the extra columns I made
-InputCSV_NCBI = InputCSV_NCBI.drop(['Animal','Animalenv', 'Animalfece', 'Animalfeed','Aquatic',
+InputCSV_NCBI = InputCSV_NCBI.drop(['Animal','Animalenv', 'Animalfece', 'Animalfeed','raw_pet_food','pet_food','Aquatic',
                                                'Cider', 'Dairy', 'Egg', 'Farm', 'Farmsewg', 'Farmwatr', 'Flour',
                                                'Food', 'Fruitveg', 'Insect','Meat', 'Nutsseeds',
                                                'Fishseaf', 'Sewage', 'Slaughterhouse', 'Plant',
@@ -518,16 +533,25 @@ InputCSV_NCBI['Source2'] = InputCSV_NCBI['Source2'].str.replace('Animal feed,Mea
 InputCSV_NCBI['Source2'] = InputCSV_NCBI['Source2'].str.replace('Sewage,Wastewater','Wastewater')
 InputCSV_NCBI['Source2'] = InputCSV_NCBI['Source2'].str.replace('Animal feces,Animal feed','Animal feces')
 InputCSV_NCBI['Source2'] = InputCSV_NCBI['Source2'].str.replace('Animal feed,Farm','Farm')
+InputCSV_NCBI['Source2'] = InputCSV_NCBI['Source2'].str.replace('Raw pet food,Meat/Poultry','Raw pet food')
+InputCSV_NCBI['Source2'] = InputCSV_NCBI['Source2'].str.replace('Pet food,Meat/Poultry','Pet food')
 InputCSV_NCBI['Source2'] = InputCSV_NCBI['Source2'].str.replace('Meat/Poultry,Food processing environment','Food processing environment')
 InputCSV_NCBI['Source2'] = InputCSV_NCBI['Source2'].str.replace('Dairy,Multi-product','Multi-product')
 InputCSV_NCBI['Source2'] = InputCSV_NCBI['Source2'].str.replace('Dairy,Fruit/Vegetables','Fruit/Vegetables')
 InputCSV_NCBI['Source2'] = InputCSV_NCBI['Source2'].str.replace('Dairy,Food processing environment','Food processing environment')
 InputCSV_NCBI['Source2'] = InputCSV_NCBI['Source2'].str.replace('Egg,Meat/Poultry','Egg')
 InputCSV_NCBI['Source2'] = InputCSV_NCBI['Source2'].str.replace('Animal,Animal feed','Animal feed')
+InputCSV_NCBI['Source2'] = InputCSV_NCBI['Source2'].str.replace('Animal,Pet food','Pet food')
+InputCSV_NCBI['Source2'] = InputCSV_NCBI['Source2'].str.replace('Animal,Raw pet food','Raw pet food')
 InputCSV_NCBI['Source2'] = InputCSV_NCBI['Source2'].str.replace('Animal environment,Fish/Seafood','Animal environment')
 InputCSV_NCBI['Source2'] = InputCSV_NCBI['Source2'].str.replace('Fish/Seafood,Water','Fish/Seafood')
 InputCSV_NCBI['Source2'] = InputCSV_NCBI['Source2'].str.replace('Aquatic,Reptile','Reptile')
 InputCSV_NCBI['Source2'] = InputCSV_NCBI['Source2'].str.replace('Animal feed,Fruit/Vegetables','Animal feed')
+InputCSV_NCBI['Source2'] = InputCSV_NCBI['Source2'].str.replace('Raw pet food,Fruit/Vegetables','Raw pet food')
+InputCSV_NCBI['Source2'] = InputCSV_NCBI['Source2'].str.replace('Pet food,Fruit/Vegetables','Pet food')
+InputCSV_NCBI['Source2'] = InputCSV_NCBI['Source2'].str.replace('Animal feed,Fish/Seafood','Animal feed')
+InputCSV_NCBI['Source2'] = InputCSV_NCBI['Source2'].str.replace('Raw pet food,Fish/Seafood','Raw pet food')
+InputCSV_NCBI['Source2'] = InputCSV_NCBI['Source2'].str.replace('Pet food,Fish/Seafood','Pet food')
 InputCSV_NCBI['Source2'] = InputCSV_NCBI['Source2'].str.replace('Animal,Fruit/Vegetables','Fruit/Vegetables')
 InputCSV_NCBI['Source2'] = InputCSV_NCBI['Source2'].str.replace('Animal environment,Water','Animal environment')
 InputCSV_NCBI['Source2'] = InputCSV_NCBI['Source2'].str.replace('Egg,Multi-product','Multi-product')
