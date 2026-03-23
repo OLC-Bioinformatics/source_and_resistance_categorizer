@@ -19,7 +19,7 @@ The NIH/NCBI now provide IFSAC (Interagency Food Safety Analytics Collaboration 
 
 Where IFSAC categories were not provided, isolation source for environmental/other (epi_type) data from NCBI has been curated* for submissions up until the listed dates for the following genera/species:
 
-	Genus species		 Last Curation Date
+	Genus species		 Last Source Curation Date
 	Acinetobacter spp.	: 2023-03-07
 	Aeromonas spp.		: 2023-03-09
 	Aeromonas salmonicida	: 2023-03-09
