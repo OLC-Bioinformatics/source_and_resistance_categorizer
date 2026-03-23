@@ -1,0 +1,1751 @@
+Genus,Source,Cluster,total_source,number
+Acinetobacter,Animal feed,vanA_YXcluster,1,0
+Acinetobacter,Animal feed,vanA_cluster,1,0
+Acinetobacter,Animal feed,vanB_YXcluster,1,0
+Acinetobacter,Animal feed,vanB_cluster,1,0
+Acinetobacter,Animal feed,vanRSPt_cluster,1,0
+Acinetobacter,Animal feed,vanGZ_cluster,1,0
+Acinetobacter,Animal feed,vanG_cluster,1,0
+Acinetobacter,Raw pet food,vanA_YXcluster,1,0
+Acinetobacter,Raw pet food,vanA_cluster,1,0
+Acinetobacter,Raw pet food,vanB_YXcluster,1,0
+Acinetobacter,Raw pet food,vanB_cluster,1,0
+Acinetobacter,Raw pet food,vanRSPt_cluster,1,0
+Acinetobacter,Raw pet food,vanGZ_cluster,1,0
+Acinetobacter,Raw pet food,vanG_cluster,1,0
+Acinetobacter,Pet food,vanA_YXcluster,0,0
+Acinetobacter,Pet food,vanA_cluster,0,0
+Acinetobacter,Pet food,vanB_YXcluster,0,0
+Acinetobacter,Pet food,vanB_cluster,0,0
+Acinetobacter,Pet food,vanRSPt_cluster,0,0
+Acinetobacter,Pet food,vanGZ_cluster,0,0
+Acinetobacter,Pet food,vanG_cluster,0,0
+Acinetobacter,Egg,vanA_YXcluster,2,0
+Acinetobacter,Egg,vanA_cluster,2,0
+Acinetobacter,Egg,vanB_YXcluster,2,0
+Acinetobacter,Egg,vanB_cluster,2,0
+Acinetobacter,Egg,vanRSPt_cluster,2,0
+Acinetobacter,Egg,vanGZ_cluster,2,0
+Acinetobacter,Egg,vanG_cluster,2,0
+Acinetobacter,Fish/Seafood,vanA_YXcluster,1,0
+Acinetobacter,Fish/Seafood,vanA_cluster,1,0
+Acinetobacter,Fish/Seafood,vanB_YXcluster,1,0
+Acinetobacter,Fish/Seafood,vanB_cluster,1,0
+Acinetobacter,Fish/Seafood,vanRSPt_cluster,1,0
+Acinetobacter,Fish/Seafood,vanGZ_cluster,1,0
+Acinetobacter,Fish/Seafood,vanG_cluster,1,0
+Acinetobacter,Multi-product,vanA_YXcluster,13,0
+Acinetobacter,Multi-product,vanA_cluster,13,0
+Acinetobacter,Multi-product,vanB_YXcluster,13,0
+Acinetobacter,Multi-product,vanB_cluster,13,0
+Acinetobacter,Multi-product,vanRSPt_cluster,13,0
+Acinetobacter,Multi-product,vanGZ_cluster,13,0
+Acinetobacter,Multi-product,vanG_cluster,13,0
+Acinetobacter,Meat/Poultry,vanA_YXcluster,3,0
+Acinetobacter,Meat/Poultry,vanA_cluster,3,0
+Acinetobacter,Meat/Poultry,vanB_YXcluster,3,0
+Acinetobacter,Meat/Poultry,vanB_cluster,3,0
+Acinetobacter,Meat/Poultry,vanRSPt_cluster,3,0
+Acinetobacter,Meat/Poultry,vanGZ_cluster,3,0
+Acinetobacter,Meat/Poultry,vanG_cluster,3,0
+Acinetobacter,Dairy,vanA_YXcluster,0,0
+Acinetobacter,Dairy,vanA_cluster,0,0
+Acinetobacter,Dairy,vanB_YXcluster,0,0
+Acinetobacter,Dairy,vanB_cluster,0,0
+Acinetobacter,Dairy,vanRSPt_cluster,0,0
+Acinetobacter,Dairy,vanGZ_cluster,0,0
+Acinetobacter,Dairy,vanG_cluster,0,0
+Acinetobacter,Fruit/Vegetables,vanA_YXcluster,4,0
+Acinetobacter,Fruit/Vegetables,vanA_cluster,4,0
+Acinetobacter,Fruit/Vegetables,vanB_YXcluster,4,0
+Acinetobacter,Fruit/Vegetables,vanB_cluster,4,0
+Acinetobacter,Fruit/Vegetables,vanRSPt_cluster,4,0
+Acinetobacter,Fruit/Vegetables,vanGZ_cluster,4,0
+Acinetobacter,Fruit/Vegetables,vanG_cluster,4,0
+Acinetobacter,Clinical,vanA_YXcluster,21905,0
+Acinetobacter,Clinical,vanA_cluster,21905,0
+Acinetobacter,Clinical,vanB_YXcluster,21905,0
+Acinetobacter,Clinical,vanB_cluster,21905,0
+Acinetobacter,Clinical,vanRSPt_cluster,21905,0
+Acinetobacter,Clinical,vanGZ_cluster,21905,0
+Acinetobacter,Clinical,vanG_cluster,21905,0
+Aeromonas,Animal feed,vanA_YXcluster,0,0
+Aeromonas,Animal feed,vanA_cluster,0,0
+Aeromonas,Animal feed,vanB_YXcluster,0,0
+Aeromonas,Animal feed,vanB_cluster,0,0
+Aeromonas,Animal feed,vanRSPt_cluster,0,0
+Aeromonas,Animal feed,vanGZ_cluster,0,0
+Aeromonas,Animal feed,vanG_cluster,0,0
+Aeromonas,Raw pet food,vanA_YXcluster,0,0
+Aeromonas,Raw pet food,vanA_cluster,0,0
+Aeromonas,Raw pet food,vanB_YXcluster,0,0
+Aeromonas,Raw pet food,vanB_cluster,0,0
+Aeromonas,Raw pet food,vanRSPt_cluster,0,0
+Aeromonas,Raw pet food,vanGZ_cluster,0,0
+Aeromonas,Raw pet food,vanG_cluster,0,0
+Aeromonas,Pet food,vanA_YXcluster,0,0
+Aeromonas,Pet food,vanA_cluster,0,0
+Aeromonas,Pet food,vanB_YXcluster,0,0
+Aeromonas,Pet food,vanB_cluster,0,0
+Aeromonas,Pet food,vanRSPt_cluster,0,0
+Aeromonas,Pet food,vanGZ_cluster,0,0
+Aeromonas,Pet food,vanG_cluster,0,0
+Aeromonas,Egg,vanA_YXcluster,0,0
+Aeromonas,Egg,vanA_cluster,0,0
+Aeromonas,Egg,vanB_YXcluster,0,0
+Aeromonas,Egg,vanB_cluster,0,0
+Aeromonas,Egg,vanRSPt_cluster,0,0
+Aeromonas,Egg,vanGZ_cluster,0,0
+Aeromonas,Egg,vanG_cluster,0,0
+Aeromonas,Fish/Seafood,vanA_YXcluster,32,0
+Aeromonas,Fish/Seafood,vanA_cluster,32,0
+Aeromonas,Fish/Seafood,vanB_YXcluster,32,0
+Aeromonas,Fish/Seafood,vanB_cluster,32,0
+Aeromonas,Fish/Seafood,vanRSPt_cluster,32,0
+Aeromonas,Fish/Seafood,vanGZ_cluster,32,0
+Aeromonas,Fish/Seafood,vanG_cluster,32,0
+Aeromonas,Multi-product,vanA_YXcluster,9,0
+Aeromonas,Multi-product,vanA_cluster,9,0
+Aeromonas,Multi-product,vanB_YXcluster,9,0
+Aeromonas,Multi-product,vanB_cluster,9,0
+Aeromonas,Multi-product,vanRSPt_cluster,9,0
+Aeromonas,Multi-product,vanGZ_cluster,9,0
+Aeromonas,Multi-product,vanG_cluster,9,0
+Aeromonas,Meat/Poultry,vanA_YXcluster,6,0
+Aeromonas,Meat/Poultry,vanA_cluster,6,0
+Aeromonas,Meat/Poultry,vanB_YXcluster,6,0
+Aeromonas,Meat/Poultry,vanB_cluster,6,0
+Aeromonas,Meat/Poultry,vanRSPt_cluster,6,0
+Aeromonas,Meat/Poultry,vanGZ_cluster,6,0
+Aeromonas,Meat/Poultry,vanG_cluster,6,0
+Aeromonas,Dairy,vanA_YXcluster,1,0
+Aeromonas,Dairy,vanA_cluster,1,0
+Aeromonas,Dairy,vanB_YXcluster,1,0
+Aeromonas,Dairy,vanB_cluster,1,0
+Aeromonas,Dairy,vanRSPt_cluster,1,0
+Aeromonas,Dairy,vanGZ_cluster,1,0
+Aeromonas,Dairy,vanG_cluster,1,0
+Aeromonas,Fruit/Vegetables,vanA_YXcluster,6,0
+Aeromonas,Fruit/Vegetables,vanA_cluster,6,0
+Aeromonas,Fruit/Vegetables,vanB_YXcluster,6,0
+Aeromonas,Fruit/Vegetables,vanB_cluster,6,0
+Aeromonas,Fruit/Vegetables,vanRSPt_cluster,6,0
+Aeromonas,Fruit/Vegetables,vanGZ_cluster,6,0
+Aeromonas,Fruit/Vegetables,vanG_cluster,6,0
+Aeromonas,Clinical,vanA_YXcluster,306,0
+Aeromonas,Clinical,vanA_cluster,306,0
+Aeromonas,Clinical,vanB_YXcluster,306,0
+Aeromonas,Clinical,vanB_cluster,306,0
+Aeromonas,Clinical,vanRSPt_cluster,306,0
+Aeromonas,Clinical,vanGZ_cluster,306,0
+Aeromonas,Clinical,vanG_cluster,306,0
+Bacillus,Animal feed,vanA_YXcluster,2,0
+Bacillus,Animal feed,vanA_cluster,2,0
+Bacillus,Animal feed,vanB_YXcluster,2,0
+Bacillus,Animal feed,vanB_cluster,2,0
+Bacillus,Animal feed,vanRSPt_cluster,2,0
+Bacillus,Animal feed,vanGZ_cluster,2,0
+Bacillus,Animal feed,vanG_cluster,2,0
+Bacillus,Raw pet food,vanA_YXcluster,0,0
+Bacillus,Raw pet food,vanA_cluster,0,0
+Bacillus,Raw pet food,vanB_YXcluster,0,0
+Bacillus,Raw pet food,vanB_cluster,0,0
+Bacillus,Raw pet food,vanRSPt_cluster,0,0
+Bacillus,Raw pet food,vanGZ_cluster,0,0
+Bacillus,Raw pet food,vanG_cluster,0,0
+Bacillus,Pet food,vanA_YXcluster,3,0
+Bacillus,Pet food,vanA_cluster,3,0
+Bacillus,Pet food,vanB_YXcluster,3,0
+Bacillus,Pet food,vanB_cluster,3,0
+Bacillus,Pet food,vanRSPt_cluster,3,0
+Bacillus,Pet food,vanGZ_cluster,3,0
+Bacillus,Pet food,vanG_cluster,3,0
+Bacillus,Egg,vanA_YXcluster,2,0
+Bacillus,Egg,vanA_cluster,2,0
+Bacillus,Egg,vanB_YXcluster,2,0
+Bacillus,Egg,vanB_cluster,2,0
+Bacillus,Egg,vanRSPt_cluster,2,0
+Bacillus,Egg,vanGZ_cluster,2,0
+Bacillus,Egg,vanG_cluster,2,0
+Bacillus,Fish/Seafood,vanA_YXcluster,25,0
+Bacillus,Fish/Seafood,vanA_cluster,25,0
+Bacillus,Fish/Seafood,vanB_YXcluster,25,0
+Bacillus,Fish/Seafood,vanB_cluster,25,0
+Bacillus,Fish/Seafood,vanRSPt_cluster,25,2
+Bacillus,Fish/Seafood,vanGZ_cluster,25,0
+Bacillus,Fish/Seafood,vanG_cluster,25,0
+Bacillus,Multi-product,vanA_YXcluster,410,0
+Bacillus,Multi-product,vanA_cluster,410,0
+Bacillus,Multi-product,vanB_YXcluster,410,0
+Bacillus,Multi-product,vanB_cluster,410,0
+Bacillus,Multi-product,vanRSPt_cluster,410,26
+Bacillus,Multi-product,vanGZ_cluster,410,0
+Bacillus,Multi-product,vanG_cluster,410,0
+Bacillus,Meat/Poultry,vanA_YXcluster,31,0
+Bacillus,Meat/Poultry,vanA_cluster,31,0
+Bacillus,Meat/Poultry,vanB_YXcluster,31,0
+Bacillus,Meat/Poultry,vanB_cluster,31,0
+Bacillus,Meat/Poultry,vanRSPt_cluster,31,4
+Bacillus,Meat/Poultry,vanGZ_cluster,31,0
+Bacillus,Meat/Poultry,vanG_cluster,31,0
+Bacillus,Dairy,vanA_YXcluster,165,0
+Bacillus,Dairy,vanA_cluster,165,0
+Bacillus,Dairy,vanB_YXcluster,165,0
+Bacillus,Dairy,vanB_cluster,165,0
+Bacillus,Dairy,vanRSPt_cluster,165,5
+Bacillus,Dairy,vanGZ_cluster,165,0
+Bacillus,Dairy,vanG_cluster,165,0
+Bacillus,Fruit/Vegetables,vanA_YXcluster,71,0
+Bacillus,Fruit/Vegetables,vanA_cluster,71,0
+Bacillus,Fruit/Vegetables,vanB_YXcluster,71,0
+Bacillus,Fruit/Vegetables,vanB_cluster,71,0
+Bacillus,Fruit/Vegetables,vanRSPt_cluster,71,9
+Bacillus,Fruit/Vegetables,vanGZ_cluster,71,0
+Bacillus,Fruit/Vegetables,vanG_cluster,71,0
+Bacillus,Clinical,vanA_YXcluster,326,0
+Bacillus,Clinical,vanA_cluster,326,0
+Bacillus,Clinical,vanB_YXcluster,326,0
+Bacillus,Clinical,vanB_cluster,326,0
+Bacillus,Clinical,vanRSPt_cluster,326,8
+Bacillus,Clinical,vanGZ_cluster,326,0
+Bacillus,Clinical,vanG_cluster,326,0
+Campylobacter,Animal feed,vanA_YXcluster,14,0
+Campylobacter,Animal feed,vanA_cluster,14,0
+Campylobacter,Animal feed,vanB_YXcluster,14,0
+Campylobacter,Animal feed,vanB_cluster,14,0
+Campylobacter,Animal feed,vanRSPt_cluster,14,0
+Campylobacter,Animal feed,vanGZ_cluster,14,0
+Campylobacter,Animal feed,vanG_cluster,14,0
+Campylobacter,Raw pet food,vanA_YXcluster,0,0
+Campylobacter,Raw pet food,vanA_cluster,0,0
+Campylobacter,Raw pet food,vanB_YXcluster,0,0
+Campylobacter,Raw pet food,vanB_cluster,0,0
+Campylobacter,Raw pet food,vanRSPt_cluster,0,0
+Campylobacter,Raw pet food,vanGZ_cluster,0,0
+Campylobacter,Raw pet food,vanG_cluster,0,0
+Campylobacter,Pet food,vanA_YXcluster,0,0
+Campylobacter,Pet food,vanA_cluster,0,0
+Campylobacter,Pet food,vanB_YXcluster,0,0
+Campylobacter,Pet food,vanB_cluster,0,0
+Campylobacter,Pet food,vanRSPt_cluster,0,0
+Campylobacter,Pet food,vanGZ_cluster,0,0
+Campylobacter,Pet food,vanG_cluster,0,0
+Campylobacter,Egg,vanA_YXcluster,17,0
+Campylobacter,Egg,vanA_cluster,17,0
+Campylobacter,Egg,vanB_YXcluster,17,0
+Campylobacter,Egg,vanB_cluster,17,0
+Campylobacter,Egg,vanRSPt_cluster,17,0
+Campylobacter,Egg,vanGZ_cluster,17,0
+Campylobacter,Egg,vanG_cluster,17,0
+Campylobacter,Fish/Seafood,vanA_YXcluster,23,0
+Campylobacter,Fish/Seafood,vanA_cluster,23,0
+Campylobacter,Fish/Seafood,vanB_YXcluster,23,0
+Campylobacter,Fish/Seafood,vanB_cluster,23,0
+Campylobacter,Fish/Seafood,vanRSPt_cluster,23,0
+Campylobacter,Fish/Seafood,vanGZ_cluster,23,0
+Campylobacter,Fish/Seafood,vanG_cluster,23,0
+Campylobacter,Multi-product,vanA_YXcluster,3045,0
+Campylobacter,Multi-product,vanA_cluster,3045,0
+Campylobacter,Multi-product,vanB_YXcluster,3045,0
+Campylobacter,Multi-product,vanB_cluster,3045,0
+Campylobacter,Multi-product,vanRSPt_cluster,3045,0
+Campylobacter,Multi-product,vanGZ_cluster,3045,0
+Campylobacter,Multi-product,vanG_cluster,3045,0
+Campylobacter,Meat/Poultry,vanA_YXcluster,30807,0
+Campylobacter,Meat/Poultry,vanA_cluster,30807,0
+Campylobacter,Meat/Poultry,vanB_YXcluster,30807,0
+Campylobacter,Meat/Poultry,vanB_cluster,30807,0
+Campylobacter,Meat/Poultry,vanRSPt_cluster,30807,0
+Campylobacter,Meat/Poultry,vanGZ_cluster,30807,0
+Campylobacter,Meat/Poultry,vanG_cluster,30807,0
+Campylobacter,Dairy,vanA_YXcluster,149,0
+Campylobacter,Dairy,vanA_cluster,149,0
+Campylobacter,Dairy,vanB_YXcluster,149,0
+Campylobacter,Dairy,vanB_cluster,149,0
+Campylobacter,Dairy,vanRSPt_cluster,149,0
+Campylobacter,Dairy,vanGZ_cluster,149,0
+Campylobacter,Dairy,vanG_cluster,149,0
+Campylobacter,Fruit/Vegetables,vanA_YXcluster,0,0
+Campylobacter,Fruit/Vegetables,vanA_cluster,0,0
+Campylobacter,Fruit/Vegetables,vanB_YXcluster,0,0
+Campylobacter,Fruit/Vegetables,vanB_cluster,0,0
+Campylobacter,Fruit/Vegetables,vanRSPt_cluster,0,0
+Campylobacter,Fruit/Vegetables,vanGZ_cluster,0,0
+Campylobacter,Fruit/Vegetables,vanG_cluster,0,0
+Campylobacter,Clinical,vanA_YXcluster,16577,0
+Campylobacter,Clinical,vanA_cluster,16577,0
+Campylobacter,Clinical,vanB_YXcluster,16577,0
+Campylobacter,Clinical,vanB_cluster,16577,0
+Campylobacter,Clinical,vanRSPt_cluster,16577,0
+Campylobacter,Clinical,vanGZ_cluster,16577,0
+Campylobacter,Clinical,vanG_cluster,16577,0
+Citrobacter,Animal feed,vanA_YXcluster,3,0
+Citrobacter,Animal feed,vanA_cluster,3,0
+Citrobacter,Animal feed,vanB_YXcluster,3,0
+Citrobacter,Animal feed,vanB_cluster,3,0
+Citrobacter,Animal feed,vanRSPt_cluster,3,0
+Citrobacter,Animal feed,vanGZ_cluster,3,0
+Citrobacter,Animal feed,vanG_cluster,3,0
+Citrobacter,Raw pet food,vanA_YXcluster,2,0
+Citrobacter,Raw pet food,vanA_cluster,2,0
+Citrobacter,Raw pet food,vanB_YXcluster,2,0
+Citrobacter,Raw pet food,vanB_cluster,2,0
+Citrobacter,Raw pet food,vanRSPt_cluster,2,0
+Citrobacter,Raw pet food,vanGZ_cluster,2,0
+Citrobacter,Raw pet food,vanG_cluster,2,0
+Citrobacter,Pet food,vanA_YXcluster,1,0
+Citrobacter,Pet food,vanA_cluster,1,0
+Citrobacter,Pet food,vanB_YXcluster,1,0
+Citrobacter,Pet food,vanB_cluster,1,0
+Citrobacter,Pet food,vanRSPt_cluster,1,0
+Citrobacter,Pet food,vanGZ_cluster,1,0
+Citrobacter,Pet food,vanG_cluster,1,0
+Citrobacter,Egg,vanA_YXcluster,0,0
+Citrobacter,Egg,vanA_cluster,0,0
+Citrobacter,Egg,vanB_YXcluster,0,0
+Citrobacter,Egg,vanB_cluster,0,0
+Citrobacter,Egg,vanRSPt_cluster,0,0
+Citrobacter,Egg,vanGZ_cluster,0,0
+Citrobacter,Egg,vanG_cluster,0,0
+Citrobacter,Fish/Seafood,vanA_YXcluster,5,0
+Citrobacter,Fish/Seafood,vanA_cluster,5,0
+Citrobacter,Fish/Seafood,vanB_YXcluster,5,0
+Citrobacter,Fish/Seafood,vanB_cluster,5,0
+Citrobacter,Fish/Seafood,vanRSPt_cluster,5,0
+Citrobacter,Fish/Seafood,vanGZ_cluster,5,0
+Citrobacter,Fish/Seafood,vanG_cluster,5,0
+Citrobacter,Multi-product,vanA_YXcluster,17,0
+Citrobacter,Multi-product,vanA_cluster,17,0
+Citrobacter,Multi-product,vanB_YXcluster,17,0
+Citrobacter,Multi-product,vanB_cluster,17,0
+Citrobacter,Multi-product,vanRSPt_cluster,17,0
+Citrobacter,Multi-product,vanGZ_cluster,17,0
+Citrobacter,Multi-product,vanG_cluster,17,0
+Citrobacter,Meat/Poultry,vanA_YXcluster,8,0
+Citrobacter,Meat/Poultry,vanA_cluster,8,0
+Citrobacter,Meat/Poultry,vanB_YXcluster,8,0
+Citrobacter,Meat/Poultry,vanB_cluster,8,0
+Citrobacter,Meat/Poultry,vanRSPt_cluster,8,0
+Citrobacter,Meat/Poultry,vanGZ_cluster,8,0
+Citrobacter,Meat/Poultry,vanG_cluster,8,0
+Citrobacter,Dairy,vanA_YXcluster,2,0
+Citrobacter,Dairy,vanA_cluster,2,0
+Citrobacter,Dairy,vanB_YXcluster,2,0
+Citrobacter,Dairy,vanB_cluster,2,0
+Citrobacter,Dairy,vanRSPt_cluster,2,0
+Citrobacter,Dairy,vanGZ_cluster,2,0
+Citrobacter,Dairy,vanG_cluster,2,0
+Citrobacter,Fruit/Vegetables,vanA_YXcluster,16,0
+Citrobacter,Fruit/Vegetables,vanA_cluster,16,0
+Citrobacter,Fruit/Vegetables,vanB_YXcluster,16,0
+Citrobacter,Fruit/Vegetables,vanB_cluster,16,0
+Citrobacter,Fruit/Vegetables,vanRSPt_cluster,16,0
+Citrobacter,Fruit/Vegetables,vanGZ_cluster,16,0
+Citrobacter,Fruit/Vegetables,vanG_cluster,16,0
+Citrobacter,Clinical,vanA_YXcluster,2013,0
+Citrobacter,Clinical,vanA_cluster,2013,0
+Citrobacter,Clinical,vanB_YXcluster,2013,0
+Citrobacter,Clinical,vanB_cluster,2013,0
+Citrobacter,Clinical,vanRSPt_cluster,2013,0
+Citrobacter,Clinical,vanGZ_cluster,2013,0
+Citrobacter,Clinical,vanG_cluster,2013,0
+Clostridioides difficile,Animal feed,vanA_YXcluster,0,0
+Clostridioides difficile,Animal feed,vanA_cluster,0,0
+Clostridioides difficile,Animal feed,vanB_YXcluster,0,0
+Clostridioides difficile,Animal feed,vanB_cluster,0,0
+Clostridioides difficile,Animal feed,vanRSPt_cluster,0,0
+Clostridioides difficile,Animal feed,vanGZ_cluster,0,0
+Clostridioides difficile,Animal feed,vanG_cluster,0,0
+Clostridioides difficile,Raw pet food,vanA_YXcluster,0,0
+Clostridioides difficile,Raw pet food,vanA_cluster,0,0
+Clostridioides difficile,Raw pet food,vanB_YXcluster,0,0
+Clostridioides difficile,Raw pet food,vanB_cluster,0,0
+Clostridioides difficile,Raw pet food,vanRSPt_cluster,0,0
+Clostridioides difficile,Raw pet food,vanGZ_cluster,0,0
+Clostridioides difficile,Raw pet food,vanG_cluster,0,0
+Clostridioides difficile,Pet food,vanA_YXcluster,0,0
+Clostridioides difficile,Pet food,vanA_cluster,0,0
+Clostridioides difficile,Pet food,vanB_YXcluster,0,0
+Clostridioides difficile,Pet food,vanB_cluster,0,0
+Clostridioides difficile,Pet food,vanRSPt_cluster,0,0
+Clostridioides difficile,Pet food,vanGZ_cluster,0,0
+Clostridioides difficile,Pet food,vanG_cluster,0,0
+Clostridioides difficile,Egg,vanA_YXcluster,0,0
+Clostridioides difficile,Egg,vanA_cluster,0,0
+Clostridioides difficile,Egg,vanB_YXcluster,0,0
+Clostridioides difficile,Egg,vanB_cluster,0,0
+Clostridioides difficile,Egg,vanRSPt_cluster,0,0
+Clostridioides difficile,Egg,vanGZ_cluster,0,0
+Clostridioides difficile,Egg,vanG_cluster,0,0
+Clostridioides difficile,Fish/Seafood,vanA_YXcluster,0,0
+Clostridioides difficile,Fish/Seafood,vanA_cluster,0,0
+Clostridioides difficile,Fish/Seafood,vanB_YXcluster,0,0
+Clostridioides difficile,Fish/Seafood,vanB_cluster,0,0
+Clostridioides difficile,Fish/Seafood,vanRSPt_cluster,0,0
+Clostridioides difficile,Fish/Seafood,vanGZ_cluster,0,0
+Clostridioides difficile,Fish/Seafood,vanG_cluster,0,0
+Clostridioides difficile,Multi-product,vanA_YXcluster,6,0
+Clostridioides difficile,Multi-product,vanA_cluster,6,0
+Clostridioides difficile,Multi-product,vanB_YXcluster,6,0
+Clostridioides difficile,Multi-product,vanB_cluster,6,0
+Clostridioides difficile,Multi-product,vanRSPt_cluster,6,0
+Clostridioides difficile,Multi-product,vanGZ_cluster,6,5
+Clostridioides difficile,Multi-product,vanG_cluster,6,5
+Clostridioides difficile,Meat/Poultry,vanA_YXcluster,41,0
+Clostridioides difficile,Meat/Poultry,vanA_cluster,41,0
+Clostridioides difficile,Meat/Poultry,vanB_YXcluster,41,0
+Clostridioides difficile,Meat/Poultry,vanB_cluster,41,0
+Clostridioides difficile,Meat/Poultry,vanRSPt_cluster,41,0
+Clostridioides difficile,Meat/Poultry,vanGZ_cluster,41,18
+Clostridioides difficile,Meat/Poultry,vanG_cluster,41,28
+Clostridioides difficile,Dairy,vanA_YXcluster,1,0
+Clostridioides difficile,Dairy,vanA_cluster,1,0
+Clostridioides difficile,Dairy,vanB_YXcluster,1,0
+Clostridioides difficile,Dairy,vanB_cluster,1,0
+Clostridioides difficile,Dairy,vanRSPt_cluster,1,0
+Clostridioides difficile,Dairy,vanGZ_cluster,1,0
+Clostridioides difficile,Dairy,vanG_cluster,1,0
+Clostridioides difficile,Fruit/Vegetables,vanA_YXcluster,46,0
+Clostridioides difficile,Fruit/Vegetables,vanA_cluster,46,0
+Clostridioides difficile,Fruit/Vegetables,vanB_YXcluster,46,0
+Clostridioides difficile,Fruit/Vegetables,vanB_cluster,46,0
+Clostridioides difficile,Fruit/Vegetables,vanRSPt_cluster,46,0
+Clostridioides difficile,Fruit/Vegetables,vanGZ_cluster,46,23
+Clostridioides difficile,Fruit/Vegetables,vanG_cluster,46,28
+Clostridioides difficile,Clinical,vanA_YXcluster,20105,0
+Clostridioides difficile,Clinical,vanA_cluster,20105,0
+Clostridioides difficile,Clinical,vanB_YXcluster,20105,0
+Clostridioides difficile,Clinical,vanB_cluster,20105,0
+Clostridioides difficile,Clinical,vanRSPt_cluster,20105,0
+Clostridioides difficile,Clinical,vanGZ_cluster,20105,13165
+Clostridioides difficile,Clinical,vanG_cluster,20105,17137
+Clostridium,Animal feed,vanA_YXcluster,9,0
+Clostridium,Animal feed,vanA_cluster,9,0
+Clostridium,Animal feed,vanB_YXcluster,9,0
+Clostridium,Animal feed,vanB_cluster,9,0
+Clostridium,Animal feed,vanRSPt_cluster,9,0
+Clostridium,Animal feed,vanGZ_cluster,9,0
+Clostridium,Animal feed,vanG_cluster,9,0
+Clostridium,Raw pet food,vanA_YXcluster,0,0
+Clostridium,Raw pet food,vanA_cluster,0,0
+Clostridium,Raw pet food,vanB_YXcluster,0,0
+Clostridium,Raw pet food,vanB_cluster,0,0
+Clostridium,Raw pet food,vanRSPt_cluster,0,0
+Clostridium,Raw pet food,vanGZ_cluster,0,0
+Clostridium,Raw pet food,vanG_cluster,0,0
+Clostridium,Pet food,vanA_YXcluster,1,0
+Clostridium,Pet food,vanA_cluster,1,0
+Clostridium,Pet food,vanB_YXcluster,1,0
+Clostridium,Pet food,vanB_cluster,1,0
+Clostridium,Pet food,vanRSPt_cluster,1,0
+Clostridium,Pet food,vanGZ_cluster,1,0
+Clostridium,Pet food,vanG_cluster,1,0
+Clostridium,Egg,vanA_YXcluster,0,0
+Clostridium,Egg,vanA_cluster,0,0
+Clostridium,Egg,vanB_YXcluster,0,0
+Clostridium,Egg,vanB_cluster,0,0
+Clostridium,Egg,vanRSPt_cluster,0,0
+Clostridium,Egg,vanGZ_cluster,0,0
+Clostridium,Egg,vanG_cluster,0,0
+Clostridium,Fish/Seafood,vanA_YXcluster,34,0
+Clostridium,Fish/Seafood,vanA_cluster,34,0
+Clostridium,Fish/Seafood,vanB_YXcluster,34,0
+Clostridium,Fish/Seafood,vanB_cluster,34,0
+Clostridium,Fish/Seafood,vanRSPt_cluster,34,0
+Clostridium,Fish/Seafood,vanGZ_cluster,34,0
+Clostridium,Fish/Seafood,vanG_cluster,34,0
+Clostridium,Multi-product,vanA_YXcluster,109,0
+Clostridium,Multi-product,vanA_cluster,109,0
+Clostridium,Multi-product,vanB_YXcluster,109,0
+Clostridium,Multi-product,vanB_cluster,109,0
+Clostridium,Multi-product,vanRSPt_cluster,109,0
+Clostridium,Multi-product,vanGZ_cluster,109,0
+Clostridium,Multi-product,vanG_cluster,109,0
+Clostridium,Meat/Poultry,vanA_YXcluster,80,0
+Clostridium,Meat/Poultry,vanA_cluster,80,0
+Clostridium,Meat/Poultry,vanB_YXcluster,80,0
+Clostridium,Meat/Poultry,vanB_cluster,80,0
+Clostridium,Meat/Poultry,vanRSPt_cluster,80,0
+Clostridium,Meat/Poultry,vanGZ_cluster,80,0
+Clostridium,Meat/Poultry,vanG_cluster,80,0
+Clostridium,Dairy,vanA_YXcluster,2,0
+Clostridium,Dairy,vanA_cluster,2,0
+Clostridium,Dairy,vanB_YXcluster,2,0
+Clostridium,Dairy,vanB_cluster,2,0
+Clostridium,Dairy,vanRSPt_cluster,2,0
+Clostridium,Dairy,vanGZ_cluster,2,0
+Clostridium,Dairy,vanG_cluster,2,0
+Clostridium,Fruit/Vegetables,vanA_YXcluster,32,0
+Clostridium,Fruit/Vegetables,vanA_cluster,32,0
+Clostridium,Fruit/Vegetables,vanB_YXcluster,32,0
+Clostridium,Fruit/Vegetables,vanB_cluster,32,0
+Clostridium,Fruit/Vegetables,vanRSPt_cluster,32,0
+Clostridium,Fruit/Vegetables,vanGZ_cluster,32,0
+Clostridium,Fruit/Vegetables,vanG_cluster,32,0
+Clostridium,Clinical,vanA_YXcluster,1268,0
+Clostridium,Clinical,vanA_cluster,1268,0
+Clostridium,Clinical,vanB_YXcluster,1268,0
+Clostridium,Clinical,vanB_cluster,1268,1
+Clostridium,Clinical,vanRSPt_cluster,1268,0
+Clostridium,Clinical,vanGZ_cluster,1268,0
+Clostridium,Clinical,vanG_cluster,1268,0
+Edwardsiella,Animal feed,vanA_YXcluster,0,0
+Edwardsiella,Animal feed,vanA_cluster,0,0
+Edwardsiella,Animal feed,vanB_YXcluster,0,0
+Edwardsiella,Animal feed,vanB_cluster,0,0
+Edwardsiella,Animal feed,vanRSPt_cluster,0,0
+Edwardsiella,Animal feed,vanGZ_cluster,0,0
+Edwardsiella,Animal feed,vanG_cluster,0,0
+Edwardsiella,Raw pet food,vanA_YXcluster,0,0
+Edwardsiella,Raw pet food,vanA_cluster,0,0
+Edwardsiella,Raw pet food,vanB_YXcluster,0,0
+Edwardsiella,Raw pet food,vanB_cluster,0,0
+Edwardsiella,Raw pet food,vanRSPt_cluster,0,0
+Edwardsiella,Raw pet food,vanGZ_cluster,0,0
+Edwardsiella,Raw pet food,vanG_cluster,0,0
+Edwardsiella,Pet food,vanA_YXcluster,0,0
+Edwardsiella,Pet food,vanA_cluster,0,0
+Edwardsiella,Pet food,vanB_YXcluster,0,0
+Edwardsiella,Pet food,vanB_cluster,0,0
+Edwardsiella,Pet food,vanRSPt_cluster,0,0
+Edwardsiella,Pet food,vanGZ_cluster,0,0
+Edwardsiella,Pet food,vanG_cluster,0,0
+Edwardsiella,Egg,vanA_YXcluster,0,0
+Edwardsiella,Egg,vanA_cluster,0,0
+Edwardsiella,Egg,vanB_YXcluster,0,0
+Edwardsiella,Egg,vanB_cluster,0,0
+Edwardsiella,Egg,vanRSPt_cluster,0,0
+Edwardsiella,Egg,vanGZ_cluster,0,0
+Edwardsiella,Egg,vanG_cluster,0,0
+Edwardsiella,Fish/Seafood,vanA_YXcluster,3,0
+Edwardsiella,Fish/Seafood,vanA_cluster,3,0
+Edwardsiella,Fish/Seafood,vanB_YXcluster,3,0
+Edwardsiella,Fish/Seafood,vanB_cluster,3,0
+Edwardsiella,Fish/Seafood,vanRSPt_cluster,3,0
+Edwardsiella,Fish/Seafood,vanGZ_cluster,3,0
+Edwardsiella,Fish/Seafood,vanG_cluster,3,0
+Edwardsiella,Multi-product,vanA_YXcluster,0,0
+Edwardsiella,Multi-product,vanA_cluster,0,0
+Edwardsiella,Multi-product,vanB_YXcluster,0,0
+Edwardsiella,Multi-product,vanB_cluster,0,0
+Edwardsiella,Multi-product,vanRSPt_cluster,0,0
+Edwardsiella,Multi-product,vanGZ_cluster,0,0
+Edwardsiella,Multi-product,vanG_cluster,0,0
+Edwardsiella,Meat/Poultry,vanA_YXcluster,0,0
+Edwardsiella,Meat/Poultry,vanA_cluster,0,0
+Edwardsiella,Meat/Poultry,vanB_YXcluster,0,0
+Edwardsiella,Meat/Poultry,vanB_cluster,0,0
+Edwardsiella,Meat/Poultry,vanRSPt_cluster,0,0
+Edwardsiella,Meat/Poultry,vanGZ_cluster,0,0
+Edwardsiella,Meat/Poultry,vanG_cluster,0,0
+Edwardsiella,Dairy,vanA_YXcluster,0,0
+Edwardsiella,Dairy,vanA_cluster,0,0
+Edwardsiella,Dairy,vanB_YXcluster,0,0
+Edwardsiella,Dairy,vanB_cluster,0,0
+Edwardsiella,Dairy,vanRSPt_cluster,0,0
+Edwardsiella,Dairy,vanGZ_cluster,0,0
+Edwardsiella,Dairy,vanG_cluster,0,0
+Edwardsiella,Fruit/Vegetables,vanA_YXcluster,0,0
+Edwardsiella,Fruit/Vegetables,vanA_cluster,0,0
+Edwardsiella,Fruit/Vegetables,vanB_YXcluster,0,0
+Edwardsiella,Fruit/Vegetables,vanB_cluster,0,0
+Edwardsiella,Fruit/Vegetables,vanRSPt_cluster,0,0
+Edwardsiella,Fruit/Vegetables,vanGZ_cluster,0,0
+Edwardsiella,Fruit/Vegetables,vanG_cluster,0,0
+Edwardsiella,Clinical,vanA_YXcluster,4,0
+Edwardsiella,Clinical,vanA_cluster,4,0
+Edwardsiella,Clinical,vanB_YXcluster,4,0
+Edwardsiella,Clinical,vanB_cluster,4,0
+Edwardsiella,Clinical,vanRSPt_cluster,4,0
+Edwardsiella,Clinical,vanGZ_cluster,4,0
+Edwardsiella,Clinical,vanG_cluster,4,0
+Enterobacter,Animal feed,vanA_YXcluster,5,0
+Enterobacter,Animal feed,vanA_cluster,5,0
+Enterobacter,Animal feed,vanB_YXcluster,5,0
+Enterobacter,Animal feed,vanB_cluster,5,0
+Enterobacter,Animal feed,vanRSPt_cluster,5,0
+Enterobacter,Animal feed,vanGZ_cluster,5,0
+Enterobacter,Animal feed,vanG_cluster,5,0
+Enterobacter,Raw pet food,vanA_YXcluster,6,0
+Enterobacter,Raw pet food,vanA_cluster,6,0
+Enterobacter,Raw pet food,vanB_YXcluster,6,0
+Enterobacter,Raw pet food,vanB_cluster,6,0
+Enterobacter,Raw pet food,vanRSPt_cluster,6,0
+Enterobacter,Raw pet food,vanGZ_cluster,6,0
+Enterobacter,Raw pet food,vanG_cluster,6,0
+Enterobacter,Pet food,vanA_YXcluster,10,0
+Enterobacter,Pet food,vanA_cluster,10,0
+Enterobacter,Pet food,vanB_YXcluster,10,0
+Enterobacter,Pet food,vanB_cluster,10,0
+Enterobacter,Pet food,vanRSPt_cluster,10,0
+Enterobacter,Pet food,vanGZ_cluster,10,0
+Enterobacter,Pet food,vanG_cluster,10,0
+Enterobacter,Egg,vanA_YXcluster,0,0
+Enterobacter,Egg,vanA_cluster,0,0
+Enterobacter,Egg,vanB_YXcluster,0,0
+Enterobacter,Egg,vanB_cluster,0,0
+Enterobacter,Egg,vanRSPt_cluster,0,0
+Enterobacter,Egg,vanGZ_cluster,0,0
+Enterobacter,Egg,vanG_cluster,0,0
+Enterobacter,Fish/Seafood,vanA_YXcluster,6,0
+Enterobacter,Fish/Seafood,vanA_cluster,6,0
+Enterobacter,Fish/Seafood,vanB_YXcluster,6,0
+Enterobacter,Fish/Seafood,vanB_cluster,6,0
+Enterobacter,Fish/Seafood,vanRSPt_cluster,6,0
+Enterobacter,Fish/Seafood,vanGZ_cluster,6,0
+Enterobacter,Fish/Seafood,vanG_cluster,6,0
+Enterobacter,Multi-product,vanA_YXcluster,11,0
+Enterobacter,Multi-product,vanA_cluster,11,0
+Enterobacter,Multi-product,vanB_YXcluster,11,0
+Enterobacter,Multi-product,vanB_cluster,11,0
+Enterobacter,Multi-product,vanRSPt_cluster,11,0
+Enterobacter,Multi-product,vanGZ_cluster,11,0
+Enterobacter,Multi-product,vanG_cluster,11,0
+Enterobacter,Meat/Poultry,vanA_YXcluster,4,0
+Enterobacter,Meat/Poultry,vanA_cluster,4,0
+Enterobacter,Meat/Poultry,vanB_YXcluster,4,0
+Enterobacter,Meat/Poultry,vanB_cluster,4,0
+Enterobacter,Meat/Poultry,vanRSPt_cluster,4,0
+Enterobacter,Meat/Poultry,vanGZ_cluster,4,0
+Enterobacter,Meat/Poultry,vanG_cluster,4,0
+Enterobacter,Dairy,vanA_YXcluster,2,0
+Enterobacter,Dairy,vanA_cluster,2,0
+Enterobacter,Dairy,vanB_YXcluster,2,0
+Enterobacter,Dairy,vanB_cluster,2,0
+Enterobacter,Dairy,vanRSPt_cluster,2,0
+Enterobacter,Dairy,vanGZ_cluster,2,0
+Enterobacter,Dairy,vanG_cluster,2,0
+Enterobacter,Fruit/Vegetables,vanA_YXcluster,32,0
+Enterobacter,Fruit/Vegetables,vanA_cluster,32,0
+Enterobacter,Fruit/Vegetables,vanB_YXcluster,32,0
+Enterobacter,Fruit/Vegetables,vanB_cluster,32,0
+Enterobacter,Fruit/Vegetables,vanRSPt_cluster,32,0
+Enterobacter,Fruit/Vegetables,vanGZ_cluster,32,0
+Enterobacter,Fruit/Vegetables,vanG_cluster,32,0
+Enterobacter,Clinical,vanA_YXcluster,9660,0
+Enterobacter,Clinical,vanA_cluster,9660,0
+Enterobacter,Clinical,vanB_YXcluster,9660,0
+Enterobacter,Clinical,vanB_cluster,9660,0
+Enterobacter,Clinical,vanRSPt_cluster,9660,0
+Enterobacter,Clinical,vanGZ_cluster,9660,0
+Enterobacter,Clinical,vanG_cluster,9660,0
+Enterococcus,Animal feed,vanA_YXcluster,2,1
+Enterococcus,Animal feed,vanA_cluster,2,1
+Enterococcus,Animal feed,vanB_YXcluster,2,0
+Enterococcus,Animal feed,vanB_cluster,2,0
+Enterococcus,Animal feed,vanRSPt_cluster,2,0
+Enterococcus,Animal feed,vanGZ_cluster,2,0
+Enterococcus,Animal feed,vanG_cluster,2,0
+Enterococcus,Raw pet food,vanA_YXcluster,13,0
+Enterococcus,Raw pet food,vanA_cluster,13,0
+Enterococcus,Raw pet food,vanB_YXcluster,13,0
+Enterococcus,Raw pet food,vanB_cluster,13,0
+Enterococcus,Raw pet food,vanRSPt_cluster,13,0
+Enterococcus,Raw pet food,vanGZ_cluster,13,0
+Enterococcus,Raw pet food,vanG_cluster,13,0
+Enterococcus,Pet food,vanA_YXcluster,21,0
+Enterococcus,Pet food,vanA_cluster,21,0
+Enterococcus,Pet food,vanB_YXcluster,21,0
+Enterococcus,Pet food,vanB_cluster,21,0
+Enterococcus,Pet food,vanRSPt_cluster,21,0
+Enterococcus,Pet food,vanGZ_cluster,21,0
+Enterococcus,Pet food,vanG_cluster,21,0
+Enterococcus,Egg,vanA_YXcluster,21,0
+Enterococcus,Egg,vanA_cluster,21,0
+Enterococcus,Egg,vanB_YXcluster,21,0
+Enterococcus,Egg,vanB_cluster,21,0
+Enterococcus,Egg,vanRSPt_cluster,21,0
+Enterococcus,Egg,vanGZ_cluster,21,0
+Enterococcus,Egg,vanG_cluster,21,0
+Enterococcus,Fish/Seafood,vanA_YXcluster,117,0
+Enterococcus,Fish/Seafood,vanA_cluster,117,1
+Enterococcus,Fish/Seafood,vanB_YXcluster,117,0
+Enterococcus,Fish/Seafood,vanB_cluster,117,0
+Enterococcus,Fish/Seafood,vanRSPt_cluster,117,0
+Enterococcus,Fish/Seafood,vanGZ_cluster,117,0
+Enterococcus,Fish/Seafood,vanG_cluster,117,0
+Enterococcus,Multi-product,vanA_YXcluster,95,3
+Enterococcus,Multi-product,vanA_cluster,95,3
+Enterococcus,Multi-product,vanB_YXcluster,95,0
+Enterococcus,Multi-product,vanB_cluster,95,0
+Enterococcus,Multi-product,vanRSPt_cluster,95,0
+Enterococcus,Multi-product,vanGZ_cluster,95,0
+Enterococcus,Multi-product,vanG_cluster,95,0
+Enterococcus,Meat/Poultry,vanA_YXcluster,538,1
+Enterococcus,Meat/Poultry,vanA_cluster,538,1
+Enterococcus,Meat/Poultry,vanB_YXcluster,538,0
+Enterococcus,Meat/Poultry,vanB_cluster,538,0
+Enterococcus,Meat/Poultry,vanRSPt_cluster,538,0
+Enterococcus,Meat/Poultry,vanGZ_cluster,538,0
+Enterococcus,Meat/Poultry,vanG_cluster,538,0
+Enterococcus,Dairy,vanA_YXcluster,118,0
+Enterococcus,Dairy,vanA_cluster,118,0
+Enterococcus,Dairy,vanB_YXcluster,118,0
+Enterococcus,Dairy,vanB_cluster,118,0
+Enterococcus,Dairy,vanRSPt_cluster,118,0
+Enterococcus,Dairy,vanGZ_cluster,118,0
+Enterococcus,Dairy,vanG_cluster,118,0
+Enterococcus,Fruit/Vegetables,vanA_YXcluster,8,0
+Enterococcus,Fruit/Vegetables,vanA_cluster,8,0
+Enterococcus,Fruit/Vegetables,vanB_YXcluster,8,0
+Enterococcus,Fruit/Vegetables,vanB_cluster,8,0
+Enterococcus,Fruit/Vegetables,vanRSPt_cluster,8,0
+Enterococcus,Fruit/Vegetables,vanGZ_cluster,8,0
+Enterococcus,Fruit/Vegetables,vanG_cluster,8,0
+Enterococcus,Clinical,vanA_YXcluster,23002,9545
+Enterococcus,Clinical,vanA_cluster,23002,12448
+Enterococcus,Clinical,vanB_YXcluster,23002,0
+Enterococcus,Clinical,vanB_cluster,23002,4651
+Enterococcus,Clinical,vanRSPt_cluster,23002,0
+Enterococcus,Clinical,vanGZ_cluster,23002,0
+Enterococcus,Clinical,vanG_cluster,23002,0
+Escherichia,Animal feed,vanA_YXcluster,116,0
+Escherichia,Animal feed,vanA_cluster,116,0
+Escherichia,Animal feed,vanB_YXcluster,116,0
+Escherichia,Animal feed,vanB_cluster,116,0
+Escherichia,Animal feed,vanRSPt_cluster,116,0
+Escherichia,Animal feed,vanGZ_cluster,116,0
+Escherichia,Animal feed,vanG_cluster,116,0
+Escherichia,Raw pet food,vanA_YXcluster,41,0
+Escherichia,Raw pet food,vanA_cluster,41,0
+Escherichia,Raw pet food,vanB_YXcluster,41,0
+Escherichia,Raw pet food,vanB_cluster,41,0
+Escherichia,Raw pet food,vanRSPt_cluster,41,0
+Escherichia,Raw pet food,vanGZ_cluster,41,0
+Escherichia,Raw pet food,vanG_cluster,41,0
+Escherichia,Pet food,vanA_YXcluster,25,0
+Escherichia,Pet food,vanA_cluster,25,0
+Escherichia,Pet food,vanB_YXcluster,25,0
+Escherichia,Pet food,vanB_cluster,25,0
+Escherichia,Pet food,vanRSPt_cluster,25,0
+Escherichia,Pet food,vanGZ_cluster,25,0
+Escherichia,Pet food,vanG_cluster,25,0
+Escherichia,Egg,vanA_YXcluster,103,0
+Escherichia,Egg,vanA_cluster,103,0
+Escherichia,Egg,vanB_YXcluster,103,0
+Escherichia,Egg,vanB_cluster,103,0
+Escherichia,Egg,vanRSPt_cluster,103,0
+Escherichia,Egg,vanGZ_cluster,103,0
+Escherichia,Egg,vanG_cluster,103,0
+Escherichia,Fish/Seafood,vanA_YXcluster,337,0
+Escherichia,Fish/Seafood,vanA_cluster,337,0
+Escherichia,Fish/Seafood,vanB_YXcluster,337,0
+Escherichia,Fish/Seafood,vanB_cluster,337,0
+Escherichia,Fish/Seafood,vanRSPt_cluster,337,0
+Escherichia,Fish/Seafood,vanGZ_cluster,337,0
+Escherichia,Fish/Seafood,vanG_cluster,337,0
+Escherichia,Multi-product,vanA_YXcluster,1541,0
+Escherichia,Multi-product,vanA_cluster,1541,0
+Escherichia,Multi-product,vanB_YXcluster,1541,0
+Escherichia,Multi-product,vanB_cluster,1541,0
+Escherichia,Multi-product,vanRSPt_cluster,1541,0
+Escherichia,Multi-product,vanGZ_cluster,1541,0
+Escherichia,Multi-product,vanG_cluster,1541,0
+Escherichia,Meat/Poultry,vanA_YXcluster,12399,0
+Escherichia,Meat/Poultry,vanA_cluster,12399,0
+Escherichia,Meat/Poultry,vanB_YXcluster,12399,0
+Escherichia,Meat/Poultry,vanB_cluster,12399,0
+Escherichia,Meat/Poultry,vanRSPt_cluster,12399,0
+Escherichia,Meat/Poultry,vanGZ_cluster,12399,0
+Escherichia,Meat/Poultry,vanG_cluster,12399,0
+Escherichia,Dairy,vanA_YXcluster,1408,0
+Escherichia,Dairy,vanA_cluster,1408,0
+Escherichia,Dairy,vanB_YXcluster,1408,0
+Escherichia,Dairy,vanB_cluster,1408,0
+Escherichia,Dairy,vanRSPt_cluster,1408,0
+Escherichia,Dairy,vanGZ_cluster,1408,0
+Escherichia,Dairy,vanG_cluster,1408,0
+Escherichia,Fruit/Vegetables,vanA_YXcluster,1373,0
+Escherichia,Fruit/Vegetables,vanA_cluster,1373,0
+Escherichia,Fruit/Vegetables,vanB_YXcluster,1373,0
+Escherichia,Fruit/Vegetables,vanB_cluster,1373,0
+Escherichia,Fruit/Vegetables,vanRSPt_cluster,1373,0
+Escherichia,Fruit/Vegetables,vanGZ_cluster,1373,0
+Escherichia,Fruit/Vegetables,vanG_cluster,1373,0
+Escherichia,Clinical,vanA_YXcluster,90808,0
+Escherichia,Clinical,vanA_cluster,90808,0
+Escherichia,Clinical,vanB_YXcluster,90808,0
+Escherichia,Clinical,vanB_cluster,90808,1
+Escherichia,Clinical,vanRSPt_cluster,90808,0
+Escherichia,Clinical,vanGZ_cluster,90808,0
+Escherichia,Clinical,vanG_cluster,90808,0
+Klebsiella,Animal feed,vanA_YXcluster,9,0
+Klebsiella,Animal feed,vanA_cluster,9,0
+Klebsiella,Animal feed,vanB_YXcluster,9,0
+Klebsiella,Animal feed,vanB_cluster,9,0
+Klebsiella,Animal feed,vanRSPt_cluster,9,0
+Klebsiella,Animal feed,vanGZ_cluster,9,0
+Klebsiella,Animal feed,vanG_cluster,9,0
+Klebsiella,Raw pet food,vanA_YXcluster,1,0
+Klebsiella,Raw pet food,vanA_cluster,1,0
+Klebsiella,Raw pet food,vanB_YXcluster,1,0
+Klebsiella,Raw pet food,vanB_cluster,1,0
+Klebsiella,Raw pet food,vanRSPt_cluster,1,0
+Klebsiella,Raw pet food,vanGZ_cluster,1,0
+Klebsiella,Raw pet food,vanG_cluster,1,0
+Klebsiella,Pet food,vanA_YXcluster,5,0
+Klebsiella,Pet food,vanA_cluster,5,0
+Klebsiella,Pet food,vanB_YXcluster,5,0
+Klebsiella,Pet food,vanB_cluster,5,0
+Klebsiella,Pet food,vanRSPt_cluster,5,0
+Klebsiella,Pet food,vanGZ_cluster,5,0
+Klebsiella,Pet food,vanG_cluster,5,0
+Klebsiella,Egg,vanA_YXcluster,1,0
+Klebsiella,Egg,vanA_cluster,1,0
+Klebsiella,Egg,vanB_YXcluster,1,0
+Klebsiella,Egg,vanB_cluster,1,0
+Klebsiella,Egg,vanRSPt_cluster,1,0
+Klebsiella,Egg,vanGZ_cluster,1,0
+Klebsiella,Egg,vanG_cluster,1,0
+Klebsiella,Fish/Seafood,vanA_YXcluster,42,0
+Klebsiella,Fish/Seafood,vanA_cluster,42,0
+Klebsiella,Fish/Seafood,vanB_YXcluster,42,0
+Klebsiella,Fish/Seafood,vanB_cluster,42,0
+Klebsiella,Fish/Seafood,vanRSPt_cluster,42,0
+Klebsiella,Fish/Seafood,vanGZ_cluster,42,0
+Klebsiella,Fish/Seafood,vanG_cluster,42,0
+Klebsiella,Multi-product,vanA_YXcluster,102,0
+Klebsiella,Multi-product,vanA_cluster,102,0
+Klebsiella,Multi-product,vanB_YXcluster,102,0
+Klebsiella,Multi-product,vanB_cluster,102,0
+Klebsiella,Multi-product,vanRSPt_cluster,102,0
+Klebsiella,Multi-product,vanGZ_cluster,102,0
+Klebsiella,Multi-product,vanG_cluster,102,0
+Klebsiella,Meat/Poultry,vanA_YXcluster,215,0
+Klebsiella,Meat/Poultry,vanA_cluster,215,0
+Klebsiella,Meat/Poultry,vanB_YXcluster,215,0
+Klebsiella,Meat/Poultry,vanB_cluster,215,0
+Klebsiella,Meat/Poultry,vanRSPt_cluster,215,0
+Klebsiella,Meat/Poultry,vanGZ_cluster,215,0
+Klebsiella,Meat/Poultry,vanG_cluster,215,0
+Klebsiella,Dairy,vanA_YXcluster,173,0
+Klebsiella,Dairy,vanA_cluster,173,0
+Klebsiella,Dairy,vanB_YXcluster,173,0
+Klebsiella,Dairy,vanB_cluster,173,0
+Klebsiella,Dairy,vanRSPt_cluster,173,0
+Klebsiella,Dairy,vanGZ_cluster,173,0
+Klebsiella,Dairy,vanG_cluster,173,0
+Klebsiella,Fruit/Vegetables,vanA_YXcluster,93,0
+Klebsiella,Fruit/Vegetables,vanA_cluster,93,0
+Klebsiella,Fruit/Vegetables,vanB_YXcluster,93,0
+Klebsiella,Fruit/Vegetables,vanB_cluster,93,0
+Klebsiella,Fruit/Vegetables,vanRSPt_cluster,93,0
+Klebsiella,Fruit/Vegetables,vanGZ_cluster,93,0
+Klebsiella,Fruit/Vegetables,vanG_cluster,93,0
+Klebsiella,Clinical,vanA_YXcluster,60726,1
+Klebsiella,Clinical,vanA_cluster,60726,1
+Klebsiella,Clinical,vanB_YXcluster,60726,0
+Klebsiella,Clinical,vanB_cluster,60726,0
+Klebsiella,Clinical,vanRSPt_cluster,60726,0
+Klebsiella,Clinical,vanGZ_cluster,60726,0
+Klebsiella,Clinical,vanG_cluster,60726,0
+Kluyvera intermedia,Animal feed,vanA_YXcluster,0,0
+Kluyvera intermedia,Animal feed,vanA_cluster,0,0
+Kluyvera intermedia,Animal feed,vanB_YXcluster,0,0
+Kluyvera intermedia,Animal feed,vanB_cluster,0,0
+Kluyvera intermedia,Animal feed,vanRSPt_cluster,0,0
+Kluyvera intermedia,Animal feed,vanGZ_cluster,0,0
+Kluyvera intermedia,Animal feed,vanG_cluster,0,0
+Kluyvera intermedia,Raw pet food,vanA_YXcluster,0,0
+Kluyvera intermedia,Raw pet food,vanA_cluster,0,0
+Kluyvera intermedia,Raw pet food,vanB_YXcluster,0,0
+Kluyvera intermedia,Raw pet food,vanB_cluster,0,0
+Kluyvera intermedia,Raw pet food,vanRSPt_cluster,0,0
+Kluyvera intermedia,Raw pet food,vanGZ_cluster,0,0
+Kluyvera intermedia,Raw pet food,vanG_cluster,0,0
+Kluyvera intermedia,Pet food,vanA_YXcluster,0,0
+Kluyvera intermedia,Pet food,vanA_cluster,0,0
+Kluyvera intermedia,Pet food,vanB_YXcluster,0,0
+Kluyvera intermedia,Pet food,vanB_cluster,0,0
+Kluyvera intermedia,Pet food,vanRSPt_cluster,0,0
+Kluyvera intermedia,Pet food,vanGZ_cluster,0,0
+Kluyvera intermedia,Pet food,vanG_cluster,0,0
+Kluyvera intermedia,Egg,vanA_YXcluster,0,0
+Kluyvera intermedia,Egg,vanA_cluster,0,0
+Kluyvera intermedia,Egg,vanB_YXcluster,0,0
+Kluyvera intermedia,Egg,vanB_cluster,0,0
+Kluyvera intermedia,Egg,vanRSPt_cluster,0,0
+Kluyvera intermedia,Egg,vanGZ_cluster,0,0
+Kluyvera intermedia,Egg,vanG_cluster,0,0
+Kluyvera intermedia,Fish/Seafood,vanA_YXcluster,1,0
+Kluyvera intermedia,Fish/Seafood,vanA_cluster,1,0
+Kluyvera intermedia,Fish/Seafood,vanB_YXcluster,1,0
+Kluyvera intermedia,Fish/Seafood,vanB_cluster,1,0
+Kluyvera intermedia,Fish/Seafood,vanRSPt_cluster,1,0
+Kluyvera intermedia,Fish/Seafood,vanGZ_cluster,1,0
+Kluyvera intermedia,Fish/Seafood,vanG_cluster,1,0
+Kluyvera intermedia,Multi-product,vanA_YXcluster,0,0
+Kluyvera intermedia,Multi-product,vanA_cluster,0,0
+Kluyvera intermedia,Multi-product,vanB_YXcluster,0,0
+Kluyvera intermedia,Multi-product,vanB_cluster,0,0
+Kluyvera intermedia,Multi-product,vanRSPt_cluster,0,0
+Kluyvera intermedia,Multi-product,vanGZ_cluster,0,0
+Kluyvera intermedia,Multi-product,vanG_cluster,0,0
+Kluyvera intermedia,Meat/Poultry,vanA_YXcluster,0,0
+Kluyvera intermedia,Meat/Poultry,vanA_cluster,0,0
+Kluyvera intermedia,Meat/Poultry,vanB_YXcluster,0,0
+Kluyvera intermedia,Meat/Poultry,vanB_cluster,0,0
+Kluyvera intermedia,Meat/Poultry,vanRSPt_cluster,0,0
+Kluyvera intermedia,Meat/Poultry,vanGZ_cluster,0,0
+Kluyvera intermedia,Meat/Poultry,vanG_cluster,0,0
+Kluyvera intermedia,Dairy,vanA_YXcluster,0,0
+Kluyvera intermedia,Dairy,vanA_cluster,0,0
+Kluyvera intermedia,Dairy,vanB_YXcluster,0,0
+Kluyvera intermedia,Dairy,vanB_cluster,0,0
+Kluyvera intermedia,Dairy,vanRSPt_cluster,0,0
+Kluyvera intermedia,Dairy,vanGZ_cluster,0,0
+Kluyvera intermedia,Dairy,vanG_cluster,0,0
+Kluyvera intermedia,Fruit/Vegetables,vanA_YXcluster,0,0
+Kluyvera intermedia,Fruit/Vegetables,vanA_cluster,0,0
+Kluyvera intermedia,Fruit/Vegetables,vanB_YXcluster,0,0
+Kluyvera intermedia,Fruit/Vegetables,vanB_cluster,0,0
+Kluyvera intermedia,Fruit/Vegetables,vanRSPt_cluster,0,0
+Kluyvera intermedia,Fruit/Vegetables,vanGZ_cluster,0,0
+Kluyvera intermedia,Fruit/Vegetables,vanG_cluster,0,0
+Kluyvera intermedia,Clinical,vanA_YXcluster,12,0
+Kluyvera intermedia,Clinical,vanA_cluster,12,0
+Kluyvera intermedia,Clinical,vanB_YXcluster,12,0
+Kluyvera intermedia,Clinical,vanB_cluster,12,0
+Kluyvera intermedia,Clinical,vanRSPt_cluster,12,0
+Kluyvera intermedia,Clinical,vanGZ_cluster,12,0
+Kluyvera intermedia,Clinical,vanG_cluster,12,0
+Kosakonia,Animal feed,vanA_YXcluster,0,0
+Kosakonia,Animal feed,vanA_cluster,0,0
+Kosakonia,Animal feed,vanB_YXcluster,0,0
+Kosakonia,Animal feed,vanB_cluster,0,0
+Kosakonia,Animal feed,vanRSPt_cluster,0,0
+Kosakonia,Animal feed,vanGZ_cluster,0,0
+Kosakonia,Animal feed,vanG_cluster,0,0
+Kosakonia,Raw pet food,vanA_YXcluster,0,0
+Kosakonia,Raw pet food,vanA_cluster,0,0
+Kosakonia,Raw pet food,vanB_YXcluster,0,0
+Kosakonia,Raw pet food,vanB_cluster,0,0
+Kosakonia,Raw pet food,vanRSPt_cluster,0,0
+Kosakonia,Raw pet food,vanGZ_cluster,0,0
+Kosakonia,Raw pet food,vanG_cluster,0,0
+Kosakonia,Pet food,vanA_YXcluster,0,0
+Kosakonia,Pet food,vanA_cluster,0,0
+Kosakonia,Pet food,vanB_YXcluster,0,0
+Kosakonia,Pet food,vanB_cluster,0,0
+Kosakonia,Pet food,vanRSPt_cluster,0,0
+Kosakonia,Pet food,vanGZ_cluster,0,0
+Kosakonia,Pet food,vanG_cluster,0,0
+Kosakonia,Egg,vanA_YXcluster,0,0
+Kosakonia,Egg,vanA_cluster,0,0
+Kosakonia,Egg,vanB_YXcluster,0,0
+Kosakonia,Egg,vanB_cluster,0,0
+Kosakonia,Egg,vanRSPt_cluster,0,0
+Kosakonia,Egg,vanGZ_cluster,0,0
+Kosakonia,Egg,vanG_cluster,0,0
+Kosakonia,Fish/Seafood,vanA_YXcluster,0,0
+Kosakonia,Fish/Seafood,vanA_cluster,0,0
+Kosakonia,Fish/Seafood,vanB_YXcluster,0,0
+Kosakonia,Fish/Seafood,vanB_cluster,0,0
+Kosakonia,Fish/Seafood,vanRSPt_cluster,0,0
+Kosakonia,Fish/Seafood,vanGZ_cluster,0,0
+Kosakonia,Fish/Seafood,vanG_cluster,0,0
+Kosakonia,Multi-product,vanA_YXcluster,0,0
+Kosakonia,Multi-product,vanA_cluster,0,0
+Kosakonia,Multi-product,vanB_YXcluster,0,0
+Kosakonia,Multi-product,vanB_cluster,0,0
+Kosakonia,Multi-product,vanRSPt_cluster,0,0
+Kosakonia,Multi-product,vanGZ_cluster,0,0
+Kosakonia,Multi-product,vanG_cluster,0,0
+Kosakonia,Meat/Poultry,vanA_YXcluster,0,0
+Kosakonia,Meat/Poultry,vanA_cluster,0,0
+Kosakonia,Meat/Poultry,vanB_YXcluster,0,0
+Kosakonia,Meat/Poultry,vanB_cluster,0,0
+Kosakonia,Meat/Poultry,vanRSPt_cluster,0,0
+Kosakonia,Meat/Poultry,vanGZ_cluster,0,0
+Kosakonia,Meat/Poultry,vanG_cluster,0,0
+Kosakonia,Dairy,vanA_YXcluster,0,0
+Kosakonia,Dairy,vanA_cluster,0,0
+Kosakonia,Dairy,vanB_YXcluster,0,0
+Kosakonia,Dairy,vanB_cluster,0,0
+Kosakonia,Dairy,vanRSPt_cluster,0,0
+Kosakonia,Dairy,vanGZ_cluster,0,0
+Kosakonia,Dairy,vanG_cluster,0,0
+Kosakonia,Fruit/Vegetables,vanA_YXcluster,0,0
+Kosakonia,Fruit/Vegetables,vanA_cluster,0,0
+Kosakonia,Fruit/Vegetables,vanB_YXcluster,0,0
+Kosakonia,Fruit/Vegetables,vanB_cluster,0,0
+Kosakonia,Fruit/Vegetables,vanRSPt_cluster,0,0
+Kosakonia,Fruit/Vegetables,vanGZ_cluster,0,0
+Kosakonia,Fruit/Vegetables,vanG_cluster,0,0
+Kosakonia,Clinical,vanA_YXcluster,0,0
+Kosakonia,Clinical,vanA_cluster,0,0
+Kosakonia,Clinical,vanB_YXcluster,0,0
+Kosakonia,Clinical,vanB_cluster,0,0
+Kosakonia,Clinical,vanRSPt_cluster,0,0
+Kosakonia,Clinical,vanGZ_cluster,0,0
+Kosakonia,Clinical,vanG_cluster,0,0
+Listeria,Animal feed,vanA_YXcluster,362,0
+Listeria,Animal feed,vanA_cluster,362,0
+Listeria,Animal feed,vanB_YXcluster,362,0
+Listeria,Animal feed,vanB_cluster,362,0
+Listeria,Animal feed,vanRSPt_cluster,362,0
+Listeria,Animal feed,vanGZ_cluster,362,0
+Listeria,Animal feed,vanG_cluster,362,0
+Listeria,Raw pet food,vanA_YXcluster,7,0
+Listeria,Raw pet food,vanA_cluster,7,0
+Listeria,Raw pet food,vanB_YXcluster,7,0
+Listeria,Raw pet food,vanB_cluster,7,0
+Listeria,Raw pet food,vanRSPt_cluster,7,0
+Listeria,Raw pet food,vanGZ_cluster,7,0
+Listeria,Raw pet food,vanG_cluster,7,0
+Listeria,Pet food,vanA_YXcluster,3,0
+Listeria,Pet food,vanA_cluster,3,0
+Listeria,Pet food,vanB_YXcluster,3,0
+Listeria,Pet food,vanB_cluster,3,0
+Listeria,Pet food,vanRSPt_cluster,3,0
+Listeria,Pet food,vanGZ_cluster,3,0
+Listeria,Pet food,vanG_cluster,3,0
+Listeria,Egg,vanA_YXcluster,13,0
+Listeria,Egg,vanA_cluster,13,0
+Listeria,Egg,vanB_YXcluster,13,0
+Listeria,Egg,vanB_cluster,13,0
+Listeria,Egg,vanRSPt_cluster,13,0
+Listeria,Egg,vanGZ_cluster,13,0
+Listeria,Egg,vanG_cluster,13,0
+Listeria,Fish/Seafood,vanA_YXcluster,933,0
+Listeria,Fish/Seafood,vanA_cluster,933,0
+Listeria,Fish/Seafood,vanB_YXcluster,933,0
+Listeria,Fish/Seafood,vanB_cluster,933,0
+Listeria,Fish/Seafood,vanRSPt_cluster,933,0
+Listeria,Fish/Seafood,vanGZ_cluster,933,0
+Listeria,Fish/Seafood,vanG_cluster,933,0
+Listeria,Multi-product,vanA_YXcluster,9783,0
+Listeria,Multi-product,vanA_cluster,9783,0
+Listeria,Multi-product,vanB_YXcluster,9783,0
+Listeria,Multi-product,vanB_cluster,9783,0
+Listeria,Multi-product,vanRSPt_cluster,9783,0
+Listeria,Multi-product,vanGZ_cluster,9783,0
+Listeria,Multi-product,vanG_cluster,9783,0
+Listeria,Meat/Poultry,vanA_YXcluster,2303,0
+Listeria,Meat/Poultry,vanA_cluster,2303,0
+Listeria,Meat/Poultry,vanB_YXcluster,2303,0
+Listeria,Meat/Poultry,vanB_cluster,2303,0
+Listeria,Meat/Poultry,vanRSPt_cluster,2303,0
+Listeria,Meat/Poultry,vanGZ_cluster,2303,0
+Listeria,Meat/Poultry,vanG_cluster,2303,0
+Listeria,Dairy,vanA_YXcluster,1488,0
+Listeria,Dairy,vanA_cluster,1488,0
+Listeria,Dairy,vanB_YXcluster,1488,0
+Listeria,Dairy,vanB_cluster,1488,0
+Listeria,Dairy,vanRSPt_cluster,1488,0
+Listeria,Dairy,vanGZ_cluster,1488,0
+Listeria,Dairy,vanG_cluster,1488,0
+Listeria,Fruit/Vegetables,vanA_YXcluster,2090,0
+Listeria,Fruit/Vegetables,vanA_cluster,2090,0
+Listeria,Fruit/Vegetables,vanB_YXcluster,2090,0
+Listeria,Fruit/Vegetables,vanB_cluster,2090,0
+Listeria,Fruit/Vegetables,vanRSPt_cluster,2090,0
+Listeria,Fruit/Vegetables,vanGZ_cluster,2090,0
+Listeria,Fruit/Vegetables,vanG_cluster,2090,0
+Listeria,Clinical,vanA_YXcluster,10218,0
+Listeria,Clinical,vanA_cluster,10218,0
+Listeria,Clinical,vanB_YXcluster,10218,0
+Listeria,Clinical,vanB_cluster,10218,0
+Listeria,Clinical,vanRSPt_cluster,10218,0
+Listeria,Clinical,vanGZ_cluster,10218,0
+Listeria,Clinical,vanG_cluster,10218,0
+Morganella,Animal feed,vanA_YXcluster,0,0
+Morganella,Animal feed,vanA_cluster,0,0
+Morganella,Animal feed,vanB_YXcluster,0,0
+Morganella,Animal feed,vanB_cluster,0,0
+Morganella,Animal feed,vanRSPt_cluster,0,0
+Morganella,Animal feed,vanGZ_cluster,0,0
+Morganella,Animal feed,vanG_cluster,0,0
+Morganella,Raw pet food,vanA_YXcluster,0,0
+Morganella,Raw pet food,vanA_cluster,0,0
+Morganella,Raw pet food,vanB_YXcluster,0,0
+Morganella,Raw pet food,vanB_cluster,0,0
+Morganella,Raw pet food,vanRSPt_cluster,0,0
+Morganella,Raw pet food,vanGZ_cluster,0,0
+Morganella,Raw pet food,vanG_cluster,0,0
+Morganella,Pet food,vanA_YXcluster,0,0
+Morganella,Pet food,vanA_cluster,0,0
+Morganella,Pet food,vanB_YXcluster,0,0
+Morganella,Pet food,vanB_cluster,0,0
+Morganella,Pet food,vanRSPt_cluster,0,0
+Morganella,Pet food,vanGZ_cluster,0,0
+Morganella,Pet food,vanG_cluster,0,0
+Morganella,Egg,vanA_YXcluster,0,0
+Morganella,Egg,vanA_cluster,0,0
+Morganella,Egg,vanB_YXcluster,0,0
+Morganella,Egg,vanB_cluster,0,0
+Morganella,Egg,vanRSPt_cluster,0,0
+Morganella,Egg,vanGZ_cluster,0,0
+Morganella,Egg,vanG_cluster,0,0
+Morganella,Fish/Seafood,vanA_YXcluster,0,0
+Morganella,Fish/Seafood,vanA_cluster,0,0
+Morganella,Fish/Seafood,vanB_YXcluster,0,0
+Morganella,Fish/Seafood,vanB_cluster,0,0
+Morganella,Fish/Seafood,vanRSPt_cluster,0,0
+Morganella,Fish/Seafood,vanGZ_cluster,0,0
+Morganella,Fish/Seafood,vanG_cluster,0,0
+Morganella,Multi-product,vanA_YXcluster,2,0
+Morganella,Multi-product,vanA_cluster,2,0
+Morganella,Multi-product,vanB_YXcluster,2,0
+Morganella,Multi-product,vanB_cluster,2,0
+Morganella,Multi-product,vanRSPt_cluster,2,0
+Morganella,Multi-product,vanGZ_cluster,2,0
+Morganella,Multi-product,vanG_cluster,2,0
+Morganella,Meat/Poultry,vanA_YXcluster,0,0
+Morganella,Meat/Poultry,vanA_cluster,0,0
+Morganella,Meat/Poultry,vanB_YXcluster,0,0
+Morganella,Meat/Poultry,vanB_cluster,0,0
+Morganella,Meat/Poultry,vanRSPt_cluster,0,0
+Morganella,Meat/Poultry,vanGZ_cluster,0,0
+Morganella,Meat/Poultry,vanG_cluster,0,0
+Morganella,Dairy,vanA_YXcluster,11,0
+Morganella,Dairy,vanA_cluster,11,0
+Morganella,Dairy,vanB_YXcluster,11,0
+Morganella,Dairy,vanB_cluster,11,0
+Morganella,Dairy,vanRSPt_cluster,11,0
+Morganella,Dairy,vanGZ_cluster,11,0
+Morganella,Dairy,vanG_cluster,11,0
+Morganella,Fruit/Vegetables,vanA_YXcluster,4,0
+Morganella,Fruit/Vegetables,vanA_cluster,4,0
+Morganella,Fruit/Vegetables,vanB_YXcluster,4,0
+Morganella,Fruit/Vegetables,vanB_cluster,4,0
+Morganella,Fruit/Vegetables,vanRSPt_cluster,4,0
+Morganella,Fruit/Vegetables,vanGZ_cluster,4,0
+Morganella,Fruit/Vegetables,vanG_cluster,4,0
+Morganella,Clinical,vanA_YXcluster,359,0
+Morganella,Clinical,vanA_cluster,359,0
+Morganella,Clinical,vanB_YXcluster,359,0
+Morganella,Clinical,vanB_cluster,359,0
+Morganella,Clinical,vanRSPt_cluster,359,0
+Morganella,Clinical,vanGZ_cluster,359,0
+Morganella,Clinical,vanG_cluster,359,0
+Providencia,Animal feed,vanA_YXcluster,0,0
+Providencia,Animal feed,vanA_cluster,0,0
+Providencia,Animal feed,vanB_YXcluster,0,0
+Providencia,Animal feed,vanB_cluster,0,0
+Providencia,Animal feed,vanRSPt_cluster,0,0
+Providencia,Animal feed,vanGZ_cluster,0,0
+Providencia,Animal feed,vanG_cluster,0,0
+Providencia,Raw pet food,vanA_YXcluster,0,0
+Providencia,Raw pet food,vanA_cluster,0,0
+Providencia,Raw pet food,vanB_YXcluster,0,0
+Providencia,Raw pet food,vanB_cluster,0,0
+Providencia,Raw pet food,vanRSPt_cluster,0,0
+Providencia,Raw pet food,vanGZ_cluster,0,0
+Providencia,Raw pet food,vanG_cluster,0,0
+Providencia,Pet food,vanA_YXcluster,0,0
+Providencia,Pet food,vanA_cluster,0,0
+Providencia,Pet food,vanB_YXcluster,0,0
+Providencia,Pet food,vanB_cluster,0,0
+Providencia,Pet food,vanRSPt_cluster,0,0
+Providencia,Pet food,vanGZ_cluster,0,0
+Providencia,Pet food,vanG_cluster,0,0
+Providencia,Egg,vanA_YXcluster,0,0
+Providencia,Egg,vanA_cluster,0,0
+Providencia,Egg,vanB_YXcluster,0,0
+Providencia,Egg,vanB_cluster,0,0
+Providencia,Egg,vanRSPt_cluster,0,0
+Providencia,Egg,vanGZ_cluster,0,0
+Providencia,Egg,vanG_cluster,0,0
+Providencia,Fish/Seafood,vanA_YXcluster,0,0
+Providencia,Fish/Seafood,vanA_cluster,0,0
+Providencia,Fish/Seafood,vanB_YXcluster,0,0
+Providencia,Fish/Seafood,vanB_cluster,0,0
+Providencia,Fish/Seafood,vanRSPt_cluster,0,0
+Providencia,Fish/Seafood,vanGZ_cluster,0,0
+Providencia,Fish/Seafood,vanG_cluster,0,0
+Providencia,Multi-product,vanA_YXcluster,0,0
+Providencia,Multi-product,vanA_cluster,0,0
+Providencia,Multi-product,vanB_YXcluster,0,0
+Providencia,Multi-product,vanB_cluster,0,0
+Providencia,Multi-product,vanRSPt_cluster,0,0
+Providencia,Multi-product,vanGZ_cluster,0,0
+Providencia,Multi-product,vanG_cluster,0,0
+Providencia,Meat/Poultry,vanA_YXcluster,0,0
+Providencia,Meat/Poultry,vanA_cluster,0,0
+Providencia,Meat/Poultry,vanB_YXcluster,0,0
+Providencia,Meat/Poultry,vanB_cluster,0,0
+Providencia,Meat/Poultry,vanRSPt_cluster,0,0
+Providencia,Meat/Poultry,vanGZ_cluster,0,0
+Providencia,Meat/Poultry,vanG_cluster,0,0
+Providencia,Dairy,vanA_YXcluster,1,0
+Providencia,Dairy,vanA_cluster,1,0
+Providencia,Dairy,vanB_YXcluster,1,0
+Providencia,Dairy,vanB_cluster,1,0
+Providencia,Dairy,vanRSPt_cluster,1,0
+Providencia,Dairy,vanGZ_cluster,1,0
+Providencia,Dairy,vanG_cluster,1,0
+Providencia,Fruit/Vegetables,vanA_YXcluster,7,0
+Providencia,Fruit/Vegetables,vanA_cluster,7,0
+Providencia,Fruit/Vegetables,vanB_YXcluster,7,0
+Providencia,Fruit/Vegetables,vanB_cluster,7,0
+Providencia,Fruit/Vegetables,vanRSPt_cluster,7,0
+Providencia,Fruit/Vegetables,vanGZ_cluster,7,0
+Providencia,Fruit/Vegetables,vanG_cluster,7,0
+Providencia,Clinical,vanA_YXcluster,490,0
+Providencia,Clinical,vanA_cluster,490,0
+Providencia,Clinical,vanB_YXcluster,490,0
+Providencia,Clinical,vanB_cluster,490,0
+Providencia,Clinical,vanRSPt_cluster,490,0
+Providencia,Clinical,vanGZ_cluster,490,0
+Providencia,Clinical,vanG_cluster,490,0
+Pseudomonas,Animal feed,vanA_YXcluster,0,0
+Pseudomonas,Animal feed,vanA_cluster,0,0
+Pseudomonas,Animal feed,vanB_YXcluster,0,0
+Pseudomonas,Animal feed,vanB_cluster,0,0
+Pseudomonas,Animal feed,vanRSPt_cluster,0,0
+Pseudomonas,Animal feed,vanGZ_cluster,0,0
+Pseudomonas,Animal feed,vanG_cluster,0,0
+Pseudomonas,Raw pet food,vanA_YXcluster,0,0
+Pseudomonas,Raw pet food,vanA_cluster,0,0
+Pseudomonas,Raw pet food,vanB_YXcluster,0,0
+Pseudomonas,Raw pet food,vanB_cluster,0,0
+Pseudomonas,Raw pet food,vanRSPt_cluster,0,0
+Pseudomonas,Raw pet food,vanGZ_cluster,0,0
+Pseudomonas,Raw pet food,vanG_cluster,0,0
+Pseudomonas,Pet food,vanA_YXcluster,0,0
+Pseudomonas,Pet food,vanA_cluster,0,0
+Pseudomonas,Pet food,vanB_YXcluster,0,0
+Pseudomonas,Pet food,vanB_cluster,0,0
+Pseudomonas,Pet food,vanRSPt_cluster,0,0
+Pseudomonas,Pet food,vanGZ_cluster,0,0
+Pseudomonas,Pet food,vanG_cluster,0,0
+Pseudomonas,Egg,vanA_YXcluster,4,0
+Pseudomonas,Egg,vanA_cluster,4,0
+Pseudomonas,Egg,vanB_YXcluster,4,0
+Pseudomonas,Egg,vanB_cluster,4,0
+Pseudomonas,Egg,vanRSPt_cluster,4,0
+Pseudomonas,Egg,vanGZ_cluster,4,0
+Pseudomonas,Egg,vanG_cluster,4,0
+Pseudomonas,Fish/Seafood,vanA_YXcluster,13,0
+Pseudomonas,Fish/Seafood,vanA_cluster,13,0
+Pseudomonas,Fish/Seafood,vanB_YXcluster,13,0
+Pseudomonas,Fish/Seafood,vanB_cluster,13,0
+Pseudomonas,Fish/Seafood,vanRSPt_cluster,13,0
+Pseudomonas,Fish/Seafood,vanGZ_cluster,13,0
+Pseudomonas,Fish/Seafood,vanG_cluster,13,0
+Pseudomonas,Multi-product,vanA_YXcluster,7,0
+Pseudomonas,Multi-product,vanA_cluster,7,0
+Pseudomonas,Multi-product,vanB_YXcluster,7,0
+Pseudomonas,Multi-product,vanB_cluster,7,0
+Pseudomonas,Multi-product,vanRSPt_cluster,7,0
+Pseudomonas,Multi-product,vanGZ_cluster,7,0
+Pseudomonas,Multi-product,vanG_cluster,7,0
+Pseudomonas,Meat/Poultry,vanA_YXcluster,111,0
+Pseudomonas,Meat/Poultry,vanA_cluster,111,0
+Pseudomonas,Meat/Poultry,vanB_YXcluster,111,0
+Pseudomonas,Meat/Poultry,vanB_cluster,111,0
+Pseudomonas,Meat/Poultry,vanRSPt_cluster,111,0
+Pseudomonas,Meat/Poultry,vanGZ_cluster,111,0
+Pseudomonas,Meat/Poultry,vanG_cluster,111,0
+Pseudomonas,Dairy,vanA_YXcluster,6,0
+Pseudomonas,Dairy,vanA_cluster,6,0
+Pseudomonas,Dairy,vanB_YXcluster,6,0
+Pseudomonas,Dairy,vanB_cluster,6,0
+Pseudomonas,Dairy,vanRSPt_cluster,6,0
+Pseudomonas,Dairy,vanGZ_cluster,6,0
+Pseudomonas,Dairy,vanG_cluster,6,0
+Pseudomonas,Fruit/Vegetables,vanA_YXcluster,35,0
+Pseudomonas,Fruit/Vegetables,vanA_cluster,35,0
+Pseudomonas,Fruit/Vegetables,vanB_YXcluster,35,0
+Pseudomonas,Fruit/Vegetables,vanB_cluster,35,0
+Pseudomonas,Fruit/Vegetables,vanRSPt_cluster,35,0
+Pseudomonas,Fruit/Vegetables,vanGZ_cluster,35,0
+Pseudomonas,Fruit/Vegetables,vanG_cluster,35,0
+Pseudomonas,Clinical,vanA_YXcluster,20547,0
+Pseudomonas,Clinical,vanA_cluster,20547,0
+Pseudomonas,Clinical,vanB_YXcluster,20547,0
+Pseudomonas,Clinical,vanB_cluster,20547,0
+Pseudomonas,Clinical,vanRSPt_cluster,20547,0
+Pseudomonas,Clinical,vanGZ_cluster,20547,0
+Pseudomonas,Clinical,vanG_cluster,20547,0
+Salmonella,Animal feed,vanA_YXcluster,1981,0
+Salmonella,Animal feed,vanA_cluster,1981,0
+Salmonella,Animal feed,vanB_YXcluster,1981,0
+Salmonella,Animal feed,vanB_cluster,1981,0
+Salmonella,Animal feed,vanRSPt_cluster,1981,0
+Salmonella,Animal feed,vanGZ_cluster,1981,0
+Salmonella,Animal feed,vanG_cluster,1981,0
+Salmonella,Raw pet food,vanA_YXcluster,28,0
+Salmonella,Raw pet food,vanA_cluster,28,0
+Salmonella,Raw pet food,vanB_YXcluster,28,0
+Salmonella,Raw pet food,vanB_cluster,28,0
+Salmonella,Raw pet food,vanRSPt_cluster,28,0
+Salmonella,Raw pet food,vanGZ_cluster,28,0
+Salmonella,Raw pet food,vanG_cluster,28,0
+Salmonella,Pet food,vanA_YXcluster,23,0
+Salmonella,Pet food,vanA_cluster,23,0
+Salmonella,Pet food,vanB_YXcluster,23,0
+Salmonella,Pet food,vanB_cluster,23,0
+Salmonella,Pet food,vanRSPt_cluster,23,0
+Salmonella,Pet food,vanGZ_cluster,23,0
+Salmonella,Pet food,vanG_cluster,23,0
+Salmonella,Egg,vanA_YXcluster,622,0
+Salmonella,Egg,vanA_cluster,622,0
+Salmonella,Egg,vanB_YXcluster,622,0
+Salmonella,Egg,vanB_cluster,622,0
+Salmonella,Egg,vanRSPt_cluster,622,0
+Salmonella,Egg,vanGZ_cluster,622,0
+Salmonella,Egg,vanG_cluster,622,0
+Salmonella,Fish/Seafood,vanA_YXcluster,2247,0
+Salmonella,Fish/Seafood,vanA_cluster,2247,0
+Salmonella,Fish/Seafood,vanB_YXcluster,2247,0
+Salmonella,Fish/Seafood,vanB_cluster,2247,0
+Salmonella,Fish/Seafood,vanRSPt_cluster,2247,0
+Salmonella,Fish/Seafood,vanGZ_cluster,2247,0
+Salmonella,Fish/Seafood,vanG_cluster,2247,0
+Salmonella,Multi-product,vanA_YXcluster,13375,0
+Salmonella,Multi-product,vanA_cluster,13375,0
+Salmonella,Multi-product,vanB_YXcluster,13375,0
+Salmonella,Multi-product,vanB_cluster,13375,0
+Salmonella,Multi-product,vanRSPt_cluster,13375,0
+Salmonella,Multi-product,vanGZ_cluster,13375,0
+Salmonella,Multi-product,vanG_cluster,13375,0
+Salmonella,Meat/Poultry,vanA_YXcluster,48436,0
+Salmonella,Meat/Poultry,vanA_cluster,48436,0
+Salmonella,Meat/Poultry,vanB_YXcluster,48436,0
+Salmonella,Meat/Poultry,vanB_cluster,48436,0
+Salmonella,Meat/Poultry,vanRSPt_cluster,48436,0
+Salmonella,Meat/Poultry,vanGZ_cluster,48436,0
+Salmonella,Meat/Poultry,vanG_cluster,48436,0
+Salmonella,Dairy,vanA_YXcluster,622,0
+Salmonella,Dairy,vanA_cluster,622,0
+Salmonella,Dairy,vanB_YXcluster,622,0
+Salmonella,Dairy,vanB_cluster,622,0
+Salmonella,Dairy,vanRSPt_cluster,622,0
+Salmonella,Dairy,vanGZ_cluster,622,0
+Salmonella,Dairy,vanG_cluster,622,0
+Salmonella,Fruit/Vegetables,vanA_YXcluster,2933,0
+Salmonella,Fruit/Vegetables,vanA_cluster,2933,0
+Salmonella,Fruit/Vegetables,vanB_YXcluster,2933,0
+Salmonella,Fruit/Vegetables,vanB_cluster,2933,0
+Salmonella,Fruit/Vegetables,vanRSPt_cluster,2933,0
+Salmonella,Fruit/Vegetables,vanGZ_cluster,2933,0
+Salmonella,Fruit/Vegetables,vanG_cluster,2933,0
+Salmonella,Clinical,vanA_YXcluster,114170,0
+Salmonella,Clinical,vanA_cluster,114170,0
+Salmonella,Clinical,vanB_YXcluster,114170,0
+Salmonella,Clinical,vanB_cluster,114170,0
+Salmonella,Clinical,vanRSPt_cluster,114170,0
+Salmonella,Clinical,vanGZ_cluster,114170,0
+Salmonella,Clinical,vanG_cluster,114170,0
+Serratia,Animal feed,vanA_YXcluster,1,0
+Serratia,Animal feed,vanA_cluster,1,0
+Serratia,Animal feed,vanB_YXcluster,1,0
+Serratia,Animal feed,vanB_cluster,1,0
+Serratia,Animal feed,vanRSPt_cluster,1,0
+Serratia,Animal feed,vanGZ_cluster,1,0
+Serratia,Animal feed,vanG_cluster,1,0
+Serratia,Raw pet food,vanA_YXcluster,1,0
+Serratia,Raw pet food,vanA_cluster,1,0
+Serratia,Raw pet food,vanB_YXcluster,1,0
+Serratia,Raw pet food,vanB_cluster,1,0
+Serratia,Raw pet food,vanRSPt_cluster,1,0
+Serratia,Raw pet food,vanGZ_cluster,1,0
+Serratia,Raw pet food,vanG_cluster,1,0
+Serratia,Pet food,vanA_YXcluster,4,0
+Serratia,Pet food,vanA_cluster,4,0
+Serratia,Pet food,vanB_YXcluster,4,0
+Serratia,Pet food,vanB_cluster,4,0
+Serratia,Pet food,vanRSPt_cluster,4,0
+Serratia,Pet food,vanGZ_cluster,4,0
+Serratia,Pet food,vanG_cluster,4,0
+Serratia,Egg,vanA_YXcluster,0,0
+Serratia,Egg,vanA_cluster,0,0
+Serratia,Egg,vanB_YXcluster,0,0
+Serratia,Egg,vanB_cluster,0,0
+Serratia,Egg,vanRSPt_cluster,0,0
+Serratia,Egg,vanGZ_cluster,0,0
+Serratia,Egg,vanG_cluster,0,0
+Serratia,Fish/Seafood,vanA_YXcluster,5,0
+Serratia,Fish/Seafood,vanA_cluster,5,0
+Serratia,Fish/Seafood,vanB_YXcluster,5,0
+Serratia,Fish/Seafood,vanB_cluster,5,0
+Serratia,Fish/Seafood,vanRSPt_cluster,5,0
+Serratia,Fish/Seafood,vanGZ_cluster,5,0
+Serratia,Fish/Seafood,vanG_cluster,5,0
+Serratia,Multi-product,vanA_YXcluster,0,0
+Serratia,Multi-product,vanA_cluster,0,0
+Serratia,Multi-product,vanB_YXcluster,0,0
+Serratia,Multi-product,vanB_cluster,0,0
+Serratia,Multi-product,vanRSPt_cluster,0,0
+Serratia,Multi-product,vanGZ_cluster,0,0
+Serratia,Multi-product,vanG_cluster,0,0
+Serratia,Meat/Poultry,vanA_YXcluster,5,0
+Serratia,Meat/Poultry,vanA_cluster,5,0
+Serratia,Meat/Poultry,vanB_YXcluster,5,0
+Serratia,Meat/Poultry,vanB_cluster,5,0
+Serratia,Meat/Poultry,vanRSPt_cluster,5,0
+Serratia,Meat/Poultry,vanGZ_cluster,5,0
+Serratia,Meat/Poultry,vanG_cluster,5,0
+Serratia,Dairy,vanA_YXcluster,7,0
+Serratia,Dairy,vanA_cluster,7,0
+Serratia,Dairy,vanB_YXcluster,7,0
+Serratia,Dairy,vanB_cluster,7,0
+Serratia,Dairy,vanRSPt_cluster,7,0
+Serratia,Dairy,vanGZ_cluster,7,0
+Serratia,Dairy,vanG_cluster,7,0
+Serratia,Fruit/Vegetables,vanA_YXcluster,58,0
+Serratia,Fruit/Vegetables,vanA_cluster,58,0
+Serratia,Fruit/Vegetables,vanB_YXcluster,58,0
+Serratia,Fruit/Vegetables,vanB_cluster,58,0
+Serratia,Fruit/Vegetables,vanRSPt_cluster,58,0
+Serratia,Fruit/Vegetables,vanGZ_cluster,58,0
+Serratia,Fruit/Vegetables,vanG_cluster,58,0
+Serratia,Clinical,vanA_YXcluster,2167,0
+Serratia,Clinical,vanA_cluster,2167,0
+Serratia,Clinical,vanB_YXcluster,2167,0
+Serratia,Clinical,vanB_cluster,2167,0
+Serratia,Clinical,vanRSPt_cluster,2167,0
+Serratia,Clinical,vanGZ_cluster,2167,0
+Serratia,Clinical,vanG_cluster,2167,0
+Shewanella algae,Animal feed,vanA_YXcluster,0,0
+Shewanella algae,Animal feed,vanA_cluster,0,0
+Shewanella algae,Animal feed,vanB_YXcluster,0,0
+Shewanella algae,Animal feed,vanB_cluster,0,0
+Shewanella algae,Animal feed,vanRSPt_cluster,0,0
+Shewanella algae,Animal feed,vanGZ_cluster,0,0
+Shewanella algae,Animal feed,vanG_cluster,0,0
+Shewanella algae,Raw pet food,vanA_YXcluster,0,0
+Shewanella algae,Raw pet food,vanA_cluster,0,0
+Shewanella algae,Raw pet food,vanB_YXcluster,0,0
+Shewanella algae,Raw pet food,vanB_cluster,0,0
+Shewanella algae,Raw pet food,vanRSPt_cluster,0,0
+Shewanella algae,Raw pet food,vanGZ_cluster,0,0
+Shewanella algae,Raw pet food,vanG_cluster,0,0
+Shewanella algae,Pet food,vanA_YXcluster,0,0
+Shewanella algae,Pet food,vanA_cluster,0,0
+Shewanella algae,Pet food,vanB_YXcluster,0,0
+Shewanella algae,Pet food,vanB_cluster,0,0
+Shewanella algae,Pet food,vanRSPt_cluster,0,0
+Shewanella algae,Pet food,vanGZ_cluster,0,0
+Shewanella algae,Pet food,vanG_cluster,0,0
+Shewanella algae,Egg,vanA_YXcluster,0,0
+Shewanella algae,Egg,vanA_cluster,0,0
+Shewanella algae,Egg,vanB_YXcluster,0,0
+Shewanella algae,Egg,vanB_cluster,0,0
+Shewanella algae,Egg,vanRSPt_cluster,0,0
+Shewanella algae,Egg,vanGZ_cluster,0,0
+Shewanella algae,Egg,vanG_cluster,0,0
+Shewanella algae,Fish/Seafood,vanA_YXcluster,4,0
+Shewanella algae,Fish/Seafood,vanA_cluster,4,0
+Shewanella algae,Fish/Seafood,vanB_YXcluster,4,0
+Shewanella algae,Fish/Seafood,vanB_cluster,4,0
+Shewanella algae,Fish/Seafood,vanRSPt_cluster,4,0
+Shewanella algae,Fish/Seafood,vanGZ_cluster,4,0
+Shewanella algae,Fish/Seafood,vanG_cluster,4,0
+Shewanella algae,Multi-product,vanA_YXcluster,1,0
+Shewanella algae,Multi-product,vanA_cluster,1,0
+Shewanella algae,Multi-product,vanB_YXcluster,1,0
+Shewanella algae,Multi-product,vanB_cluster,1,0
+Shewanella algae,Multi-product,vanRSPt_cluster,1,0
+Shewanella algae,Multi-product,vanGZ_cluster,1,0
+Shewanella algae,Multi-product,vanG_cluster,1,0
+Shewanella algae,Meat/Poultry,vanA_YXcluster,0,0
+Shewanella algae,Meat/Poultry,vanA_cluster,0,0
+Shewanella algae,Meat/Poultry,vanB_YXcluster,0,0
+Shewanella algae,Meat/Poultry,vanB_cluster,0,0
+Shewanella algae,Meat/Poultry,vanRSPt_cluster,0,0
+Shewanella algae,Meat/Poultry,vanGZ_cluster,0,0
+Shewanella algae,Meat/Poultry,vanG_cluster,0,0
+Shewanella algae,Dairy,vanA_YXcluster,0,0
+Shewanella algae,Dairy,vanA_cluster,0,0
+Shewanella algae,Dairy,vanB_YXcluster,0,0
+Shewanella algae,Dairy,vanB_cluster,0,0
+Shewanella algae,Dairy,vanRSPt_cluster,0,0
+Shewanella algae,Dairy,vanGZ_cluster,0,0
+Shewanella algae,Dairy,vanG_cluster,0,0
+Shewanella algae,Fruit/Vegetables,vanA_YXcluster,0,0
+Shewanella algae,Fruit/Vegetables,vanA_cluster,0,0
+Shewanella algae,Fruit/Vegetables,vanB_YXcluster,0,0
+Shewanella algae,Fruit/Vegetables,vanB_cluster,0,0
+Shewanella algae,Fruit/Vegetables,vanRSPt_cluster,0,0
+Shewanella algae,Fruit/Vegetables,vanGZ_cluster,0,0
+Shewanella algae,Fruit/Vegetables,vanG_cluster,0,0
+Shewanella algae,Clinical,vanA_YXcluster,76,0
+Shewanella algae,Clinical,vanA_cluster,76,0
+Shewanella algae,Clinical,vanB_YXcluster,76,0
+Shewanella algae,Clinical,vanB_cluster,76,0
+Shewanella algae,Clinical,vanRSPt_cluster,76,0
+Shewanella algae,Clinical,vanGZ_cluster,76,0
+Shewanella algae,Clinical,vanG_cluster,76,0
+Shigella,Animal feed,vanA_YXcluster,0,0
+Shigella,Animal feed,vanA_cluster,0,0
+Shigella,Animal feed,vanB_YXcluster,0,0
+Shigella,Animal feed,vanB_cluster,0,0
+Shigella,Animal feed,vanRSPt_cluster,0,0
+Shigella,Animal feed,vanGZ_cluster,0,0
+Shigella,Animal feed,vanG_cluster,0,0
+Shigella,Raw pet food,vanA_YXcluster,0,0
+Shigella,Raw pet food,vanA_cluster,0,0
+Shigella,Raw pet food,vanB_YXcluster,0,0
+Shigella,Raw pet food,vanB_cluster,0,0
+Shigella,Raw pet food,vanRSPt_cluster,0,0
+Shigella,Raw pet food,vanGZ_cluster,0,0
+Shigella,Raw pet food,vanG_cluster,0,0
+Shigella,Pet food,vanA_YXcluster,0,0
+Shigella,Pet food,vanA_cluster,0,0
+Shigella,Pet food,vanB_YXcluster,0,0
+Shigella,Pet food,vanB_cluster,0,0
+Shigella,Pet food,vanRSPt_cluster,0,0
+Shigella,Pet food,vanGZ_cluster,0,0
+Shigella,Pet food,vanG_cluster,0,0
+Shigella,Egg,vanA_YXcluster,0,0
+Shigella,Egg,vanA_cluster,0,0
+Shigella,Egg,vanB_YXcluster,0,0
+Shigella,Egg,vanB_cluster,0,0
+Shigella,Egg,vanRSPt_cluster,0,0
+Shigella,Egg,vanGZ_cluster,0,0
+Shigella,Egg,vanG_cluster,0,0
+Shigella,Fish/Seafood,vanA_YXcluster,2,0
+Shigella,Fish/Seafood,vanA_cluster,2,0
+Shigella,Fish/Seafood,vanB_YXcluster,2,0
+Shigella,Fish/Seafood,vanB_cluster,2,0
+Shigella,Fish/Seafood,vanRSPt_cluster,2,0
+Shigella,Fish/Seafood,vanGZ_cluster,2,0
+Shigella,Fish/Seafood,vanG_cluster,2,0
+Shigella,Multi-product,vanA_YXcluster,6,0
+Shigella,Multi-product,vanA_cluster,6,0
+Shigella,Multi-product,vanB_YXcluster,6,0
+Shigella,Multi-product,vanB_cluster,6,0
+Shigella,Multi-product,vanRSPt_cluster,6,0
+Shigella,Multi-product,vanGZ_cluster,6,0
+Shigella,Multi-product,vanG_cluster,6,0
+Shigella,Meat/Poultry,vanA_YXcluster,5,0
+Shigella,Meat/Poultry,vanA_cluster,5,0
+Shigella,Meat/Poultry,vanB_YXcluster,5,0
+Shigella,Meat/Poultry,vanB_cluster,5,0
+Shigella,Meat/Poultry,vanRSPt_cluster,5,0
+Shigella,Meat/Poultry,vanGZ_cluster,5,0
+Shigella,Meat/Poultry,vanG_cluster,5,0
+Shigella,Dairy,vanA_YXcluster,0,0
+Shigella,Dairy,vanA_cluster,0,0
+Shigella,Dairy,vanB_YXcluster,0,0
+Shigella,Dairy,vanB_cluster,0,0
+Shigella,Dairy,vanRSPt_cluster,0,0
+Shigella,Dairy,vanGZ_cluster,0,0
+Shigella,Dairy,vanG_cluster,0,0
+Shigella,Fruit/Vegetables,vanA_YXcluster,1,0
+Shigella,Fruit/Vegetables,vanA_cluster,1,0
+Shigella,Fruit/Vegetables,vanB_YXcluster,1,0
+Shigella,Fruit/Vegetables,vanB_cluster,1,0
+Shigella,Fruit/Vegetables,vanRSPt_cluster,1,0
+Shigella,Fruit/Vegetables,vanGZ_cluster,1,0
+Shigella,Fruit/Vegetables,vanG_cluster,1,0
+Shigella,Clinical,vanA_YXcluster,17281,0
+Shigella,Clinical,vanA_cluster,17281,0
+Shigella,Clinical,vanB_YXcluster,17281,0
+Shigella,Clinical,vanB_cluster,17281,0
+Shigella,Clinical,vanRSPt_cluster,17281,0
+Shigella,Clinical,vanGZ_cluster,17281,0
+Shigella,Clinical,vanG_cluster,17281,0
+Staphylococcus,Animal feed,vanA_YXcluster,0,0
+Staphylococcus,Animal feed,vanA_cluster,0,0
+Staphylococcus,Animal feed,vanB_YXcluster,0,0
+Staphylococcus,Animal feed,vanB_cluster,0,0
+Staphylococcus,Animal feed,vanRSPt_cluster,0,0
+Staphylococcus,Animal feed,vanGZ_cluster,0,0
+Staphylococcus,Animal feed,vanG_cluster,0,0
+Staphylococcus,Raw pet food,vanA_YXcluster,0,0
+Staphylococcus,Raw pet food,vanA_cluster,0,0
+Staphylococcus,Raw pet food,vanB_YXcluster,0,0
+Staphylococcus,Raw pet food,vanB_cluster,0,0
+Staphylococcus,Raw pet food,vanRSPt_cluster,0,0
+Staphylococcus,Raw pet food,vanGZ_cluster,0,0
+Staphylococcus,Raw pet food,vanG_cluster,0,0
+Staphylococcus,Pet food,vanA_YXcluster,1,0
+Staphylococcus,Pet food,vanA_cluster,1,0
+Staphylococcus,Pet food,vanB_YXcluster,1,0
+Staphylococcus,Pet food,vanB_cluster,1,0
+Staphylococcus,Pet food,vanRSPt_cluster,1,0
+Staphylococcus,Pet food,vanGZ_cluster,1,0
+Staphylococcus,Pet food,vanG_cluster,1,0
+Staphylococcus,Egg,vanA_YXcluster,0,0
+Staphylococcus,Egg,vanA_cluster,0,0
+Staphylococcus,Egg,vanB_YXcluster,0,0
+Staphylococcus,Egg,vanB_cluster,0,0
+Staphylococcus,Egg,vanRSPt_cluster,0,0
+Staphylococcus,Egg,vanGZ_cluster,0,0
+Staphylococcus,Egg,vanG_cluster,0,0
+Staphylococcus,Fish/Seafood,vanA_YXcluster,31,0
+Staphylococcus,Fish/Seafood,vanA_cluster,31,0
+Staphylococcus,Fish/Seafood,vanB_YXcluster,31,0
+Staphylococcus,Fish/Seafood,vanB_cluster,31,0
+Staphylococcus,Fish/Seafood,vanRSPt_cluster,31,0
+Staphylococcus,Fish/Seafood,vanGZ_cluster,31,0
+Staphylococcus,Fish/Seafood,vanG_cluster,31,0
+Staphylococcus,Multi-product,vanA_YXcluster,891,0
+Staphylococcus,Multi-product,vanA_cluster,891,0
+Staphylococcus,Multi-product,vanB_YXcluster,891,0
+Staphylococcus,Multi-product,vanB_cluster,891,0
+Staphylococcus,Multi-product,vanRSPt_cluster,891,0
+Staphylococcus,Multi-product,vanGZ_cluster,891,0
+Staphylococcus,Multi-product,vanG_cluster,891,0
+Staphylococcus,Meat/Poultry,vanA_YXcluster,246,0
+Staphylococcus,Meat/Poultry,vanA_cluster,246,0
+Staphylococcus,Meat/Poultry,vanB_YXcluster,246,0
+Staphylococcus,Meat/Poultry,vanB_cluster,246,0
+Staphylococcus,Meat/Poultry,vanRSPt_cluster,246,0
+Staphylococcus,Meat/Poultry,vanGZ_cluster,246,0
+Staphylococcus,Meat/Poultry,vanG_cluster,246,0
+Staphylococcus,Dairy,vanA_YXcluster,1408,0
+Staphylococcus,Dairy,vanA_cluster,1408,0
+Staphylococcus,Dairy,vanB_YXcluster,1408,0
+Staphylococcus,Dairy,vanB_cluster,1408,0
+Staphylococcus,Dairy,vanRSPt_cluster,1408,0
+Staphylococcus,Dairy,vanGZ_cluster,1408,0
+Staphylococcus,Dairy,vanG_cluster,1408,0
+Staphylococcus,Fruit/Vegetables,vanA_YXcluster,38,0
+Staphylococcus,Fruit/Vegetables,vanA_cluster,38,0
+Staphylococcus,Fruit/Vegetables,vanB_YXcluster,38,0
+Staphylococcus,Fruit/Vegetables,vanB_cluster,38,0
+Staphylococcus,Fruit/Vegetables,vanRSPt_cluster,38,0
+Staphylococcus,Fruit/Vegetables,vanGZ_cluster,38,0
+Staphylococcus,Fruit/Vegetables,vanG_cluster,38,0
+Staphylococcus,Clinical,vanA_YXcluster,72276,26
+Staphylococcus,Clinical,vanA_cluster,72276,26
+Staphylococcus,Clinical,vanB_YXcluster,72276,0
+Staphylococcus,Clinical,vanB_cluster,72276,0
+Staphylococcus,Clinical,vanRSPt_cluster,72276,0
+Staphylococcus,Clinical,vanGZ_cluster,72276,0
+Staphylococcus,Clinical,vanG_cluster,72276,0
+Stenotrophomonas maltophilia,Animal feed,vanA_YXcluster,0,0
+Stenotrophomonas maltophilia,Animal feed,vanA_cluster,0,0
+Stenotrophomonas maltophilia,Animal feed,vanB_YXcluster,0,0
+Stenotrophomonas maltophilia,Animal feed,vanB_cluster,0,0
+Stenotrophomonas maltophilia,Animal feed,vanRSPt_cluster,0,0
+Stenotrophomonas maltophilia,Animal feed,vanGZ_cluster,0,0
+Stenotrophomonas maltophilia,Animal feed,vanG_cluster,0,0
+Stenotrophomonas maltophilia,Raw pet food,vanA_YXcluster,0,0
+Stenotrophomonas maltophilia,Raw pet food,vanA_cluster,0,0
+Stenotrophomonas maltophilia,Raw pet food,vanB_YXcluster,0,0
+Stenotrophomonas maltophilia,Raw pet food,vanB_cluster,0,0
+Stenotrophomonas maltophilia,Raw pet food,vanRSPt_cluster,0,0
+Stenotrophomonas maltophilia,Raw pet food,vanGZ_cluster,0,0
+Stenotrophomonas maltophilia,Raw pet food,vanG_cluster,0,0
+Stenotrophomonas maltophilia,Pet food,vanA_YXcluster,0,0
+Stenotrophomonas maltophilia,Pet food,vanA_cluster,0,0
+Stenotrophomonas maltophilia,Pet food,vanB_YXcluster,0,0
+Stenotrophomonas maltophilia,Pet food,vanB_cluster,0,0
+Stenotrophomonas maltophilia,Pet food,vanRSPt_cluster,0,0
+Stenotrophomonas maltophilia,Pet food,vanGZ_cluster,0,0
+Stenotrophomonas maltophilia,Pet food,vanG_cluster,0,0
+Stenotrophomonas maltophilia,Egg,vanA_YXcluster,0,0
+Stenotrophomonas maltophilia,Egg,vanA_cluster,0,0
+Stenotrophomonas maltophilia,Egg,vanB_YXcluster,0,0
+Stenotrophomonas maltophilia,Egg,vanB_cluster,0,0
+Stenotrophomonas maltophilia,Egg,vanRSPt_cluster,0,0
+Stenotrophomonas maltophilia,Egg,vanGZ_cluster,0,0
+Stenotrophomonas maltophilia,Egg,vanG_cluster,0,0
+Stenotrophomonas maltophilia,Fish/Seafood,vanA_YXcluster,0,0
+Stenotrophomonas maltophilia,Fish/Seafood,vanA_cluster,0,0
+Stenotrophomonas maltophilia,Fish/Seafood,vanB_YXcluster,0,0
+Stenotrophomonas maltophilia,Fish/Seafood,vanB_cluster,0,0
+Stenotrophomonas maltophilia,Fish/Seafood,vanRSPt_cluster,0,0
+Stenotrophomonas maltophilia,Fish/Seafood,vanGZ_cluster,0,0
+Stenotrophomonas maltophilia,Fish/Seafood,vanG_cluster,0,0
+Stenotrophomonas maltophilia,Multi-product,vanA_YXcluster,0,0
+Stenotrophomonas maltophilia,Multi-product,vanA_cluster,0,0
+Stenotrophomonas maltophilia,Multi-product,vanB_YXcluster,0,0
+Stenotrophomonas maltophilia,Multi-product,vanB_cluster,0,0
+Stenotrophomonas maltophilia,Multi-product,vanRSPt_cluster,0,0
+Stenotrophomonas maltophilia,Multi-product,vanGZ_cluster,0,0
+Stenotrophomonas maltophilia,Multi-product,vanG_cluster,0,0
+Stenotrophomonas maltophilia,Meat/Poultry,vanA_YXcluster,0,0
+Stenotrophomonas maltophilia,Meat/Poultry,vanA_cluster,0,0
+Stenotrophomonas maltophilia,Meat/Poultry,vanB_YXcluster,0,0
+Stenotrophomonas maltophilia,Meat/Poultry,vanB_cluster,0,0
+Stenotrophomonas maltophilia,Meat/Poultry,vanRSPt_cluster,0,0
+Stenotrophomonas maltophilia,Meat/Poultry,vanGZ_cluster,0,0
+Stenotrophomonas maltophilia,Meat/Poultry,vanG_cluster,0,0
+Stenotrophomonas maltophilia,Dairy,vanA_YXcluster,0,0
+Stenotrophomonas maltophilia,Dairy,vanA_cluster,0,0
+Stenotrophomonas maltophilia,Dairy,vanB_YXcluster,0,0
+Stenotrophomonas maltophilia,Dairy,vanB_cluster,0,0
+Stenotrophomonas maltophilia,Dairy,vanRSPt_cluster,0,0
+Stenotrophomonas maltophilia,Dairy,vanGZ_cluster,0,0
+Stenotrophomonas maltophilia,Dairy,vanG_cluster,0,0
+Stenotrophomonas maltophilia,Fruit/Vegetables,vanA_YXcluster,1,0
+Stenotrophomonas maltophilia,Fruit/Vegetables,vanA_cluster,1,0
+Stenotrophomonas maltophilia,Fruit/Vegetables,vanB_YXcluster,1,0
+Stenotrophomonas maltophilia,Fruit/Vegetables,vanB_cluster,1,0
+Stenotrophomonas maltophilia,Fruit/Vegetables,vanRSPt_cluster,1,0
+Stenotrophomonas maltophilia,Fruit/Vegetables,vanGZ_cluster,1,0
+Stenotrophomonas maltophilia,Fruit/Vegetables,vanG_cluster,1,0
+Stenotrophomonas maltophilia,Clinical,vanA_YXcluster,872,0
+Stenotrophomonas maltophilia,Clinical,vanA_cluster,872,0
+Stenotrophomonas maltophilia,Clinical,vanB_YXcluster,872,0
+Stenotrophomonas maltophilia,Clinical,vanB_cluster,872,0
+Stenotrophomonas maltophilia,Clinical,vanRSPt_cluster,872,0
+Stenotrophomonas maltophilia,Clinical,vanGZ_cluster,872,0
+Stenotrophomonas maltophilia,Clinical,vanG_cluster,872,0
+Vibrio,Animal feed,vanA_YXcluster,0,0
+Vibrio,Animal feed,vanA_cluster,0,0
+Vibrio,Animal feed,vanB_YXcluster,0,0
+Vibrio,Animal feed,vanB_cluster,0,0
+Vibrio,Animal feed,vanRSPt_cluster,0,0
+Vibrio,Animal feed,vanGZ_cluster,0,0
+Vibrio,Animal feed,vanG_cluster,0,0
+Vibrio,Raw pet food,vanA_YXcluster,0,0
+Vibrio,Raw pet food,vanA_cluster,0,0
+Vibrio,Raw pet food,vanB_YXcluster,0,0
+Vibrio,Raw pet food,vanB_cluster,0,0
+Vibrio,Raw pet food,vanRSPt_cluster,0,0
+Vibrio,Raw pet food,vanGZ_cluster,0,0
+Vibrio,Raw pet food,vanG_cluster,0,0
+Vibrio,Pet food,vanA_YXcluster,0,0
+Vibrio,Pet food,vanA_cluster,0,0
+Vibrio,Pet food,vanB_YXcluster,0,0
+Vibrio,Pet food,vanB_cluster,0,0
+Vibrio,Pet food,vanRSPt_cluster,0,0
+Vibrio,Pet food,vanGZ_cluster,0,0
+Vibrio,Pet food,vanG_cluster,0,0
+Vibrio,Egg,vanA_YXcluster,0,0
+Vibrio,Egg,vanA_cluster,0,0
+Vibrio,Egg,vanB_YXcluster,0,0
+Vibrio,Egg,vanB_cluster,0,0
+Vibrio,Egg,vanRSPt_cluster,0,0
+Vibrio,Egg,vanGZ_cluster,0,0
+Vibrio,Egg,vanG_cluster,0,0
+Vibrio,Fish/Seafood,vanA_YXcluster,2642,0
+Vibrio,Fish/Seafood,vanA_cluster,2642,0
+Vibrio,Fish/Seafood,vanB_YXcluster,2642,0
+Vibrio,Fish/Seafood,vanB_cluster,2642,0
+Vibrio,Fish/Seafood,vanRSPt_cluster,2642,0
+Vibrio,Fish/Seafood,vanGZ_cluster,2642,0
+Vibrio,Fish/Seafood,vanG_cluster,2642,0
+Vibrio,Multi-product,vanA_YXcluster,469,0
+Vibrio,Multi-product,vanA_cluster,469,0
+Vibrio,Multi-product,vanB_YXcluster,469,0
+Vibrio,Multi-product,vanB_cluster,469,0
+Vibrio,Multi-product,vanRSPt_cluster,469,0
+Vibrio,Multi-product,vanGZ_cluster,469,0
+Vibrio,Multi-product,vanG_cluster,469,0
+Vibrio,Meat/Poultry,vanA_YXcluster,13,0
+Vibrio,Meat/Poultry,vanA_cluster,13,0
+Vibrio,Meat/Poultry,vanB_YXcluster,13,0
+Vibrio,Meat/Poultry,vanB_cluster,13,0
+Vibrio,Meat/Poultry,vanRSPt_cluster,13,0
+Vibrio,Meat/Poultry,vanGZ_cluster,13,0
+Vibrio,Meat/Poultry,vanG_cluster,13,0
+Vibrio,Dairy,vanA_YXcluster,0,0
+Vibrio,Dairy,vanA_cluster,0,0
+Vibrio,Dairy,vanB_YXcluster,0,0
+Vibrio,Dairy,vanB_cluster,0,0
+Vibrio,Dairy,vanRSPt_cluster,0,0
+Vibrio,Dairy,vanGZ_cluster,0,0
+Vibrio,Dairy,vanG_cluster,0,0
+Vibrio,Fruit/Vegetables,vanA_YXcluster,2,0
+Vibrio,Fruit/Vegetables,vanA_cluster,2,0
+Vibrio,Fruit/Vegetables,vanB_YXcluster,2,0
+Vibrio,Fruit/Vegetables,vanB_cluster,2,0
+Vibrio,Fruit/Vegetables,vanRSPt_cluster,2,0
+Vibrio,Fruit/Vegetables,vanGZ_cluster,2,0
+Vibrio,Fruit/Vegetables,vanG_cluster,2,0
+Vibrio,Clinical,vanA_YXcluster,6131,0
+Vibrio,Clinical,vanA_cluster,6131,0
+Vibrio,Clinical,vanB_YXcluster,6131,0
+Vibrio,Clinical,vanB_cluster,6131,0
+Vibrio,Clinical,vanRSPt_cluster,6131,0
+Vibrio,Clinical,vanGZ_cluster,6131,0
+Vibrio,Clinical,vanG_cluster,6131,0
