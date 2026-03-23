@@ -3,8 +3,6 @@ If used for publication, please cite:
 
 Cooper, A. L., Wong, A., Tamber, S., Blais, B. W., & Carrillo, C. D. (2024). Analysis of Antimicrobial Resistance in Bacterial Pathogens Recovered from Food and Human Sources: Insights from 639,087 Bacterial Whole-Genome Sequences in the NCBI Pathogen Detection Database. Microorganisms, 12(4), 709. https://doi.org/10.3390/microorganisms12040709
 
-available at https://www.mdpi.com/2076-2607/12/4/709
-
 
 \
 \
