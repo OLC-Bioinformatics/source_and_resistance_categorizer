@@ -1,11 +1,11 @@
 agygenes,blagenes,bleomycin,fosgenes,fusidicacid,glycgenes,MLS,macr,Lincosamide,LincosamideStreptogramin,mupirocin,nitroimidazole,phegenes,phenicol_oxazolidinone,phenicol_quinolone,pluromutilin,polgenes,qngenes,rifamycin,streptogramin,streptothricin,sulgenes,tetracenomycin,tetgenes,thiostrepton,dfrgenes,tuberactinomycin,AMR-Efflux,Biocide-Efflux,biocide,Metal-Resistance
 aac\(3\)\-Ia,ampC,1567214_ble,fosA,fusB,vanA,cfr,ere\(A2\),lnu\(A\)\',erm\(32\),mupB,nimB,catB11,optrA,oqxB29,taeA,mcr\-1\.1,aac\(6\'\)\-Ib\-cr,arr\-Ms,vat\(A\),sat4,sul1,tcmA,otr\(A\),nshR,dfrA13,vph,acrF,acrA,sugE,acr3
-aac\(3\)\-Ib,BcII,1567214_ble,fosA2,fusF,vanAo2,cfr\(B\),car\(A\),linH2,lsa\(A\),mupA,nimC,catB6,,oqxA2,tva\(A\),mcr\-1\.10,oqxA,arr,vat\(B\),sta,sul1,,otr\(B\),tsnR,dfrA21,,adeC,acrE,qacZ,arsA
-aac\(3\)\-Ic,bla\-A,ble\-Sh,fosA3,fusF,vanA\-Pa,cfr\(C\),chrB,vga\(A\)\-LC,lsa\(B\),,nimD,cmlA10,,oqxA4,eat\(A\),mcr\-1\.11,oqxB,arr\-6,vat\(C\),sat2_gen,sul2,,tcr3,,dfrA27,,adeD,efrA,qacR,arsC
-aac\(3\)\-Id,bla\-A2,blmB,fosA4,fusH,vanA\-Pt,cipA,ere\(A\),lin,lsa\(C\),,nimE,cmlA6,,oqxA5,tva\(B\),mcr\-1\.12,qepA,iri,vat\(D\),estX,sul3,,tet\(30\),,dfrA28,,adeE,efrB,qacL,arsD
-aac\(3\)\-If,bla\-C,tlmB,fosA5,fusB,vanA\-Pt2,clbA,ere\(B\),lnu\(A\),lsa\(E\),,nimJ,cmlA8,,oqxA7,,mcr\-1\.13,qepA1,rgt1438,vat\(E\),satA_Ba,sul4,,tet\(31\),,dfrA32,,bepC,emrE,qacK,arsH
-aac\(3\)\-Ig,bla1,zbmA,fosA6,fusC,vanA\-Sc,clbB,ere\(D\),lnu\(AN2\),sal\(A\),,nimI,cat86,,oqxA8,,mcr\-1\.14,qepA2,rph,vat\(F\),satA_Bs,sulR,,tet\(32\),,dfr7,,bepD,lmrS,qacJ,arsP
-aac\(3\)\-Ih,bla2,blmA,fosA7,fusD,vanB,clbC,erm\(30\),lnu\(B\),lsa\(D\),,nimA,catA,,oqxA9,,mcr\-1\.15,qepA3,arr\-8,vat\(H\),sat3,sulX,,tet\(33\),,dfrA,,bepE,mdfA,qacH,cadA2
+aac\(3\)\-Ib,BcII,1567214_ble,fosA2,fusF,vanAo2,cfr\(B\),car\(A\),linH2,lsa\(A\),mupA,nimC,catB6,,oqxA2,tva\(A\),mcr\-1\.10,oqxA,arr,vat\(B\),sta,sul2,,otr\(B\),tsnR,dfrA21,,adeC,acrE,qacZ,arsA
+aac\(3\)\-Ic,bla\-A,ble\-Sh,fosA3,fusF,vanA\-Pa,cfr\(C\),chrB,vga\(A\)\-LC,lsa\(B\),,nimD,cmlA10,,oqxA4,eat\(A\),mcr\-1\.11,oqxB,arr\-6,vat\(C\),sat2_gen,sul3,,tcr3,,dfrA27,,adeD,efrA,qacR,arsC
+aac\(3\)\-Id,bla\-A2,blmB,fosA4,fusH,vanA\-Pt,cipA,ere\(A\),lin,lsa\(C\),,nimE,cmlA6,,oqxA5,tva\(B\),mcr\-1\.12,qepA,iri,vat\(D\),estX,sul4,,tet\(30\),,dfrA28,,adeE,efrB,qacL,arsD
+aac\(3\)\-If,bla\-C,tlmB,fosA5,fusB,vanA\-Pt2,clbA,ere\(B\),lnu\(A\),lsa\(E\),,nimJ,cmlA8,,oqxA7,,mcr\-1\.13,qepA1,rgt1438,vat\(E\),satA_Ba,sulR,,tet\(31\),,dfrA32,,bepC,emrE,qacK,arsH
+aac\(3\)\-Ig,bla1,zbmA,fosA6,fusC,vanA\-Sc,clbB,ere\(D\),lnu\(AN2\),sal\(A\),,nimI,cat86,,oqxA8,,mcr\-1\.14,qepA2,rph,vat\(F\),satA_Bs,sulX,,tet\(32\),,dfr7,,bepD,lmrS,qacJ,arsP
+aac\(3\)\-Ih,bla2,blmA,fosA7,fusD,vanB,clbC,erm\(30\),lnu\(B\),lsa\(D\),,nimA,catA,,oqxA9,,mcr\-1\.15,qepA3,arr\-8,vat\(H\),sat3,,,tet\(33\),,dfrA,,bepE,mdfA,qacH,cadA2
 aac\(3\)\-Ii,bla2a,ble_Tn5,fosB,,vanC,cfr\(E\),erm\(31\),lnu\(C\),,,,catA1,,oqxB10,,mcr\-1\.16,qepA4,arr\-3,vatI,,,,tet\(34\),,dfrA1,,bepF,mtrF,qacG2,cadA4
 aac\(3\)\-IIb,blaA,bleO,fosB1,,vanD,cfr\(D\),erm\(33\),lnu\(D\),,,,catA13,,oqxB11,,mcr\-1\.17,qnrA1,rphC,vgb\(A\),,,,tet\(35\),,dfrA10,,bepG,sdeA,qacG,cadC
 aac\(3\)\-IIc,blaA_Mtub,ble\-MBL,fosB2,,vanE,cfr\-Cb,erm\(34\),lnu\(F\),,,,catA15,,oqxB12,,mcr\-1\.18,qnrA2,rphD,vgb\(B\),,,,tet\(36\),,dfrA12,,bexA,smdA,qacF,cadD
